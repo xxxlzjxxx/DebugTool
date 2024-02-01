@@ -1,0 +1,70 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Jul-08-2021 at 18:52:57 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HY_RF_TEST_V10_210708';
+ POST_TIME='Sep 27 2020 03:58:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ IPX1 'IPEX_0_IPX3_U.FL-R-SMT-1(80)':;
+
+SECTION_NUMBER 1
+ '@HY_RF_TEST_V10_210708.SCHEMATIC1(SCH_1):INS16943261@HY_DDDW_V10B.IPEX_0.NORMAL(CHIPS)':
+ C_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):ins16943261@hy_dddw_v10b.\ipex_0.normal\(chips)',
+ P_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):page2_ins16943261@hy_dddw_v10b.\ipex_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'MMCX-KE-SMT_MMCX-KE-SMT_MMCX-KE':;
+
+SECTION_NUMBER 1
+ '@HY_RF_TEST_V10_210708.SCHEMATIC1(SCH_1):INS16942892@HYOC.MMCX-KE-SMT.NORMAL(CHIPS)':
+ C_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):ins16942892@hyoc.\mmcx-ke-smt.normal\(chips)',
+ P_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):page2_ins16942892@hyoc.\mmcx-ke-smt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'SMA-KHD_SMA-KHD_SMA-KHD':;
+
+SECTION_NUMBER 1
+ '@HY_RF_TEST_V10_210708.SCHEMATIC1(SCH_1):INS16942930@HYOC.SMA-KHD.NORMAL(CHIPS)':
+ C_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):ins16942930@hyoc.\sma-khd.normal\(chips)',
+ P_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):page2_ins16942930@hyoc.\sma-khd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'SMA-KHD_SMA-KHD_SMA-KHD':;
+
+SECTION_NUMBER 1
+ '@HY_RF_TEST_V10_210708.SCHEMATIC1(SCH_1):INS16943028@HYOC.SMA-KHD.NORMAL(CHIPS)':
+ C_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):ins16943028@hyoc.\sma-khd.normal\(chips)',
+ P_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):page2_ins16943028@hyoc.\sma-khd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'SMA-KHD_SMA-KHD_SMA-KHD':;
+
+SECTION_NUMBER 1
+ '@HY_RF_TEST_V10_210708.SCHEMATIC1(SCH_1):INS16943073@HYOC.SMA-KHD.NORMAL(CHIPS)':
+ C_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):ins16943073@hyoc.\sma-khd.normal\(chips)',
+ P_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):page2_ins16943073@hyoc.\sma-khd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'SMA-KHD_SMA-KHD_SMA-KHD':;
+
+SECTION_NUMBER 1
+ '@HY_RF_TEST_V10_210708.SCHEMATIC1(SCH_1):INS16943193@HYOC.SMA-KHD.NORMAL(CHIPS)':
+ C_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):ins16943193@hyoc.\sma-khd.normal\(chips)',
+ P_PATH='@hy_rf_test_v10_210708.schematic1(sch_1):page2_ins16943193@hyoc.\sma-khd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

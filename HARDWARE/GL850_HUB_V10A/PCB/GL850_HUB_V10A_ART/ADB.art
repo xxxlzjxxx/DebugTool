@@ -1,0 +1,888 @@
+d* dev			/* I/O device identifier for the session */
+)
+{
+	BYTE *seg, b;
+	WORD marker;
+	DWORD ofs;
+	UINT n, i, j, len;
+	JRESULT rc;
+
+
+	if (!pool) return JDR_PAR;
+
+	jd->pool = pool;		/* Work memroy */
+	jd->sz_pool = sz_pool;	/* Size of given work memory */
+	jd->infunc = infunc;	/* Stream input function */
+	jd->device = dev;		/* I/O device identifier */
+	jd->nrst = 0;			/* No restart interval (default) */
+
+	for (i = 0; i < 2; i++) {	/* Nulls pointers */
+		for (j = 0; j < 2; j++) {
+			jd->huffbits[i][j] = 0;
+			jd->huffcode[i][j] = 0;
+			jd->huffdata[i][j] = 0;
+		}
+	}
+	for (i = 0; i < 4; i++) jd->qttbl[i] = 0;
+
+	jd->inbuf = seg = alloc_pool(jd, JD_SZBUF);		/* Allocate stream input buffer */
+	if (!seg) return JDR_MEM1;
+
+	if (jd->infunc(jd, seg, 2) != 2) return JDR_INP;/* Check SOI marker */
+	if (LDB_WORD(seg) != 0xFFD8) return JDR_FMT1;	/* Err: SOI is not detected */
+	ofs = 2;
+
+	for (;;) {
+		/* Get a JPEG marker */
+		if (jd->infunc(jd, seg, 4) != 4) return JDR_INP;
+		marker = LDB_WORD(seg);		/* Marker */
+		len = LDB_WORD(seg + 2);	/* Length field */
+		if (len <= 2 || (marker >> 8) != 0xFF) return JDR_FMT1;
+		len -= 2;		/* Content size excluding length field */
+		ofs += 4 + len;	/* Number of bytes loaded */
+
+		switch (marker & 0xFF) {
+		case 0xC0:	/* SOF0 (baseline JPEG) */
+			/* Load segment data */
+			if (len > JD_SZBUF) return JDR_MEM2;
+			if (jd->infunc(jd, seg, len) != len) return JDR_INP;
+
+			jd->width = LDB_WORD(seg+3);		/* Image width in unit of pixel */
+			jd->height = LDB_WORD(seg+1);		/* Image height in unit of pixel */
+			if (seg[5] != 3) return JDR_FMT3;	/* Err: Supports only Y/Cb/Cr format */
+
+			/* Check three image components */
+			for (i = 0; i < 3; i++) {	
+				b = seg[7 + 3 * i];							/* Get sampling factor */
+				if (!i) {	/* Y component */
+					if (b != 0x11 && b != 0x22 && b != 0x21)/* Check sampling factor */
+						return JDR_FMT3;					/* Err: Supports only 4:4:4, 4:2:0 or 4:2:2 */
+					jd->msx = b >> 4; jd->msy = b & 15;		/* Size of MCU [blocks] */
+				} else {	/* Cb/Cr component */
+					if (b != 0x11) return JDR_FMT3;			/* Err: Sampling factor of Cr/Cb must be 1 */
+				}
+				b = seg[8 + 3 * i];							/* Get dequantizer table ID for this component */
+				if (b > 3) return JDR_FMT3;					/* Err: Invalid ID */
+				jd->qtid[i] = b;
+			}
+			break;
+
+		case 0xDD:	/* DRI */
+			/* Load segment data */
+			if (len > JD_SZBUF) return JDR_MEM2;
+			if (jd->infunc(jd, seg, len) != len) return JDR_INP;
+
+			/* Get restart interval (MCUs) */
+			jd->nrst = LDB_WORD(seg);
+			break;
+
+		case 0xC4:	/* DHT */
+			/* Load segment data */
+			if (len > JD_SZBUF) return JDR_MEM2;
+			if (jd->infunc(jd, seg, len) != len) return JDR_INP;
+
+			/* Create huffman tables */
+			rc = (JRESULT)create_huffman_tbl(jd, seg, len);
+			if (rc) return rc;
+			break;
+
+		case 0xDB:	/* DQT */
+			/* Load segment data */
+			if (len > JD_SZBUF) return JDR_MEM2;
+			if (jd->infunc(jd, seg, len) != len) return JDR_INP;
+
+			/* Create de-quantizer tables */
+			rc = (JRESULT)create_qt_tbl(jd, seg, len);
+			if (rc) return rc;
+			break;
+
+		case 0xDA:	/* SOS */
+			/* Load segment data */
+			if (len > JD_SZBUF) return JDR_MEM2;
+			if (jd->infunc(jd, seg, len) != len) return JDR_INP;
+
+			if (!jd->width || !jd->height) return JDR_FMT1;	/* Err: Invalid image size */
+
+			if (seg[0] != 3) return JDR_FMT3;				/* Err: Supports only three color components format */
+
+			/* Check if all tables corresponding to each components have been loaded */
+			for (i = 0; i < 3; i++) {
+				b = seg[2 + 2 * i];	/* Get huffman table ID */
+				if (b != 0x00 && b != 0x11)	return JDR_FMT3;	/* Err: Different table number for DC/AC element */
+				b = i ? 1 : 0;
+				if (!jd->huffbits[b][0] || !jd->huffbits[b][1])	/* Check huffman table for this component */
+					return JDR_FMT1;							/* Err: Huffman table not loaded */
+				if (!jd->qttbl[jd->qtid[i]]) return JDR_FMT1;	/* Err: Dequantizer table not loaded */
+			}
+
+			/* Allocate working buffer for MCU and RGB */
+			n = jd->msy * jd->msx;						/* Number of Y blocks in the MCU */
+			if (!n) return JDR_FMT1;					/* Err: SOF0 has not been loaded */
+			len = n * 64 * 2 + 64;						/* Allocate buffer for IDCT and RGB output */
+			if (len < 256) len = 256;					/* but at least 256 byte is required for IDCT */
+			jd->workbuf = alloc_pool(jd, len);			/* and it may occupy a part of following MCU working buffer for RGB output */
+			if (!jd->workbuf) return JDR_MEM1;			/* Err: not enough memory */
+			jd->mcubuf = alloc_pool(jd, (n + 2) * 64);	/* Allocate MCU working buffer */
+			if (!jd->mcubuf) return JDR_MEM1;			/* Err: not enough memory */
+
+			/* Pre-load the JPEG data to extract it from the bit stream */
+			jd->dptr = seg; jd->dctr = 0; jd->dmsk = 0;	/* Prepare to read bit stream */
+			if (ofs %= JD_SZBUF) {						/* Align read offset to JD_SZBUF */
+				jd->dctr = jd->infunc(jd, seg + ofs, JD_SZBUF - (UINT)ofs);
+				jd->dptr = seg + ofs - 1;
+			}
+
+			return JDR_OK;		/* Initialization succeeded. Ready to decompress the JPEG image. */
+
+		case 0xC1:	/* SOF1 */
+		case 0xC2:	/* SOF2 */
+		case 0xC3:	/* SOF3 */
+		case 0xC5:	/* SOF5 */
+		case 0xC6:	/* SOF6 */
+		case 0xC7:	/* SOF7 */
+		case 0xC9:	/* SOF9 */
+		case 0xCA:	/* SOF10 */
+		case 0xCB:	/* SOF11 */
+		case 0xCD:	/* SOF13 */
+		case 0xCE:	/* SOF14 */
+		case 0xCF:	/* SOF15 */
+		case 0xD9:	/* EOI */
+			return JDR_FMT3;	/* Unsuppoted JPEG standard (may be progressive JPEG) */
+
+		default:	/* Unknown segment (comment, exif or etc..) */
+			/* Skip segment data */
+			if (jd->infunc(jd, 0, len) != len)	/* Null pointer specifies to skip bytes of stream */
+				return JDR_INP;
+		}
+	}
+}
+
+
+
+
+/*-----------------------------------------------------------------------*/
+/* Start to decompress the JPEG picture                                  */
+/*-----------------------------------------------------------------------*/
+
+JRESULT jd_decomp (
+	JDEC* jd,								/* Initialized decompression object */
+	UINT (*outfunc)(JDEC*, void*, JRECT*),	/* RGB output function */
+	BYTE scale								/* Output de-scaling factor (0 to 3) */
+)
+{
+	UINT x, y, mx, my;
+	WORD rst, rsc;
+	JRESULT rc;
+
+
+	if (scale > (JD_USE_SCALE ? 3 : 0)) return JDR_PAR;
+	jd->scale = scale;
+
+	mx = jd->msx * 8; my = jd->msy * 8;			/* Size of the MCU (pixel) */
+
+	jd->dcv[2] = jd->dcv[1] = jd->dcv[0] = 0;	/* Initialize DC values */
+	rst = rsc = 0;
+
+	rc = JDR_OK;
+	for (y = 0; y < jd->height; y += my) {		/* Vertical loop of MCUs */
+		for (x = 0; x < jd->width; x += mx) {	/* Horizontal loop of MCUs */
+			if (jd->nrst && rst++ == jd->nrst) {	/* Process restart interval if enabled */
+				rc = restart(jd, rsc++);
+				if (rc != JDR_OK) return rc;
+				rst = 1;
+			}
+			rc = mcu_load(jd);					/* Load an MCU (decompress huffman coded stream and apply IDCT) */
+			if (rc != JDR_OK) return rc;
+			rc = mcu_output(jd, outfunc, x, y);	/* Output the MCU (color space conversion, scaling and output) */
+			if (rc != JDR_OK) return rc;
+		}
+	}
+
+	return rc;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//以下为ALIENTEK添加代码 
+//////////////////////////////////////////////////////////////////////////////////	 
+//本程序只供学习使用，未经作者许可，不得用于其它任何用途
+//ALIENTEK STM32开发板 
+//图片解码 驱动代码-jpeg解码部分	   
+//正点原子@ALIENTEK
+//技术论坛:www.openedv.com
+//创建日期:2016/1/7
+//版本：V1.0
+//版权所有，盗版必究。
+//Copyright(C) 广州市星翼电子科技有限公司 2014-2024
+//All rights reserved
+//********************************************************************************
+//升级说明
+//无
+//////////////////////////////////////////////////////////////////////////////////
+					    
+						
+//下面根据是否使用malloc来决定变量的分配方法.
+#if JPEG_USE_MALLOC == 1 //使用malloc	 
+
+FIL *f_jpeg;			//JPEG文件指针
+JDEC *jpeg_dev;   		//待解码对象结构体指针  
+u8  *jpg_buffer;    	//定义jpeg解码工作区大小(最少需要3092字节)，作为解压缓冲区，必须4字节对齐
+
+//给占内存大的数组/结构体申请内存
+u8 jpeg_mallocall(void)
+{
+	f_jpeg=(FIL*)pic_memalloc(sizeof(FIL));
+	if(f_jpeg==NULL)return PIC_MEM_ERR;			//申请内存失败.	  
+	jpeg_dev=(JDEC*)pic_memalloc(sizeof(JDEC));
+	if(jpeg_dev==NULL)return PIC_MEM_ERR;		//申请内存失败.
+	jpg_buffer=(u8*)pic_memalloc(JPEG_WBUF_SIZE);
+	if(jpg_buffer==NULL)return PIC_MEM_ERR;		//申请内存失败. 
+	return 0;
+}
+//释放内存
+void jpeg_freeall(void)
+{
+	pic_memfree(f_jpeg);		//释放f_jpeg申请到的内存
+	pic_memfree(jpeg_dev);		//释放jpeg_dev申请到的内存
+	pic_memfree(jpg_buffer);	//释放jpg_buffer申请到的内存
+}
+
+#else 	//不使用malloc   
+
+FIL  tf_jpeg; 
+JDEC tjpeg_dev;   		  
+FIL  *f_jpeg=&tf_jpeg;						//JPEG文件指针
+JDEC *jpeg_dev=&tjpeg_dev;   				//待解码对象结构体指针   
+__align(4) u8 jpg_buffer[JPEG_WBUF_SIZE];	//定义jpeg解码工作区大小(最少需要3092字节)，作为解压缓冲区，必须4字节对齐
+	
+#endif
+
+//jpeg数据输入回调函数
+//jd:储存待解码的对象信息的结构体
+//buf:输入数据缓冲区 (NULL:执行地址偏移)
+//num:需要从输入数据流读出的数据量/地址偏移量
+//返回值:读取到的字节数/地址偏移量
+u32 jpeg_in_func(JDEC* jd,u8* buf,u32 num) 
+{ 
+    u32  rb; //读取到的字节数
+    FIL *dev=(FIL*)jd->device;  //待解码的文件的信息，使用FATFS中的FIL结构类型进行定义
+    if(buf)     				//读取数据有效，开始读取数据
+    { 
+        f_read(dev,buf,num,&rb);//调用FATFS的f_read函数，用于把jpeg文件的数据读取出来
+        return rb;        		//返回读取到的字节数目
+    }else return (f_lseek(dev,f_tell(dev)+num)==FR_OK)?num:0;//重新定位数据点，相当于删除之前的n字节数据 
+}  
+//采用填充的方式进行图片解码显示
+//jd:储存待解码的对象信息的结构体
+//rgbbuf:指向等待输出的RGB位图数据的指针
+//rect:等待输出的矩形图像的参数
+//返回值:0,输出成功;1,输出失败/结束输出
+u32 jpeg_out_func_fill(JDEC* jd,void* rgbbuf,JRECT* rect) 
+{ 
+	u16 *pencolor=(u16*)rgbbuf;
+	u16 width=rect->right-rect->left+1;		//填充的宽度
+	u16 height=rect->bottom-rect->top+1;	//填充的高度 
+	pic_phy.fillcolor(rect->left+picinfo.S_XOFF,rect->top+picinfo.S_YOFF,width,height,pencolor);//颜色填充 
+    return 0;    //返回0,使得解码工作继续执行 
+} 
+//采用画点的方式进行图片解码显示
+//jd:储存待解码的对象信息的结构体
+//rgbbuf:指向等待输出的RGB位图数据的指针
+//rect:等待输出的矩形图像的参数
+//返回值:0,输出成功;1,输出失败/结束输出
+u32 jpeg_out_func_point(JDEC* jd,void* rgbbuf,JRECT* rect) 
+{ 
+	u16 i,j;
+	u16 realx=rect->left,realy=0;
+	u16 *pencolor=rgbbuf;
+	u16 width=rect->right-rect->left+1;		//图片的宽度
+	u16 height=rect->bottom-rect->top+1;	//图片的高度
+   	for(i=0;i<height;i++)//y坐标
+	{
+		realy=(picinfo.Div_Fac*(rect->top+i))>>13;//实际Y坐标											 
+		//在这里不改变picinfo.staticx和picinfo.staticy的值 ,如果在这里改变,则会造成每块的第一个点不显示!!!
+		if(!is_element_ok(realx,realy,0))//行值是否满足条件? 寻找满足条件的行
+		{ 
+			pencolor+=width;
+			continue;
+		}
+		for(j=0;j<width;j++)//x坐标
+		{
+			realx=(picinfo.Div_Fac*(rect->left+j))>>13;//实际X坐标
+			//在这里改变picinfo.staticx和picinfo.staticy的值
+			if(!is_element_ok(realx,realy,1))//列值是否满足条件? 寻找满足条件的列
+			{
+				pencolor++;
+				continue;
+			}
+			pic_phy.draw_point(realx+picinfo.S_XOFF,realy+picinfo.S_YOFF,*pencolor);//显示图片						
+			pencolor++;
+		}
+	}
+    return 0;    //返回0,使得解码工作继续执行 
+} 
+//解码jpeg/jpg文件s
+//filename:jpeg/jpg路径+文件名
+//fast:使能小图片(图片尺寸小于等于液晶分辨率)快速解码,0,不使能;1,使能.
+//返回值:0,解码成功;其他,解码失败.
+u8 jpg_decode(const u8 *filename,u8 fast)
+{  
+	u8 res=0;	//返回值 
+	u8 scale;	//图像输出比例 0,1/2,1/4,1/8  
+	UINT (*outfun)(JDEC*, void*, JRECT*);
+	
+#if JPEG_USE_MALLOC == 1	//使用malloc
+	res=jpeg_mallocall(); 
+#endif
+	if(res==0)
+	{
+		//得到JPEG/JPG图片的开始信息		 
+		res=f_open(f_jpeg,(const TCHAR*)filename,FA_READ);//打开文件
+		if(res==FR_OK)//打开文件成功
+		{ 
+			res=jd_prepare(jpeg_dev,jpeg_in_func,jpg_buffer,JPEG_WBUF_SIZE,f_jpeg);//执行解码的准备工作，调用TjpgDec模块的jd_prepare函数
+			outfun=jpeg_out_func_point;//默认采用画点的方式显示
+			if(res==JDR_OK)//准备解码成功 
+			{ 	
+				for(scale=0;scale<4;scale++)//确定输出图像的比例因子
+				{ 
+					if((jpeg_dev->width>>scale)<=picinfo.S_Width&&(jpeg_dev->height>>scale)<=picinfo.S_Height)//在目标区域内
+					{	
+						if(((jpeg_dev->width>>scale)!=picinfo.S_Width)&&((jpeg_dev->height>>scale)!=picinfo.S_Height&&scale))scale=0;//不能贴边,则不缩放
+						else outfun=jpeg_out_func_fill;	//在显示尺寸以内,可以采用填充的方式显示 
+						break; 							
+					} 
+				} 
+				if(scale==4)scale=0;//错误
+				if(fast==0)//不需要快速解码
+				{ 
+					outfun=jpeg_out_func_point;//默认采用画点的方式显示
+				}
+				picinfo.ImgHeight=jpeg_dev->height>>scale;	//缩放后的图片尺寸
+				picinfo.ImgWidth=jpeg_dev->width>>scale;	//缩放后的图片尺寸 
+				ai_draw_init();								//初始化智能画图 
+				//执行解码工作，调用TjpgDec模块的jd_decomp函数
+				res=jd_decomp(jpeg_dev,outfun,scale); 
+			}
+		} 
+		f_close(f_jpeg); //解码工作执行成功，返回0
+	}
+#if JPEG_USE_MALLOC == 1//使用malloc
+	jpeg_freeall();		//释放内存
+#endif
+	return res;	 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   /**
+  ******************************************************************************
+  * @file    stm32f7xx_ll_usb.c
+  * @author  MCD Application Team
+  * @version V1.1.0
+  * @date    22-April-2016
+  * @brief   USB Low Layer HAL module driver.
+  *    
+  *          This file provides firmware functions to manage the following 
+  *          functionalities of the USB Peripheral Controller:
+  *           + Initialization/de-initialization functions
+  *           + I/O operation functions
+  *           + Peripheral Control functions 
+  *           + Peripheral State functions
+  *         
+  @verbatim
+  ==============================================================================
+                    ##### How to use this driver #####
+  ==============================================================================
+    [..]
+      (#) Fill parameters of Init structure in USB_OTG_CfgTypeDef structure.
+  
+      (#) Call USB_CoreInit() API to initialize the USB Core peripheral.
+
+      (#) The upper HAL HCD/PCD driver will call the right routines for its internal processes.
+
+  @endverbatim
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; COPYRIGHT(c) 2016 STMicroelectronics</center></h2>
+  *
+  * Redistribution and use in source and binary forms, with or without modification,
+  * are permitted provided that the following conditions are met:
+  *   1. Redistributions of source code must retain the above copyright notice,
+  *      this list of conditions and the following disclaimer.
+  *   2. Redistributions in binary form must reproduce the above copyright notice,
+  *      this list of conditions and the following disclaimer in the documentation
+  *      and/or other materials provided with the distribution.
+  *   3. Neither the name of STMicroelectronics nor the names of its contributors
+  *      may be used to endorse or promote products derived from this software
+  *      without specific prior written permission.
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  *
+  ******************************************************************************
+  */ 
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f7xx_hal.h"
+
+/** @addtogroup STM32F7xx_LL_USB_DRIVER
+  * @{
+  */
+
+#if defined (HAL_PCD_MODULE_ENABLED) || defined (HAL_HCD_MODULE_ENABLED)
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+/* Private functions ---------------------------------------------------------*/
+static HAL_StatusTypeDef USB_CoreReset(USB_OTG_GlobalTypeDef *USBx);
+
+/* Exported functions --------------------------------------------------------*/
+/** @defgroup LL_USB_Exported_Functions USB Low Layer Exported Functions
+  * @{
+  */
+
+/** @defgroup LL_USB_Group1 Initialization/de-initialization functions 
+ *  @brief    Initialization and Configuration functions 
+ *
+@verbatim    
+ ===============================================================================
+              ##### Initialization/de-initialization functions #####
+ ===============================================================================
+    [..]  This section provides functions allowing to:
+ 
+@endverbatim
+  * @{
+  */
+
+/**
+  * @brief  Initializes the USB Core
+  * @param  USBx: USB Instance
+  * @param  cfg : pointer to a USB_OTG_CfgTypeDef structure that contains
+  *         the configuration information for the specified USBx peripheral.
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_CoreInit(USB_OTG_GlobalTypeDef *USBx, USB_OTG_CfgTypeDef cfg)
+{
+  if (cfg.phy_itface == USB_OTG_ULPI_PHY)
+  {
+    
+    USBx->GCCFG &= ~(USB_OTG_GCCFG_PWRDWN);
+
+    /* Init The ULPI Interface */
+    USBx->GUSBCFG &= ~(USB_OTG_GUSBCFG_TSDPS | USB_OTG_GUSBCFG_ULPIFSLS | USB_OTG_GUSBCFG_PHYSEL);
+   
+    /* Select vbus source */
+    USBx->GUSBCFG &= ~(USB_OTG_GUSBCFG_ULPIEVBUSD | USB_OTG_GUSBCFG_ULPIEVBUSI);
+    if(cfg.use_external_vbus == 1)
+    {
+      USBx->GUSBCFG |= USB_OTG_GUSBCFG_ULPIEVBUSD;
+    }
+    /* Reset after a PHY select  */
+    USB_CoreReset(USBx); 
+  }
+  else /* FS interface (embedded Phy) */
+  {
+    /* Select FS Embedded PHY */
+    USBx->GUSBCFG |= USB_OTG_GUSBCFG_PHYSEL;
+    
+    /* Reset after a PHY select and set Host mode */
+    USB_CoreReset(USBx);
+    
+    /* Deactivate the power down*/
+    USBx->GCCFG = USB_OTG_GCCFG_PWRDWN;
+  }
+ 
+  if(cfg.dma_enable == ENABLE)
+  {
+    USBx->GAHBCFG |= (USB_OTG_GAHBCFG_HBSTLEN_1 | USB_OTG_GAHBCFG_HBSTLEN_2);
+    USBx->GAHBCFG |= USB_OTG_GAHBCFG_DMAEN;
+  }  
+
+  return HAL_OK;
+}
+
+/**
+  * @brief  USB_EnableGlobalInt
+  *         Enables the controller's Global Int in the AHB Config reg
+  * @param  USBx : Selected device
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_EnableGlobalInt(USB_OTG_GlobalTypeDef *USBx)
+{
+  USBx->GAHBCFG |= USB_OTG_GAHBCFG_GINT;
+  return HAL_OK;
+}
+
+
+/**
+  * @brief  USB_DisableGlobalInt
+  *         Disable the controller's Global Int in the AHB Config reg
+  * @param  USBx : Selected device
+  * @retval HAL status
+*/
+HAL_StatusTypeDef USB_DisableGlobalInt(USB_OTG_GlobalTypeDef *USBx)
+{
+  USBx->GAHBCFG &= ~USB_OTG_GAHBCFG_GINT;
+  return HAL_OK;
+}
+   
+/**
+  * @brief  USB_SetCurrentMode : Set functional mode
+  * @param  USBx : Selected device
+  * @param  mode :  current core mode
+  *          This parameter can be one of these values:
+  *            @arg USB_OTG_DEVICE_MODE: Peripheral mode
+  *            @arg USB_OTG_HOST_MODE: Host mode
+  *            @arg USB_OTG_DRD_MODE: Dual Role Device mode  
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_SetCurrentMode(USB_OTG_GlobalTypeDef *USBx , USB_OTG_ModeTypeDef mode)
+{
+  USBx->GUSBCFG &= ~(USB_OTG_GUSBCFG_FHMOD | USB_OTG_GUSBCFG_FDMOD); 
+  
+  if ( mode == USB_OTG_HOST_MODE)
+  {
+    USBx->GUSBCFG |= USB_OTG_GUSBCFG_FHMOD; 
+  }
+  else if ( mode == USB_OTG_DEVICE_MODE)
+  {
+    USBx->GUSBCFG |= USB_OTG_GUSBCFG_FDMOD; 
+  }
+  HAL_Delay(50);
+  
+  return HAL_OK;
+}
+
+/**
+  * @brief  USB_DevInit : Initializes the USB_OTG controller registers 
+  *         for device mode
+  * @param  USBx : Selected device
+  * @param  cfg  : pointer to a USB_OTG_CfgTypeDef structure that contains
+  *         the configuration information for the specified USBx peripheral.
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_DevInit (USB_OTG_GlobalTypeDef *USBx, USB_OTG_CfgTypeDef cfg)
+{
+  uint32_t i = 0;
+
+  /*Activate VBUS Sensing B */
+  USBx->GCCFG |= USB_OTG_GCCFG_VBDEN;
+  
+  if (cfg.vbus_sensing_enable == 0)
+  {
+    /* Deactivate VBUS Sensing B */
+    USBx->GCCFG &= ~ USB_OTG_GCCFG_VBDEN;
+    
+    /* B-peripheral session valid override enable*/ 
+    USBx->GOTGCTL |= USB_OTG_GOTGCTL_BVALOEN;
+    USBx->GOTGCTL |= USB_OTG_GOTGCTL_BVALOVAL;
+  }
+   
+  /* Restart the Phy Clock */
+  USBx_PCGCCTL = 0;
+
+  /* Device mode configuration */
+  USBx_DEVICE->DCFG |= DCFG_FRAME_INTERVAL_80;
+  
+  if(cfg.phy_itface  == USB_OTG_ULPI_PHY)
+  {
+    if(cfg.speed == USB_OTG_SPEED_HIGH)
+    {      
+      /* Set High speed phy */
+      USB_SetDevSpeed (USBx , USB_OTG_SPEED_HIGH);
+    }
+    else 
+    {
+      /* set High speed phy in Full speed mode */
+      USB_SetDevSpeed (USBx , USB_OTG_SPEED_HIGH_IN_FULL);
+    }
+  }
+  else
+  {
+    /* Set Full speed phy */
+    USB_SetDevSpeed (USBx , USB_OTG_SPEED_FULL);
+  }
+
+  /* Flush the FIFOs */
+  USB_FlushTxFifo(USBx , 0x10); /* all Tx FIFOs */
+  USB_FlushRxFifo(USBx);
+  
+  /* Clear all pending Device Interrupts */
+  USBx_DEVICE->DIEPMSK = 0;
+  USBx_DEVICE->DOEPMSK = 0;
+  USBx_DEVICE->DAINT = 0xFFFFFFFF;
+  USBx_DEVICE->DAINTMSK = 0;
+  
+  for (i = 0; i < cfg.dev_endpoints; i++)
+  {
+    if ((USBx_INEP(i)->DIEPCTL & USB_OTG_DIEPCTL_EPENA) == USB_OTG_DIEPCTL_EPENA)
+    {
+      USBx_INEP(i)->DIEPCTL = (USB_OTG_DIEPCTL_EPDIS | USB_OTG_DIEPCTL_SNAK);
+    }
+    else
+    {
+      USBx_INEP(i)->DIEPCTL = 0;
+    }
+    
+    USBx_INEP(i)->DIEPTSIZ = 0;
+    USBx_INEP(i)->DIEPINT  = 0xFF;
+  }
+  
+  for (i = 0; i < cfg.dev_endpoints; i++)
+  {
+    if ((USBx_OUTEP(i)->DOEPCTL & USB_OTG_DOEPCTL_EPENA) == USB_OTG_DOEPCTL_EPENA)
+    {
+      USBx_OUTEP(i)->DOEPCTL = (USB_OTG_DOEPCTL_EPDIS | USB_OTG_DOEPCTL_SNAK);
+    }
+    else
+    {
+      USBx_OUTEP(i)->DOEPCTL = 0;
+    }
+    
+    USBx_OUTEP(i)->DOEPTSIZ = 0;
+    USBx_OUTEP(i)->DOEPINT  = 0xFF;
+  }
+  
+  USBx_DEVICE->DIEPMSK &= ~(USB_OTG_DIEPMSK_TXFURM);
+  
+  if (cfg.dma_enable == 1)
+  {
+    /*Set threshold parameters */
+    USBx_DEVICE->DTHRCTL = (USB_OTG_DTHRCTL_TXTHRLEN_6 | USB_OTG_DTHRCTL_RXTHRLEN_6);
+    USBx_DEVICE->DTHRCTL |= (USB_OTG_DTHRCTL_RXTHREN | USB_OTG_DTHRCTL_ISOTHREN | USB_OTG_DTHRCTL_NONISOTHREN);
+    
+    i= USBx_DEVICE->DTHRCTL;
+  }
+  
+  /* Disable all interrupts. */
+  USBx->GINTMSK = 0;
+  
+  /* Clear any pending interrupts */
+  USBx->GINTSTS = 0xBFFFFFFF;
+
+  /* Enable the common interrupts */
+  if (cfg.dma_enable == DISABLE)
+  {
+    USBx->GINTMSK |= USB_OTG_GINTMSK_RXFLVLM; 
+  }
+  
+  /* Enable interrupts matching to the Device mode ONLY */
+  USBx->GINTMSK |= (USB_OTG_GINTMSK_USBSUSPM | USB_OTG_GINTMSK_USBRST |\
+                    USB_OTG_GINTMSK_ENUMDNEM | USB_OTG_GINTMSK_IEPINT |\
+                    USB_OTG_GINTMSK_OEPINT   | USB_OTG_GINTMSK_IISOIXFRM|\
+                    USB_OTG_GINTMSK_PXFRM_IISOOXFRM | USB_OTG_GINTMSK_WUIM);
+  
+  if(cfg.Sof_enable)
+  {
+    USBx->GINTMSK |= USB_OTG_GINTMSK_SOFM;
+  }
+
+  if (cfg.vbus_sensing_enable == ENABLE)
+  {
+    USBx->GINTMSK |= (USB_OTG_GINTMSK_SRQIM | USB_OTG_GINTMSK_OTGINT); 
+  }
+  
+  return HAL_OK;
+}
+
+
+/**
+  * @brief  USB_OTG_FlushTxFifo : Flush a Tx FIFO
+  * @param  USBx : Selected device
+  * @param  num : FIFO number
+  *         This parameter can be a value from 1 to 15
+            15 means Flush all Tx FIFOs
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_FlushTxFifo (USB_OTG_GlobalTypeDef *USBx, uint32_t num )
+{
+  uint32_t count = 0;
+ 
+  USBx->GRSTCTL = ( USB_OTG_GRSTCTL_TXFFLSH |(uint32_t)( num << 6)); 
+ 
+  do
+  {
+    if (++count > 200000)
+    {
+      return HAL_TIMEOUT;
+    }
+  }
+  while ((USBx->GRSTCTL & USB_OTG_GRSTCTL_TXFFLSH) == USB_OTG_GRSTCTL_TXFFLSH);
+  
+  return HAL_OK;
+}
+
+
+/**
+  * @brief  USB_FlushRxFifo : Flush Rx FIFO
+  * @param  USBx : Selected device
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_FlushRxFifo(USB_OTG_GlobalTypeDef *USBx)
+{
+  uint32_t count = 0;
+  
+  USBx->GRSTCTL = USB_OTG_GRSTCTL_RXFFLSH;
+  
+  do
+  {
+    if (++count > 200000)
+    {
+      return HAL_TIMEOUT;
+    }
+  }
+  while ((USBx->GRSTCTL & USB_OTG_GRSTCTL_RXFFLSH) == USB_OTG_GRSTCTL_RXFFLSH);
+  
+  return HAL_OK;
+}
+
+/**
+  * @brief  USB_SetDevSpeed :Initializes the DevSpd field of DCFG register 
+  *         depending the PHY type and the enumeration speed of the device.
+  * @param  USBx : Selected device
+  * @param  speed : device speed
+  *          This parameter can be one of these values:
+  *            @arg USB_OTG_SPEED_HIGH: High speed mode
+  *            @arg USB_OTG_SPEED_HIGH_IN_FULL: High speed core in Full Speed mode
+  *            @arg USB_OTG_SPEED_FULL: Full speed mode
+  *            @arg USB_OTG_SPEED_LOW: Low speed mode
+  * @retval  Hal status
+  */
+HAL_StatusTypeDef USB_SetDevSpeed(USB_OTG_GlobalTypeDef *USBx , uint8_t speed)
+{
+  USBx_DEVICE->DCFG |= speed;
+  return HAL_OK;
+}
+
+/**
+  * @brief  USB_GetDevSpeed :Return the  Dev Speed 
+  * @param  USBx : Selected device
+  * @retval speed : device speed
+  *          This parameter can be one of these values:
+  *            @arg USB_OTG_SPEED_HIGH: High speed mode
+  *            @arg USB_OTG_SPEED_FULL: Full speed mode
+  *            @arg USB_OTG_SPEED_LOW: Low speed mode
+  */
+uint8_t USB_GetDevSpeed(USB_OTG_GlobalTypeDef *USBx)
+{
+  uint8_t speed = 0;
+  
+  if((USBx_DEVICE->DSTS & USB_OTG_DSTS_ENUMSPD) == DSTS_ENUMSPD_HS_PHY_30MHZ_OR_60MHZ)
+  {
+    speed = USB_OTG_SPEED_HIGH;
+  }
+  else if (((USBx_DEVICE->DSTS & USB_OTG_DSTS_ENUMSPD) == DSTS_ENUMSPD_FS_PHY_30MHZ_OR_60MHZ)||
+           ((USBx_DEVICE->DSTS & USB_OTG_DSTS_ENUMSPD) == DSTS_ENUMSPD_FS_PHY_48MHZ))
+  {
+    speed = USB_OTG_SPEED_FULL;
+  }
+  else if((USBx_DEVICE->DSTS & USB_OTG_DSTS_ENUMSPD) == DSTS_ENUMSPD_LS_PHY_6MHZ)
+  {
+    speed = USB_OTG_SPEED_LOW;
+  }
+  
+  return speed;
+}
+
+/**
+  * @brief  Activate and configure an endpoint
+  * @param  USBx : Selected device
+  * @param  ep: pointer to endpoint structure
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_ActivateEndpoint(USB_OTG_GlobalTypeDef *USBx, USB_OTG_EPTypeDef *ep)
+{
+  if (ep->is_in == 1)
+  {
+   USBx_DEVICE->DAINTMSK |= USB_OTG_DAINTMSK_IEPM & ((1 << (ep->num)));
+   
+    if (((USBx_INEP(ep->num)->DIEPCTL) & USB_OTG_DIEPCTL_USBAEP) == 0)
+    {
+      USBx_INEP(ep->num)->DIEPCTL |= ((ep->maxpacket & USB_OTG_DIEPCTL_MPSIZ ) | (ep->type << 18 ) |\
+        ((ep->num) << 22 ) | (USB_OTG_DIEPCTL_SD0PID_SEVNFRM) | (USB_OTG_DIEPCTL_USBAEP)); 
+    } 
+
+  }
+  else
+  {
+     USBx_DEVICE->DAINTMSK |= USB_OTG_DAINTMSK_OEPM & ((1 << (ep->num)) << 16);
+     
+    if (((USBx_OUTEP(ep->num)->DOEPCTL) & USB_OTG_DOEPCTL_USBAEP) == 0)
+    {
+      USBx_OUTEP(ep->num)->DOEPCTL |= ((ep->maxpacket & USB_OTG_DOEPCTL_MPSIZ ) | (ep->type << 18 ) |\
+       (USB_OTG_DIEPCTL_SD0PID_SEVNFRM)| (USB_OTG_DOEPCTL_USBAEP));
+    } 
+  }
+  return HAL_OK;
+}
+/**
+  * @brief  Activate and configure a dedicated endpoint
+  * @param  USBx : Selected device
+  * @param  ep: pointer to endpoint structure
+  * @retval HAL status
+  */
+HAL_StatusTypeDef USB_ActivateDedicatedEndpoint(USB_OTG_GlobalTypeDef *USBx, USB_OTG_EPTypeDef *ep)
+{
+  static __IO uint32_t debug = 0;
+  
+  /* Read DEPCTLn register */
+  if (ep->is_in == 1)
+  {
+    if (((USBx_INEP(ep->num)->DIEPCTL) & USB_OTG_DIEPCTL_USBAEP) == 0)
+    {
+      USBx_INEP(ep->num)->DIEPCTL |= ((ep->maxpacket & USB_OTG_DIEPCTL_MPSIZ ) | (ep->type << 18 ) |\
+        ((ep->num) << 22 ) | (USB_OTG_DIEPCTL_SD0PID_SEVNFRM) | (USB_OTG_DIEPCTL_USBAEP)

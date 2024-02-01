@@ -1,0 +1,162 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Sep-02-2021 at 10:21:57}
+primitive 'CAP NP_C0402_100NF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='C0402';
+    VALUE='100nF_50V';
+  end_body;
+end_primitive;
+primitive 'LED_1_LED0805_GREEN-0805';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_1';
+    JEDEC_TYPE='LED0805';
+    VALUE='GREEN-0805';
+  end_body;
+end_primitive;
+primitive 'P6SMB_1_DO-214AA_SMBJ7.0CA';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='P6SMB_1';
+    JEDEC_TYPE='DO-214AA';
+    VALUE='SMBJ7.0CA';
+  end_body;
+end_primitive;
+primitive 'BA301N_SMD4532_4532-091-LF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BA301N';
+    JEDEC_TYPE='SMD4532';
+    VALUE='4532-091-LF';
+  end_body;
+end_primitive;
+primitive 'CONN RCPT 4_HX25035-4WA_HX25035';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN RCPT 4';
+    JEDEC_TYPE='HX25035-4WA';
+    VALUE='HX25035-4WA';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0402_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0402';
+    VALUE='4.7K';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R2010_10R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R2010';
+    VALUE='10R';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0402_120R/NI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0402';
+    VALUE='120R/NI';
+  end_body;
+end_primitive;
+primitive 'MAX3485ESA_0_SOIC8_MAX3488EESA';
+  pin
+    'VCC':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'RO':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'DI':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'Y':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'Z':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MAX3485ESA_0';
+    JEDEC_TYPE='SOIC8';
+    VALUE='MAX3488EESA';
+  end_body;
+end_primitive;
+END.

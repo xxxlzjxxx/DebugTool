@@ -1,0 +1,15 @@
+{ Using PSTWRITER 17.2.0 d001Feb-12-2022 at 17:17:09 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 03 TFT (149.86, 147.32). Connecting pin to net "GND".
+#2 WARNING(ORCAP-36006): Part Name "0.5K-AS-24PWBG_0R5K-AS-24PWBG_0.5K-AS-24PWBG" is renamed to "0.5K-AS-24PWBG_0R5K-AS-24PWBG_0".
+#3 WARNING(ORCAP-36006): Part Name "CONN RCPT 8_CN1X8-2P54-Z_CN1X8-2P54-Z" is renamed to "CONN RCPT 8_CN1X8-2P54-Z_CN1X8-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_1R3TFT_V10\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_1R3TFT_V10\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_1R3TFT_V10\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_1R3TFT_V10\SCH\allegro/pstxnet.dat
+packaging the design view...

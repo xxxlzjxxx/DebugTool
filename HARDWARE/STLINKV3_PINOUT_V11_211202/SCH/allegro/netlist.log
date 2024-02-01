@@ -1,0 +1,22 @@
+{ Using PSTWRITER 17.2.0 d001Dec-02-2021 at 19:32:45 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "J1.8" ignored for J1: MAIN, 02 MCU (269.24, 66.04). Connecting pin to net "VCC_3.3V_EXT".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "J1.2" ignored for J1: MAIN, 02 MCU (269.24, 66.04). Connecting pin to net "VCC_3.3V_EXT".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.30" ignored for U1: MAIN, 02 MCU (109.22, 63.50). Connecting pin to net "VCC_3.3V_EXT".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.6" ignored for U3: MAIN, 02 MCU (200.66, 93.98). Connecting pin to net "VCP_TX".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "J2.2" ignored for J2: MAIN, 02 MCU (269.24, 106.68). Connecting pin to net "T_NRST".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.15" ignored for U3: MAIN, 02 MCU (200.66, 93.98). Connecting pin to net "T_VCP_TX".
+#7 WARNING(ORCAP-36006): Part Name "CONN RCPT 10_HX25035-10WA_HX25035-10WA" is renamed to "CONN RCPT 10_HX25035-10WA_HX250".
+#8 WARNING(ORCAP-36006): Part Name "DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P-Z-L" is renamed to "DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P".
+#9 WARNING(ORCAP-36006): Part Name "STLINK-V3MODS_STLINK-V3MODS_STLINK-V3MINI" is renamed to "STLINK-V3MODS_STLINK-V3MODS_STL".
+#10 WARNING(ORCAP-36006): Part Name "TXB0108PWR_1_TSSOP20_TXS0108EPWR" is renamed to "TXB0108PWR_1_TSSOP20_TXS0108EPW".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\STLINKV3_PINOUT_V11_211202\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\STLINKV3_PINOUT_V11_211202\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\STLINKV3_PINOUT_V11_211202\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\STLINKV3_PINOUT_V11_211202\SCH\allegro/pstxnet.dat
+packaging the design view...

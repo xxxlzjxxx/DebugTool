@@ -1,0 +1,17 @@
+{ Using PSTWRITER 17.2.0 d001Sep-02-2021 at 16:30:04 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "USB2.10" ignored for USB2: MAIN, 03 TP4056 (139.70, 127.00). Connecting pin to net "N17433725".
+#2 WARNING(ORCAP-36006): Part Name "XL-2012SURUGC_XL-2012SURUGC_XL-2012SURUGC" is renamed to "XL-2012SURUGC_XL-2012SURUGC_XL-".
+#3 WARNING(ORCAP-36006): Part Name "SPX3819M5-L-1-2_SOT23-5_SPX3819M5-L-3-3/TR" is renamed to "SPX3819M5-L-1-2_SOT23-5_SPX3819".
+#4 WARNING(ORCAP-36006): Part Name "USB-MICRO_USB-U-F-M5SS-W-1_USB-MICRO" is renamed to "USB-MICRO_USB-U-F-M5SS-W-1_USB-".
+#5 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_TP4056_V10_210902\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_TP4056_V10_210902\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_TP4056_V10_210902\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_TP4056_V10_210902\SCH\allegro/pstxnet.dat
+packaging the design view...

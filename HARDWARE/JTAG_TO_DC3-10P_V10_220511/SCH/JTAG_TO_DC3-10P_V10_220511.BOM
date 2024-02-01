@@ -1,0 +1,17 @@
+JTAG_TO_DC3-10P_V10_220511  Revised: Wednesday, May 11, 2022
+01 COVER          Revision: V10
+
+
+
+
+
+
+
+Bill Of Materials            May 11,2022      15:41:09	Page1
+
+Item	Quantity	Reference	Part	PCB Footprint	Description	Corporation	Type	Note
+______________________________________________
+
+1	1	J1	A2541HWR-2x10P	CN2X10-2P54-Z				
+2	1	J2	DC3-10P-Z-L	DC3-10P-Z-L				
+3	1	J3	CN1X4-2P54-Z	CN1X4-2P54-Z				

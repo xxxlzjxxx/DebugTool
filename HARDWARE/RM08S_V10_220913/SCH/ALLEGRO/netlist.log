@@ -1,0 +1,50 @@
+{ Using PSTWRITER 17.2.0 d001Sep-13-2022 at 16:27:45 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.16" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P1_TP".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.17" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P1_TN".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "J7.11" ignored for J7: MAIN, 02 MAIN (157.48, 248.92). Connecting pin to net "EPHY_LED3_N".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "J8.12" ignored for J8: MAIN, 02 MAIN (228.60, 248.92). Connecting pin to net "N17669575".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "J5.11" ignored for J5: MAIN, 02 MAIN (157.48, 200.66). Connecting pin to net "EPHY_LED1_N".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "J7.12" ignored for J7: MAIN, 02 MAIN (157.48, 248.92). Connecting pin to net "N17669569".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.11" ignored for J4: MAIN, 02 MAIN (78.74, 200.66). Connecting pin to net "EPHY_LED0_N".
+#8 WARNING(ORCAP-36038): "No_connect" property on Pin "J6.11" ignored for J6: MAIN, 02 MAIN (228.60, 200.66). Connecting pin to net "EPHY_LED2_N".
+#9 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.25" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P3_TN".
+#10 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.31" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P4_TN".
+#11 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.28" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P4_RP".
+#12 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.30" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P4_TP".
+#13 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.19" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P1_RN".
+#14 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.24" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P3_TP".
+#15 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.29" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P4_RN".
+#16 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.27" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P3_RN".
+#17 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.26" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P3_RP".
+#18 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.14" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P0_TP".
+#19 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.12" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P0_RP".
+#20 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.13" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P0_RN".
+#21 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.15" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P0_TN".
+#22 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.22" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P2_TP".
+#23 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.20" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P2_RP".
+#24 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.18" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P1_RP".
+#25 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.21" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P2_RN".
+#26 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.23" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "P2_TN".
+#27 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.45" ignored for U1: MAIN, 02 MAIN (60.96, 53.34). Connecting pin to net "WDT_RST_N".
+#28 WARNING(ORCAP-36038): "No_connect" property on Pin "J8.11" ignored for J8: MAIN, 02 MAIN (228.60, 248.92). Connecting pin to net "EPHY_LED4_N".
+#29 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.12" ignored for J4: MAIN, 02 MAIN (78.74, 200.66). Connecting pin to net "N17668145".
+#30 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 02 MAIN (337.82, 137.16). Connecting pin to net "GND".
+#31 WARNING(ORCAP-36038): "No_connect" property on Pin "MH3.1" ignored for MH3: MAIN, 02 MAIN (337.82, 149.86). Connecting pin to net "GND".
+#32 WARNING(ORCAP-36038): "No_connect" property on Pin "MH1.1" ignored for MH1: MAIN, 02 MAIN (314.96, 137.16). Connecting pin to net "GND".
+#33 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 02 MAIN (314.96, 149.86). Connecting pin to net "GND".
+#34 WARNING(ORCAP-36038): "No_connect" property on Pin "J5.12" ignored for J5: MAIN, 02 MAIN (157.48, 200.66). Connecting pin to net "N17668762".
+#35 WARNING(ORCAP-36038): "No_connect" property on Pin "J6.12" ignored for J6: MAIN, 02 MAIN (228.60, 200.66). Connecting pin to net "N17669069".
+#36 WARNING(ORCAP-36006): Part Name "CON_RJ45_1X8_F_RA_0_HR911105A_HR911105A" is renamed to "CON_RJ45_1X8_F_RA_0_HR911105A_H".
+#37 WARNING(ORCAP-36006): Part Name "SWITCH-SPST-4P_K2-1112SW-A4SW-04_K2-1112SW-A4SW-04" is renamed to "SWITCH-SPST-4P_K2-1112SW-A4SW-0".
+#38 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\RM08S_V10_220913\SCH\ALLEGRO/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\RM08S_V10_220913\SCH\ALLEGRO/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\RM08S_V10_220913\SCH\ALLEGRO/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\RM08S_V10_220913\SCH\ALLEGRO/pstxnet.dat
+packaging the design view...

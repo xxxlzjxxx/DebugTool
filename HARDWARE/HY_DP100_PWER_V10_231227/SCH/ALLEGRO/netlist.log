@@ -1,0 +1,41 @@
+{ Using PSTWRITER 17.2.0 d001Jan-24-2024 at 10:32:27 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.35" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "VOUT2G".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.40" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "DMA2".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.6" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "DMB".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "Q2.1" ignored for Q2: MAIN, 02 CHARGER (91.44, 205.74). Connecting pin to net "VCC_VBAT".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.31" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "VING".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.7" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "DPB".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.1" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "DPA2".
+#8 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.38" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "DMA1".
+#9 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.36" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "VOUT1G".
+#10 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.39" ignored for U2: MAIN, 02 CHARGER (182.88, 50.80). Connecting pin to net "DPA1".
+#11 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.10" ignored for USB1: MAIN, 02 CHARGER (358.14, 205.74). Connecting pin to net "N17580928".
+#12 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.4" ignored for USB1: MAIN, 02 CHARGER (358.14, 205.74). Connecting pin to net "N17580931".
+#13 WARNING(ORCAP-36038): "No_connect" property on Pin "Q4.1" ignored for Q4: MAIN, 02 CHARGER (73.66, 53.34). Connecting pin to net "VCC_VMID".
+#14 WARNING(ORCAP-36038): "No_connect" property on Pin "SW1.2" ignored for SW1: MAIN, 02 CHARGER (43.18, 205.74). Connecting pin to net "GND".
+#15 WARNING(ORCAP-36038): "No_connect" property on Pin "Q1.1" ignored for Q1: MAIN, 02 CHARGER (195.58, 226.06). Connecting pin to net "N17567603".
+INFO(ORCAP-36102): Diff Pair DRC check Warnings:
+INFO(ORCAP-17055): Differential pair DP1 has only one net DPB associated with it. A valid differential pair must have two nets associated with it. 
+
+#16 WARNING(ORCAP-36006): Part Name "CAPT_100UF_3528_6R3V_10%_LXXXX_CAP-SMD-6R3X5R8_100UF_35V" is renamed to "CAPT_100UF_3528_6R3V_10%_LXXXX_".
+#17 WARNING(ORCAP-36006): Part Name "HDR_1_WJ2EDGR-5R08-2P_WJ2EDGR-5.08-2P" is renamed to "HDR_1_WJ2EDGR-5R08-2P_WJ2EDGR-5".
+#18 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_1_L10040_SMMS1040-1R5M" is renamed to "IND_BEAD_0805_600OHM_1_L10040_S".
+#19 WARNING(ORCAP-36006): Part Name "SI4497DY-T1-GE3_2_DFN5X6_WSD30140DN" is renamed to "SI4497DY-T1-GE3_2_DFN5X6_WSD301".
+#20 WARNING(ORCAP-36006): Part Name "SI4497DY-T1-GE3_0_DFN3X3_WSD30L40DN" is renamed to "SI4497DY-T1-GE3_0_DFN3X3_WSD30L".
+#21 WARNING(ORCAP-36006): Part Name "SWITCH_3P_SS-12D11G3R_SS-12D11G3R" is renamed to "SWITCH_3P_SS-12D11G3R_SS-12D11G".
+#22 WARNING(ORCAP-36006): Part Name "SWITCH-SPST-4P_K2-1112SW-A4SW-04_K2-1112SW-A4SW-04" is renamed to "SWITCH-SPST-4P_K2-1112SW-A4SW-0".
+#23 WARNING(ORCAP-36006): Part Name "TESTPOINT_SMD5R0X2R0_SMD5R0X2R0/NI" is renamed to "TESTPOINT_SMD5R0X2R0_SMD5R0X2R0".
+#24 WARNING(ORCAP-36006): Part Name "LM3488MM_VSSOP8_3R0X3R0X0R65_LM3488MM" is renamed to "LM3488MM_VSSOP8_3R0X3R0X0R65_LM".
+#25 WARNING(ORCAP-36006): Part Name "IP5328P_0_QFN40-6X6X0R5-4R6X4R6_IP5328P" is renamed to "IP5328P_0_QFN40-6X6X0R5-4R6X4R6".
+#26 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_DP100_PWER_V10_231227\SCH\ALLEGRO/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_DP100_PWER_V10_231227\SCH\ALLEGRO/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_DP100_PWER_V10_231227\SCH\ALLEGRO/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_DP100_PWER_V10_231227\SCH\ALLEGRO/pstxnet.dat
+packaging the design view...

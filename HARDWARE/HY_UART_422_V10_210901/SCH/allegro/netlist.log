@@ -1,0 +1,13 @@
+{ Using PSTWRITER 17.2.0 d001Sep-02-2021 at 10:21:56 }
+
+#1 WARNING(ORCAP-36006): Part Name "CONN RCPT 4_HX25035-4WA_HX25035-4WA" is renamed to "CONN RCPT 4_HX25035-4WA_HX25035".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_UART_422_V10_210901\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_UART_422_V10_210901\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_UART_422_V10_210901\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_UART_422_V10_210901\SCH\allegro/pstxnet.dat
+packaging the design view...

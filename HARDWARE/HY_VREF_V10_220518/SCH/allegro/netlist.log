@@ -1,0 +1,19 @@
+{ Using PSTWRITER 17.2.0 d001May-18-2022 at 19:07:03 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "SW1.2" ignored for SW1: MAIN, 03 VREF (121.92, 58.42). Connecting pin to net "N17304159".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 03 VREF (345.44, 238.76). Connecting pin to net "GND".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 03 VREF (396.24, 238.76). Connecting pin to net "GND".
+#4 WARNING(ORCAP-36006): Part Name "CONN RCPT 2_HX25035-2A_HX25035-2A" is renamed to "CONN RCPT 2_HX25035-2A_HX25035-".
+#5 WARNING(ORCAP-36006): Part Name "SWITCH_3P_SS-12D11G3R_SS-12D11G3R" is renamed to "SWITCH_3P_SS-12D11G3R_SS-12D11G".
+#6 WARNING(ORCAP-36006): Part Name "REF3033AIDBZR_SOT23-3_REF3033AIDBZR" is renamed to "REF3033AIDBZR_SOT23-3_REF3033AI".
+#7 WARNING(ORCAP-36006): Part Name "REF5030AIDGKR_VSSOP8_3R0X3R0X0R65_REF5030AIDGKR" is renamed to "REF5030AIDGKR_VSSOP8_3R0X3R0X0R".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_VREF_V10_220518\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_VREF_V10_220518\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_VREF_V10_220518\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_VREF_V10_220518\SCH\allegro/pstxnet.dat
+packaging the design view...

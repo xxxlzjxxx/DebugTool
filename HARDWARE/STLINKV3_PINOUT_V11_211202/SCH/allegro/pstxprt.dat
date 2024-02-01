@@ -1,0 +1,130 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Dec-02-2021 at 19:32:46 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='STLINKV3_PINOUT_V11_211202';
+ POST_TIME='Sep 27 2020 03:58:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C3 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17239188@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17239188@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17239188@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17239196@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17239196@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17239196@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CONN RCPT 10_HX25035-10WA_HX250':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17237277@CONNECTOR.CONN RCPT 10.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17237277@connector.\conn rcpt 10.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17237277@connector.\conn rcpt 10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17238125@HYOC.DC3-10P-Z-L.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HDR_1_CN1X2-2P54-Z_CN1X2-2P54-Z':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17238396@MK60_YTAI_V41B.HDR_1.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17238396@mk60_ytai_v41b.\hdr_1.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17238396@mk60_ytai_v41b.\hdr_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HDR_1_CN1X2-2P54-Z_CN1X2-2P54-Z':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17238490@MK60_YTAI_V41B.HDR_1.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17238490@mk60_ytai_v41b.\hdr_1.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17238490@mk60_ytai_v41b.\hdr_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_GENERIC_R0402_100R':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17238408@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17238408@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17238408@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_GENERIC_R0402_100K':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17239293@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17239293@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17239293@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17239906@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17239906@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17239906@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17240014@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17240014@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17240014@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'STLINK-V3MODS_STLINK-V3MODS_STL':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17235557@HYOC.STLINK-V3MODS.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17235557@hyoc.\stlink-v3mods.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17235557@hyoc.\stlink-v3mods.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'TXB0108PWR_1_TSSOP20_TXS0108EPW':;
+
+SECTION_NUMBER 1
+ '@STLINKV3_PINOUT_V11_211202.MAIN(SCH_1):INS17239204@MK60_YTAI_V41B.TXB0108PWR_1.NORMAL(CHIPS)':
+ C_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):ins17239204@mk60_ytai_v41b.\txb0108pwr_1.normal\(chips)',
+ P_PATH='@stlinkv3_pinout_v11_211202.main(sch_1):page2_ins17239204@mk60_ytai_v41b.\txb0108pwr_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

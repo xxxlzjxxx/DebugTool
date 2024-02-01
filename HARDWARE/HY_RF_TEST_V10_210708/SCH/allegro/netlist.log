@@ -1,0 +1,14 @@
+{ Using PSTWRITER 17.2.0 d001Jul-08-2021 at 18:52:56 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "IPX1.3" ignored for IPX1: SCHEMATIC1, 02 RF (96.52, 129.54). Connecting pin to net "GND".
+#2 WARNING(ORCAP-36006): Part Name "MMCX-KE-SMT_MMCX-KE-SMT_MMCX-KE-SMT" is renamed to "MMCX-KE-SMT_MMCX-KE-SMT_MMCX-KE".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_RF_TEST_V10_210708\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_RF_TEST_V10_210708\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_RF_TEST_V10_210708\SCH\allegro/pstchip.dat
+
+Loading... G:\github\MBED-TOOLS\HARDWARE\HY_RF_TEST_V10_210708\SCH\allegro/pstxnet.dat
+packaging the design view...

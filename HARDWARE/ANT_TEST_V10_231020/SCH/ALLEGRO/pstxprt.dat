@@ -1,0 +1,240 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Oct-20-2023 at 11:14:26 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ANT_TEST_V10';
+ POST_TIME='Nov 12 2021 16:47:14';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_2_C0402_100PF_50V':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510127@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510127@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510127@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_2_C0402_100PF_50V/NI':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511444@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511444@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511444@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_2_C0402_100PF_50V/NI':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511470@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511470@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511470@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'IND_BEAD_0805_600OHM_1_L0402_18':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509989@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509989@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509989@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'IND_BEAD_0805_600OHM_1_L0402_2.':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509940@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509940@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509940@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'IND_BEAD_0805_600OHM_1_L0402_22':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509836@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509836@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509836@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'IND_BEAD_0805_600OHM_1_L0402_4.':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509973@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509973@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509973@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'IND_BEAD_0805_600OHM_1_L0402_3N':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510918@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510918@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510918@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'IND_BEAD_0805_600OHM_1_L0402_6.':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511051@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511051@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511051@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L7 'IND_BEAD_0805_600OHM_1_L0402_6.':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511105@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511105@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511105@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509863@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509863@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509863@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_GENERIC_R0402_0R/NI':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509850@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509850@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509850@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510257@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510257@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510257@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510885@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510885@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510885@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511345@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511345@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511345@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'CA-L01_CA-L01_CA-L01':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509735@HYOC.CA-L01.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509735@hyoc.\ca-l01.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509735@hyoc.\ca-l01.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'ANT_RG1.13_SMD_ANT_RG113_SMD_AN':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510430@HYOC.ANT_RG1.13_SMD.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510430@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510430@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'ANT_RG1.13_SMD_ANT_RG113_SMD_AN':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510481@HYOC.ANT_RG1.13_SMD.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510481@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510481@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'CA-G01_CA-G01_CA-G01':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509751@HYOC.CA-G01.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509751@hyoc.\ca-g01.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509751@hyoc.\ca-g01.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'ANT_RG1.13_SMD_ANT_RG113_SMD_AN':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17510533@HYOC.ANT_RG1.13_SMD.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17510533@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17510533@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'CA-C03_CA-C03_CA-C03':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17509764@HYOC.CA-C03.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17509764@hyoc.\ca-c03.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17509764@hyoc.\ca-c03.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'ANT_RG1.13_SMD_ANT_RG113_SMD_AN':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511333@HYOC.ANT_RG1.13_SMD.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511333@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511333@hyoc.\ant_rg1.13_smd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'ANT_F_2.4G_ANT_F_ANT_F_2.4G/NI':;
+
+SECTION_NUMBER 1
+ '@ANT_TEST_V10.MAIN(SCH_1):INS17511499@HYOC.ANT_F_2.4G.NORMAL(CHIPS)':
+ C_PATH='@ant_test_v10.main(sch_1):ins17511499@hyoc.\ant_f_2.4g.normal\(chips)',
+ P_PATH='@ant_test_v10.main(sch_1):page2_ins17511499@hyoc.\ant_f_2.4g.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

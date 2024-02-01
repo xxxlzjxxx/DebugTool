@@ -1,0 +1,237 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Oct-20-2023 at 11:14:26}
+primitive 'CAP NP_2_C0402_100PF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_2';
+    JEDEC_TYPE='C0402';
+    VALUE='100pF_50V';
+  end_body;
+end_primitive;
+primitive 'CAP NP_2_C0402_100PF_50V/NI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_2';
+    JEDEC_TYPE='C0402';
+    VALUE='100pF_50V/NI';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_L0402_18';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='L0402';
+    VALUE='18nH';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_L0402_2.';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='L0402';
+    VALUE='2.2nH';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_L0402_22';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='L0402';
+    VALUE='22nH';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_L0402_4.';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='L0402';
+    VALUE='4.3nH';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_L0402_3N';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='L0402';
+    VALUE='3nH';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_L0402_6.';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='L0402';
+    VALUE='6.2nH';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0402_0R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0402';
+    VALUE='0R';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0402_0R/NI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0402';
+    VALUE='0R/NI';
+  end_body;
+end_primitive;
+primitive 'CA-L01_CA-L01_CA-L01';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CA-L01';
+    JEDEC_TYPE='CA-L01';
+    VALUE='CA-L01';
+  end_body;
+end_primitive;
+primitive 'ANT_RG1.13_SMD_ANT_RG113_SMD_AN';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ANT_RG1.13_SMD';
+    JEDEC_TYPE='ANT_RG113_SMD';
+    VALUE='ANT_RG1.13_SMD/NI';
+  end_body;
+end_primitive;
+primitive 'CA-G01_CA-G01_CA-G01';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CA-G01';
+    JEDEC_TYPE='CA-G01';
+    VALUE='CA-G01';
+  end_body;
+end_primitive;
+primitive 'CA-C03_CA-C03_CA-C03';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CA-C03';
+    JEDEC_TYPE='CA-C03';
+    VALUE='CA-C03';
+  end_body;
+end_primitive;
+primitive 'ANT_F_2.4G_ANT_F_ANT_F_2.4G/NI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ANT_F_2.4G';
+    JEDEC_TYPE='ANT_F';
+    VALUE='ANT_F_2.4G/NI';
+  end_body;
+end_primitive;
+END.

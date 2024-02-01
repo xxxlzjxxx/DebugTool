@@ -1,0 +1,57 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Jul-08-2021 at 18:52:57}
+primitive 'IPEX_0_IPX3_U.FL-R-SMT-1(80)';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IPEX_0';
+    JEDEC_TYPE='IPX3';
+    VALUE='U.FL-R-SMT-1(80)';
+  end_body;
+end_primitive;
+primitive 'MMCX-KE-SMT_MMCX-KE-SMT_MMCX-KE';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MMCX-KE-SMT';
+    JEDEC_TYPE='MMCX-KE-SMT';
+    VALUE='MMCX-KE-SMT';
+  end_body;
+end_primitive;
+primitive 'SMA-KHD_SMA-KHD_SMA-KHD';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SMA-KHD';
+    JEDEC_TYPE='SMA-KHD';
+    VALUE='SMA-KHD';
+  end_body;
+end_primitive;
+END.
