@@ -129,18 +129,7 @@
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 928"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1149 78 697")
-        (Scroll "0 140")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "G:\GITHUB\MBED-TOOLS\HARDWARE\CH340E_TEST_V10\SCH\CH340E_TEST_V10.DSN")
-      (Schematic "MAIN")
-      (Page "02 USB")))
+      (Tab 0)))
   (PartMRUSelector
     (CH340E
       (FullPartName "CH340E.Normal")

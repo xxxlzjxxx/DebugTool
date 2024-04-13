@@ -125,13 +125,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "G:\github\MBED-TOOLS\HARDWARE\HY_SW3518S_V11\SCH\hy_sw3518s_v11.dsn")
-      (Path "Design Resources"
-         "G:\github\MBED-TOOLS\HARDWARE\HY_SW3518S_V11\SCH\hy_sw3518s_v11.dsn"
-         "MAIN")
+      (Path "Design Resources" ".\hy_sw3518s_v11.dsn")
+      (Path "Design Resources" ".\hy_sw3518s_v11.dsn" "MAIN")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\hy_sw3518s_v11.dsn" "MAIN" "02 CHARGER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -141,12 +138,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1382 52 653")
-        (Scroll "1745 1685")
+        (Placement "44 2 3 -1 -1 -8 -31 156 1225 156 753")
+        (Scroll "1783 1737")
         (Zoom "288")
         (Occurrence "/"))
       (Path
-         "G:\GITHUB\MBED-TOOLS\HARDWARE\HY_SW3518S_V11\SCH\HY_SW3518S_V11.DSN")
+         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_SW3518S_V11\SCH\HY_SW3518S_V11.DSN")
       (Schematic "MAIN")
       (Page "02 CHARGER")))
   (PartMRUSelector
