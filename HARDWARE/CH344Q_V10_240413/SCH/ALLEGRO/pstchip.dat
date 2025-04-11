@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 23.1.0 d001Apr-13-2024 at 16:57:45}
+{ Using PSTWRITER 23.1.0 d001Apr-20-2024 at 11:00:02}
 primitive 'CAP NP_C0402_100NF_50V';
   pin
     '1':
@@ -11,36 +11,6 @@ primitive 'CAP NP_C0402_100NF_50V';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='C0402';
-    VALUE='100nF_50V';
-  end_body;
-end_primitive;
-primitive 'CAP NP_2_C0402_100NF_50V';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP_2';
-    JEDEC_TYPE='C0402';
-    VALUE='100nF_50V';
-  end_body;
-end_primitive;
-primitive 'CAP NP_3_C0402_100NF_50V';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP_3';
     JEDEC_TYPE='C0402';
     VALUE='100nF_50V';
   end_body;
@@ -60,6 +30,21 @@ primitive 'CAP NP_3_C0402_12PF_50V';
     VALUE='12pF_50V';
   end_body;
 end_primitive;
+primitive 'CAP NP_3_C0402_100NF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_3';
+    JEDEC_TYPE='C0402';
+    VALUE='100nF_50V';
+  end_body;
+end_primitive;
 primitive 'CAP NP_C0603_10UF_10V';
   pin
     '1':
@@ -73,6 +58,21 @@ primitive 'CAP NP_C0603_10UF_10V';
     PART_NAME='CAP NP';
     JEDEC_TYPE='C0603';
     VALUE='10uF_10V';
+  end_body;
+end_primitive;
+primitive 'CAP NP_2_C0402_100NF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_2';
+    JEDEC_TYPE='C0402';
+    VALUE='100nF_50V';
   end_body;
 end_primitive;
 primitive 'LED_4_LED0603_GREEN-0603';
@@ -90,6 +90,21 @@ primitive 'LED_4_LED0603_GREEN-0603';
     VALUE='GREEN-0603';
   end_body;
 end_primitive;
+primitive 'FUSE_FUSE1210_SMD1210B010TF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='FUSE';
+    JEDEC_TYPE='FUSE1210';
+    VALUE='SMD1210B010TF';
+  end_body;
+end_primitive;
 primitive 'FUSE_FUSE1210_SMD1210-200';
   pin
     '1':
@@ -103,21 +118,6 @@ primitive 'FUSE_FUSE1210_SMD1210-200';
     PART_NAME='FUSE';
     JEDEC_TYPE='FUSE1210';
     VALUE='SMD1210-200';
-  end_body;
-end_primitive;
-primitive 'FUSE_FUSE1210_SMD1812B010TF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='FUSE';
-    JEDEC_TYPE='FUSE1210';
-    VALUE='SMD1812B010TF';
   end_body;
 end_primitive;
 primitive 'CONN RCPT 4_CN1X4-2P54-Z_CN1X4-';
@@ -139,6 +139,27 @@ primitive 'CONN RCPT 4_CN1X4-2P54-Z_CN1X4-';
     PART_NAME='CONN RCPT 4';
     JEDEC_TYPE='CN1X4-2P54-Z';
     VALUE='CN1X4-2P54-Z';
+  end_body;
+end_primitive;
+primitive 'CONN RCPT 2X2_CN2X2-2P54-Z_CN2X';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN RCPT 2x2';
+    JEDEC_TYPE='CN2X2-2P54-Z';
+    VALUE='CN2X2-2P54-Z';
   end_body;
 end_primitive;
 primitive 'CONN RCPT 6_DB2ERC-2R54-6P-GN_D';
@@ -168,27 +189,6 @@ primitive 'CONN RCPT 6_DB2ERC-2R54-6P-GN_D';
     VALUE='DB2ERC-2.54-6P-GN';
   end_body;
 end_primitive;
-primitive 'CONN RCPT 2X2_CN2X2-2P54-Z_CN2X';
-  pin
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CONN RCPT 2x2';
-    JEDEC_TYPE='CN2X2-2P54-Z';
-    VALUE='CN2X2-2P54-Z';
-  end_body;
-end_primitive;
 primitive 'HOLD_1_HOLE6R90X3R40_HOLE_M3/NI';
   pin
     '1':
@@ -216,7 +216,7 @@ primitive 'R_GENERIC_R0402_4.7K';
     VALUE='4.7K';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0805_120R';
+primitive 'R_GENERIC_R0402_10K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -227,8 +227,8 @@ primitive 'R_GENERIC_R0805_120R';
   end_pin;
   body
     PART_NAME='R_Generic';
-    JEDEC_TYPE='R0805';
-    VALUE='120R';
+    JEDEC_TYPE='R0402';
+    VALUE='10K';
   end_body;
 end_primitive;
 primitive 'R_GENERIC_R0402_2K';
@@ -246,7 +246,7 @@ primitive 'R_GENERIC_R0402_2K';
     VALUE='2K';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0402_10K';
+primitive 'R_GENERIC_R0805_120R';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -257,8 +257,8 @@ primitive 'R_GENERIC_R0402_10K';
   end_pin;
   body
     PART_NAME='R_Generic';
-    JEDEC_TYPE='R0402';
-    VALUE='10K';
+    JEDEC_TYPE='R0805';
+    VALUE='120R';
   end_body;
 end_primitive;
 primitive 'R_GENERIC_R0402_0R';
@@ -289,6 +289,165 @@ primitive 'R_GENERIC_R0805_120R/NI';
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0805';
     VALUE='120R/NI';
+  end_body;
+end_primitive;
+primitive 'ADM202_0_SOIC16_SP3232EEN-L/TR';
+  pin
+    'C1+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C1-':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'C2+':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'C2-':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'ROUT1':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'TIN1':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'ROUT2':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'TIN2':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'V+':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'V-':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'TOUT2':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'RIN2':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'TOUT1':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'RIN1':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ADM202_0';
+    JEDEC_TYPE='SOIC16';
+    VALUE='SP3232EEN-L/TR';
+  end_body;
+end_primitive;
+primitive 'SPX3819M5-L-1-2_SOT23-5_SPX3819';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'EN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'BYP':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VOUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SPX3819M5-L-1-2';
+    JEDEC_TYPE='SOT23-5';
+    VALUE='SPX3819M5-L-3-3';
+  end_body;
+end_primitive;
+primitive 'MAX3485ESA_SOIC8_SP3485EN-L/TR';
+  pin
+    'RO':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'R\E\':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'DE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'DI':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MAX3485ESA';
+    JEDEC_TYPE='SOIC8';
+    VALUE='SP3485EN-L/TR';
+  end_body;
+end_primitive;
+primitive 'PESD1CAN_SOT23-3_SDT23C15L02';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='PESD1CAN';
+    JEDEC_TYPE='SOT23-3';
+    VALUE='SDT23C15L02';
+  end_body;
+end_primitive;
+primitive 'TPD4E1U06DBVR_SOT363_TPD4E1U06D';
+  pin
+    'D1+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'D2+':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'D2-':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'D1-':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TPD4E1U06DBVR';
+    JEDEC_TYPE='SOT363';
+    VALUE='TPD4E1U06DCKR';
   end_body;
 end_primitive;
 primitive 'CH344Q_LQFP48-7X7X0R5_CH344Q';
@@ -444,106 +603,37 @@ primitive 'CH344Q_LQFP48-7X7X0R5_CH344Q';
     VALUE='CH344Q';
   end_body;
 end_primitive;
-primitive 'PESD1CAN_SOT23-3_SDT23C15L02';
+primitive 'TJA1050_SOIC8_SN65HVD230DR';
   pin
-    '1':
+    'D':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '2':
+    'GND':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='PESD1CAN';
-    JEDEC_TYPE='SOT23-3';
-    VALUE='SDT23C15L02';
-  end_body;
-end_primitive;
-primitive 'ADM202_0_SOIC16_SP3232EEN-L/TR';
-  pin
-    'C1+':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'C1-':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'C2+':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'C2-':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'ROUT1':
-      PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
-    'TIN1':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    'ROUT2':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'TIN2':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'V+':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'V-':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'TOUT2':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'RIN2':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'TOUT1':
-      PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
-    'RIN1':
-      PIN_NUMBER='(13)';
       PINUSE='UNSPEC';
     'VCC':
-      PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='ADM202_0';
-    JEDEC_TYPE='SOIC16';
-    VALUE='SP3232EEN-L/TR';
-  end_body;
-end_primitive;
-primitive 'TPD4E1U06DBVR_SOT363_TPD4E1U06D';
-  pin
-    'D1+':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'D2+':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
-    'D2-':
+    'R':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
-    'NC':
+    'VREF':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
-    'D1-':
+    'CANL':
       PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'CANH':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'RS':
+      PIN_NUMBER='(8)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='TPD4E1U06DBVR';
-    JEDEC_TYPE='SOT363';
-    VALUE='TPD4E1U06DCKR';
+    PART_NAME='TJA1050';
+    JEDEC_TYPE='SOIC8';
+    VALUE='SN65HVD230DR';
   end_body;
 end_primitive;
 primitive 'MAX3485ESA_0_SOIC8_SP3490EN-L/T';
@@ -577,96 +667,6 @@ primitive 'MAX3485ESA_0_SOIC8_SP3490EN-L/T';
     PART_NAME='MAX3485ESA_0';
     JEDEC_TYPE='SOIC8';
     VALUE='SP3490EN-L/TR';
-  end_body;
-end_primitive;
-primitive 'MAX3485ESA_SOIC8_SP3485EN-L/TR';
-  pin
-    'RO':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'R\E\':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'DE':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'DI':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'VCC':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MAX3485ESA';
-    JEDEC_TYPE='SOIC8';
-    VALUE='SP3485EN-L/TR';
-  end_body;
-end_primitive;
-primitive 'SPX3819M5-L-1-2_SOT23-5_SPX3819';
-  pin
-    'VIN':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'EN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'BYP':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='SPX3819M5-L-1-2';
-    JEDEC_TYPE='SOT23-5';
-    VALUE='SPX3819M5-L-3-3';
-  end_body;
-end_primitive;
-primitive 'TJA1050_SOIC8_SN65HVD230DR';
-  pin
-    'D':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'VCC':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'R':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VREF':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'CANL':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'CANH':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'RS':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='TJA1050';
-    JEDEC_TYPE='SOIC8';
-    VALUE='SN65HVD230DR';
   end_body;
 end_primitive;
 primitive 'TYPE-C_16P_TYPE-C-31-M-12_TYPE-';

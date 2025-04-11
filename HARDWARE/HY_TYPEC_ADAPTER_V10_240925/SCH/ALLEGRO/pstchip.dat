@@ -1,0 +1,81 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 23.1.0 d001Sep-25-2024 at 14:09:38}
+primitive 'YTC-TC8S-126_YTC-TC8S-126_YTC-T';
+  pin
+    'B12/GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B9/VBUS':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A5/CC1':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'B7/DN2':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'B6/DP2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'A8/SBU1':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A9/VBUS':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A12/GND':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='YTC-TC8S-126';
+    JEDEC_TYPE='YTC-TC8S-126';
+    VALUE='YTC-TC8S-126';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0402_5.1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0402';
+    VALUE='5.1K';
+  end_body;
+end_primitive;
+primitive 'TP_PAD0R50X2R00_TP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TP';
+    JEDEC_TYPE='PAD0R50X2R00';
+    VALUE='TP';
+  end_body;
+end_primitive;
+primitive 'TP_PAD0R30X2R00_TP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TP';
+    JEDEC_TYPE='PAD0R30X2R00';
+    VALUE='TP';
+  end_body;
+end_primitive;
+END.

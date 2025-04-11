@@ -1,0 +1,32 @@
+\t (00:00:00) allegro 23.1 S004 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Aug 12 16:18:34 2024
+\t (00:00:00)         Host=XXXLZJXXX-HY User=Administrator Pid=20672 CPUs=20
+\t (00:00:00) CmdLine= c:\cadence\spb_23.1\tools\bin\allegro.exe G:\github\DebugTool\HARDWARE\HY_1R3TFT_V10\PCB\HY_1R3TFT_V10.brd
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Design opened: G:/github/DebugTool/HARDWARE/HY_1R3TFT_V10/PCB/HY_1R3TFT_V10.brd
+   (00:00:00) Loading cmds.cxt 
+\i (00:00:00) trapsize 9193
+\i (00:00:00) trapsize 9582
+\i (00:00:00) trapsize 9700
+\i (00:00:01) trapsize 9193
+\i (00:00:01) trapsize 9193
+\i (00:00:01) trapsize 5905
+\i (00:00:01) generaledit 
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in 5.9108 32.6959
+\i (00:00:02) trapsize 2953
+\i (00:00:19) xname_flush 
+\i (00:00:23) xname_flush 
+\i (00:00:25) xname_flush '!' 
+\i (00:00:27) xname_flush 
+\i (00:00:34) xname_flush '!' 
+\i (00:00:37) show measure 
+\i (00:00:38) pick grid 21.9134 35.8256
+\t (00:00:38) last pick:  21.9000 35.8000
+\i (00:00:40) done 
+\i (00:00:40) generaledit 
+\i (00:00:41) exit 
+\t (00:00:41)     Journal end - Mon Aug 12 16:19:15 2024

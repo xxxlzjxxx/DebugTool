@@ -1,22 +1,22 @@
-{ Using PSTWRITER 23.1.0 d001Apr-13-2024 at 16:57:45 }
+{ Using PSTWRITER 23.1.0 d001Apr-20-2024 at 11:00:01 }
 
-#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U15.14" ignored for U15: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533117".
-#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U15.13" ignored for U15: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533106".
-#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U15.11" ignored for U15: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533089".
-#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U15.12" ignored for U15: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533104".
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.14" ignored for U1: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533117".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.13" ignored for U1: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533106".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.11" ignored for U1: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533089".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.12" ignored for U1: MAIN, 02 USB (317.50, 55.88). Connecting pin to net "N17533104".
 #5 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.10" ignored for USB1: MAIN, 02 USB (30.48, 68.58). Connecting pin to net "N17517307".
-#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U9.1" ignored for U9: MAIN, 02 USB (355.60, 27.94). Connecting pin to net "CAN_H".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U6.1" ignored for U6: MAIN, 02 USB (355.60, 27.94). Connecting pin to net "CAN_H".
 #7 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 02 USB (259.08, 223.52). Connecting pin to net "GND".
 #8 WARNING(ORCAP-36038): "No_connect" property on Pin "MH1.1" ignored for MH1: MAIN, 02 USB (284.48, 223.52). Connecting pin to net "GND".
 #9 WARNING(ORCAP-36038): "No_connect" property on Pin "MH6.1" ignored for MH6: MAIN, 02 USB (309.88, 223.52). Connecting pin to net "GND".
 #10 WARNING(ORCAP-36038): "No_connect" property on Pin "MH3.1" ignored for MH3: MAIN, 02 USB (284.48, 241.30). Connecting pin to net "GND".
 #11 WARNING(ORCAP-36038): "No_connect" property on Pin "MH5.1" ignored for MH5: MAIN, 02 USB (309.88, 241.30). Connecting pin to net "GND".
 #12 WARNING(ORCAP-36006): Part Name "CONN RCPT 4_CN1X4-2P54-Z_CN1X4-2P54-Z" is renamed to "CONN RCPT 4_CN1X4-2P54-Z_CN1X4-".
-#13 WARNING(ORCAP-36006): Part Name "CONN RCPT 6_DB2ERC-2R54-6P-GN_DB2ERC-2.54-6P-GN" is renamed to "CONN RCPT 6_DB2ERC-2R54-6P-GN_D".
-#14 WARNING(ORCAP-36006): Part Name "CONN RCPT 2X2_CN2X2-2P54-Z_CN2X2-2P54-Z" is renamed to "CONN RCPT 2X2_CN2X2-2P54-Z_CN2X".
-#15 WARNING(ORCAP-36006): Part Name "TPD4E1U06DBVR_SOT363_TPD4E1U06DCKR" is renamed to "TPD4E1U06DBVR_SOT363_TPD4E1U06D".
-#16 WARNING(ORCAP-36006): Part Name "MAX3485ESA_0_SOIC8_SP3490EN-L/TR" is renamed to "MAX3485ESA_0_SOIC8_SP3490EN-L/T".
-#17 WARNING(ORCAP-36006): Part Name "SPX3819M5-L-1-2_SOT23-5_SPX3819M5-L-3-3" is renamed to "SPX3819M5-L-1-2_SOT23-5_SPX3819".
+#13 WARNING(ORCAP-36006): Part Name "CONN RCPT 2X2_CN2X2-2P54-Z_CN2X2-2P54-Z" is renamed to "CONN RCPT 2X2_CN2X2-2P54-Z_CN2X".
+#14 WARNING(ORCAP-36006): Part Name "CONN RCPT 6_DB2ERC-2R54-6P-GN_DB2ERC-2.54-6P-GN" is renamed to "CONN RCPT 6_DB2ERC-2R54-6P-GN_D".
+#15 WARNING(ORCAP-36006): Part Name "SPX3819M5-L-1-2_SOT23-5_SPX3819M5-L-3-3" is renamed to "SPX3819M5-L-1-2_SOT23-5_SPX3819".
+#16 WARNING(ORCAP-36006): Part Name "TPD4E1U06DBVR_SOT363_TPD4E1U06DCKR" is renamed to "TPD4E1U06DBVR_SOT363_TPD4E1U06D".
+#17 WARNING(ORCAP-36006): Part Name "MAX3485ESA_0_SOIC8_SP3490EN-L/TR" is renamed to "MAX3485ESA_0_SOIC8_SP3490EN-L/T".
 #18 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
 #19 WARNING(ORCAP-36006): Part Name "TSX-3225_X-4P-3R2X2R5-SMD_X32258MOB4SI" is renamed to "TSX-3225_X-4P-3R2X2R5-SMD_X3225".
 INFO(ORCAP-36080): Scanning netlist files ...

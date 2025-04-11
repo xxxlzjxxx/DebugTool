@@ -1,0 +1,13 @@
+{ Using PSTWRITER 23.1.0 d001Sep-25-2024 at 14:09:38 }
+
+#1 WARNING(ORCAP-36006): Part Name "YTC-TC8S-126_YTC-TC8S-126_YTC-TC8S-126" is renamed to "YTC-TC8S-126_YTC-TC8S-126_YTC-T".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_TYPEC_ADAPTER_V10_240925\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_TYPEC_ADAPTER_V10_240925\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_TYPEC_ADAPTER_V10_240925\SCH\ALLEGRO\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_TYPEC_ADAPTER_V10_240925\SCH\ALLEGRO\pstxnet.dat
+packaging the design view...

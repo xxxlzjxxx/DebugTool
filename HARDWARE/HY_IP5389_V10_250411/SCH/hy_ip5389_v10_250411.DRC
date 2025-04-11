@@ -1,0 +1,31 @@
+Date and Time : 04/11/25 14:26:50
+
+--------------------------------------------------
+Checking Schematic: MAIN
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: MAIN
+--------------------------------------------------
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: HY_IP5389_V10_250411 
+--------------------------------------------------
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

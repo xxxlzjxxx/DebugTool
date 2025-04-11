@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[01/11/23]")
+  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[01/11/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -126,44 +126,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "g:\github\debugtool\hardware\hy_uart_dbug_v20_230103\sch\hy_uart_dbug_v20_230103.dsn")
-      (Path "Design Resources"
-         "g:\github\debugtool\hardware\hy_uart_dbug_v20_230103\sch\hy_uart_dbug_v20_230103.dsn"
-         "MAIN")
+      (Path "Design Resources" ".\hy_uart_dbug_v20_230103.dsn")
+      (Path "Design Resources" ".\hy_uart_dbug_v20_230103.dsn" "MAIN")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "g:\github\debugtool\hardware\hy_uart_dbug_v20_230103\sch\hy_uart_dbug_v20_230103.dsn"
-         "MAIN" "03 USBHUB"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 327 0 712"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1547 28 758")
-        (Scroll "412 513")
-        (Zoom "118")
-        (Occurrence "/"))
-      (Path
-         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V20_230103\SCH\HY_UART_DBUG_V20_230103.DSN")
-      (Schematic "MAIN")
-      (Page "03 USBHUB"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1547 28 758")
-        (Scroll "-165 0")
-        (Zoom "72")
-        (Occurrence "/"))
-      (Path
-         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V20_230103\SCH\HY_UART_DBUG_V20_230103.DSN")
-      (Schematic "MAIN")
-      (Page "04 IO")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 350 0 1231"))
+      (Tab 0)))
   (PartMRUSelector
     ("CONN RCPT 6"
       (FullPartName "CONN RCPT 6.Normal")

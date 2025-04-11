@@ -1,5 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[08/17/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -102,6 +103,7 @@
     (DOCKING_POSITION "59420")
     (File ".\hy_uart_dbug_v10b.dsn"
       (Type "Schematic Design")))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\hy_uart_dbug_v10b.drc"
       (Type "Report"))
@@ -132,30 +134,19 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 946"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 274 0 871"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1279 208 827")
-        (Scroll "1110 138")
-        (Zoom "148")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1323 28 917")
+        (Scroll "2516 460")
+        (Zoom "236")
         (Occurrence "/"))
       (Path
-         "G:\GITHUB\MBED-TOOLS\HARDWARE\HY_UART_DBUG_V10B\SCH\HY_UART_DBUG_V10B.DSN")
+         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V10B\SCH\HY_UART_DBUG_V10B.DSN")
       (Schematic "MAIN")
-      (Page "03 USB"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 260 1333 260 879")
-        (Scroll "1110 848")
-        (Zoom "148")
-        (Occurrence "/"))
-      (Path
-         "G:\GITHUB\MBED-TOOLS\HARDWARE\HY_UART_DBUG_V10B\SCH\HY_UART_DBUG_V10B.DSN")
-      (Schematic "MAIN")
-      (Page "02 USBHUB")))
+      (Page "03 USB")))
   (PartMRUSelector
     (OFFPAGELEFT-BIDIR
       (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -256,4 +247,13 @@
       (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))

@@ -1,5 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[07/29/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -85,7 +86,7 @@
     (Netlist_TAB "0")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "G:\github\MBED-TOOLS\HARDWARE\HY_TYPEC_DBUG_V10C\SCH\allegro")
+       "G:\github\uestc-esp32\HARDWARE\ESP32_MAIN_V10_240726\SCH\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -104,7 +105,9 @@
     (GATE_&_PIN_SWAP_Scope "0")
     (GATE_&_PIN_SWAP_File_Name
        "G:\github\MBED-TOOLS\HARDWARE\HY_TYPEC_DBUG_V10C\SCH\rename.SWP")
-    (Backannotation_TAB "1"))
+    (Backannotation_TAB "1")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\hy_typec_dbug_v10c.drc"
       (Type "Report"))
@@ -123,24 +126,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "g:\github\debugtool\hardware\hy_typec_dbug_v10c\sch\hy_typec_dbug_v10c.dsn")
+      (Path "Design Resources"
+         "g:\github\debugtool\hardware\hy_typec_dbug_v10c\sch\hy_typec_dbug_v10c.dsn"
+         "MAIN")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 928"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 315 0 871"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 130 1199 130 745")
-        (Scroll "3301 0")
-        (Zoom "296")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1559 28 917")
+        (Scroll "0 0")
+        (Zoom "144")
         (Occurrence "/"))
       (Path
-         "G:\GITHUB\MBED-TOOLS\HARDWARE\HY_TYPEC_DBUG_V10C\SCH\HY_TYPEC_DBUG_V10C.DSN")
+         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_TYPEC_DBUG_V10C\SCH\HY_TYPEC_DBUG_V10C.DSN")
       (Schematic "MAIN")
       (Page "03 HUB")))
   (PartMRUSelector
@@ -168,4 +175,13 @@
       (LibraryName "E:\ORCADCIS\SYMBOLS\HYOC.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))

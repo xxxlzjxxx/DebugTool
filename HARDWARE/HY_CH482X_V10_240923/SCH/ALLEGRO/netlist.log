@@ -1,0 +1,43 @@
+{ Using PSTWRITER 23.1.0 d001Sep-26-2024 at 16:41:32 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B3" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "SSTX2_N".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B10" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "SSRX2_N".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B11" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "SSRX2_P".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B9" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_VBUS_TYPEC".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B4" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_VBUS_TYPEC".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B3" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_SSTX2_N".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B5" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_USBD_N".
+#8 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B8" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_USBD_P".
+#9 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B10" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_SSRX2_N".
+#10 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B11" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_SSRX2_P".
+#11 WARNING(ORCAP-36038): "No_connect" property on Pin "U9.2" ignored for U9: SCH, 03 MCU (53.34, 55.88). Connecting pin to net "1_USB_D-".
+#12 WARNING(ORCAP-36038): "No_connect" property on Pin "U9.3" ignored for U9: SCH, 03 MCU (53.34, 55.88). Connecting pin to net "1_USB_D+".
+#13 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.B2" ignored for U1: SCH, 03 MCU (246.38, 76.20). Connecting pin to net "1_SSTX2_P".
+#14 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B9" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "VBUS_TYPEC".
+#15 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B4" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "VBUS_TYPEC".
+#16 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.2" ignored for U12: SCH, 03 MCU (55.88, 167.64). Connecting pin to net "USB_D-".
+#17 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.3" ignored for U12: SCH, 03 MCU (55.88, 167.64). Connecting pin to net "USB_D+".
+#18 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B2" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "SSTX2_P".
+#19 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.A5" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "USBD_N".
+#20 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B5" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "USBD_N".
+#21 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.B8" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "USBD_P".
+#22 WARNING(ORCAP-36038): "No_connect" property on Pin "U11.A8" ignored for U11: SCH, 03 MCU (226.06, 187.96). Connecting pin to net "USBD_P".
+INFO(ORCAP-36102): 'Differential Pair' DRC check Warnings:
+INFO(ORCAP-17055): Differential pair USBD_ has only one net USBD_N associated with it. A valid differential pair must have two nets associated with it. 
+
+#23 WARNING(ORCAP-36006): Part Name "CONN RCPT 3_CN1X3-2P54-Z_CN1X3-2P54-Z" is renamed to "CONN RCPT 3_CN1X3-2P54-Z_CN1X3-".
+#24 WARNING(ORCAP-36006): Part Name "CONN RCPT 8/SM_CN1X8-2P54-Z_CN1X8-2P54-Z" is renamed to "CONN RCPT 8/SM_CN1X8-2P54-Z_CN1".
+#25 WARNING(ORCAP-36006): Part Name "USB-C-24P_0_U261-241N-4BC2LS_U261-241N-4BC2LS" is renamed to "USB-C-24P_0_U261-241N-4BC2LS_U2".
+#26 WARNING(ORCAP-36006): Part Name "CH482X_0_QFN20-4R5X2R5X0R5-3R0X1R0_CH482X" is renamed to "CH482X_0_QFN20-4R5X2R5X0R5-3R0X".
+#27 WARNING(ORCAP-36006): Part Name "U237-091N-4BLVS20_0_U237-091N-4BLVS10-1_U237-091N-4BLVS10-1" is renamed to "U237-091N-4BLVS20_0_U237-091N-4".
+#28 WARNING(ORCAP-36006): Part Name "U237-091N-4BLVS20_0_U231-091N-1BLRC19-F1_U231-091N-1BLRC19-F1" is renamed to "U237-091N-4BLVS20_0_U231-091N-1".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CH482X_V10_240923\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CH482X_V10_240923\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CH482X_V10_240923\SCH\ALLEGRO\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CH482X_V10_240923\SCH\ALLEGRO\pstxnet.dat
+packaging the design view...

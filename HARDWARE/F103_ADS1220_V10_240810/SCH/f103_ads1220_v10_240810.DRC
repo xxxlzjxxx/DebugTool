@@ -1,0 +1,35 @@
+Date and Time : 08/12/24 16:10:46
+
+--------------------------------------------------
+Checking Schematic: MAIN
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: MAIN
+--------------------------------------------------
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: F103_ADS1220_V10_240810 
+--------------------------------------------------
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

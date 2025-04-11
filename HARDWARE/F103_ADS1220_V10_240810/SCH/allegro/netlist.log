@@ -1,0 +1,26 @@
+{ Using PSTWRITER 23.1.0 d001Aug-12-2024 at 19:58:12 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 03 MCU (223.52, 254.00). Connecting pin to net "GND".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "MH1.1" ignored for MH1: MAIN, 03 MCU (223.52, 266.70). Connecting pin to net "GND".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.10" ignored for USB1: MAIN, 03 MCU (375.92, 20.32). Connecting pin to net "N18110376".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "J1.8" ignored for J1: MAIN, 03 MCU (233.68, 91.44). Connecting pin to net "VCC_4V".
+#5 WARNING(ORCAP-36006): Part Name "K3-1208S-E1_K3-1208S-E1_K3-1208S-E1" is renamed to "K3-1208S-E1_K3-1208S-E1_K3-1208".
+#6 WARNING(ORCAP-36006): Part Name "CONN RCPT 3_HX25035-3WA_HX25035-3WA" is renamed to "CONN RCPT 3_HX25035-3WA_HX25035".
+#7 WARNING(ORCAP-36006): Part Name "CONN RCPT 8_CN1X8-2P54-Z_CN1X8-2P54-Z" is renamed to "CONN RCPT 8_CN1X8-2P54-Z_CN1X8-".
+#8 WARNING(ORCAP-36006): Part Name "DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P-Z-L" is renamed to "DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P".
+#9 WARNING(ORCAP-36006): Part Name "CONN RCPT 2_HX25035-2WA_HX25035-2WA" is renamed to "CONN RCPT 2_HX25035-2WA_HX25035".
+#10 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_200MA_L0805_GZ2012D101TF" is renamed to "IND_BEAD_0805_600OHM_200MA_L080".
+#11 WARNING(ORCAP-36006): Part Name "STM32F103C8T6_1_LQFP48-7X7X0R5_STM32F103C8T6" is renamed to "STM32F103C8T6_1_LQFP48-7X7X0R5_".
+#12 WARNING(ORCAP-36006): Part Name "SPX3819M5-L-1-2_SOT23-5_SPX3819M5-L-1-2" is renamed to "SPX3819M5-L-1-2_SOT23-5_SPX3819".
+#13 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+#14 WARNING(ORCAP-36006): Part Name "TSX-3225_X-4P-3R2X2R5-SMD_XL2EL89COI-111YLC-8M" is renamed to "TSX-3225_X-4P-3R2X2R5-SMD_XL2EL".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\F103_ADS1220_V10_240810\SCH\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\F103_ADS1220_V10_240810\SCH\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\F103_ADS1220_V10_240810\SCH\allegro\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\F103_ADS1220_V10_240810\SCH\allegro\pstxnet.dat
+packaging the design view...

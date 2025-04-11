@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[04/13/24]")
+  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[04/20/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -104,7 +104,11 @@
     (Board_sim_option "VHDL_flow")
     (File ".\ch344q_v10_240413.dsn"
       (Type "Schematic Design"))
-    (Display_Online_DRC_Results "FALSE"))
+    (Display_Online_DRC_Results "FALSE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "G:\github\DebugTool\HARDWARE\CH344Q_V10_240413\SCH\rename.SWP")
+    (Backannotation_TAB "1"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
@@ -122,27 +126,21 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "G:\github\DebugTool\HARDWARE\CH344Q_V10_240413\SCH\ch344q_v10_240413.dsn")
-      (Path "Design Resources"
-         "G:\github\DebugTool\HARDWARE\CH344Q_V10_240413\SCH\ch344q_v10_240413.dsn"
-         "MAIN")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"
-         "G:\github\DebugTool\HARDWARE\CH344Q_V10_240413\SCH\ch344q_v10_240413.dsn"))
+      (Select "Design Resources" ".\ch344q_v10_240413.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 327 0 895"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 895"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1547 28 917")
-        (Scroll "-165 -13")
-        (Zoom "72")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 917")
+        (Scroll "304 0")
+        (Zoom "118")
         (Occurrence "/"))
       (Path
          "G:\GITHUB\DEBUGTOOL\HARDWARE\CH344Q_V10_240413\SCH\CH344Q_V10_240413.DSN")

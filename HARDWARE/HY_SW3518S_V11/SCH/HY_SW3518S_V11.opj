@@ -1,5 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[07/08/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -106,7 +107,9 @@
     (GATE_&_PIN_SWAP_Scope "0")
     (GATE_&_PIN_SWAP_File_Name
        "G:\github\MBED-TOOLS\HARDWARE\HY_SW3518S_V11\SCH\rename.SWP")
-    (Backannotation_TAB "1"))
+    (Backannotation_TAB "1")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -127,19 +130,21 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\hy_sw3518s_v11.dsn")
       (Path "Design Resources" ".\hy_sw3518s_v11.dsn" "MAIN")
+      (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\hy_sw3518s_v11.dsn" "MAIN" "02 CHARGER"))
+      (Select "Design Resources" "Library"
+         "e:\onedrive\orcadcis\symbols\hyoc.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 928"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 287 0 871"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 156 1225 156 753")
-        (Scroll "1783 1737")
+        (Placement "44 0 1 -1 -1 5 28 5 1310 28 917")
+        (Scroll "1636 1636")
         (Zoom "288")
         (Occurrence "/"))
       (Path
@@ -246,4 +251,13 @@
       (LibraryName "E:\CADENCELIB\ORCAD\IC.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))

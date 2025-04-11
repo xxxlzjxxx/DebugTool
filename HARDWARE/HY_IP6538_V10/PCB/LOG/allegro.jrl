@@ -1,0 +1,34 @@
+\t (00:00:01) allegro 23.1 S003 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu May  9 11:35:00 2024
+\t (00:00:01)         Host=XXXLZJXXX-HY User=Administrator Pid=16904 CPUs=20
+\t (00:00:01) CmdLine= c:\cadence\spb_23.1\tools\bin\allegro.exe G:\github\DebugTool\HARDWARE\HY_IP6538_V10\PCB\HY_IP6538_V10.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:05) fillin yes 
+\d (00:00:05) Design opened: G:/github/DebugTool/HARDWARE/HY_IP6538_V10/PCB/HY_IP6538_V10.brd
+   (00:00:05) Loading cmds.cxt 
+\i (00:00:05) trapsize 15660
+\i (00:00:05) trapsize 16080
+\i (00:00:05) trapsize 16203
+\i (00:00:05) trapsize 15430
+\i (00:00:05) trapsize 15430
+\i (00:00:06) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 33.3069 20.7368
+\i (00:00:06) trapsize 7715
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 33.3068 20.7368
+\i (00:00:06) trapsize 3858
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 58.3809 11.6330
+\i (00:00:08) trapsize 1929
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 58.3809 11.6716
+\i (00:00:08) trapsize 964
+\i (00:00:10) exit 
+\t (00:00:10)     Journal end - Thu May  9 11:35:09 2024
