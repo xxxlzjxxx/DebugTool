@@ -1,0 +1,252 @@
+\t (00:00:01) allegro 24.1 S006 (4326263) [7/24/2025] Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Nov  7 15:17:12 2025
+\t (00:00:01)         Host=XXXLZJXXX-HY User=Administrator Pid=11008 CPUs=20
+\t (00:00:01) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe G:\github\DebugTool\HARDWARE\F103_ADS1220_V10_240810\PCB\F103_ADS1220_V10_240810.brd
+\t (00:00:01) 
+\t (00:00:01) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:06) fillin yes 
+\d (00:00:06) Design opened: G:/github/DebugTool/HARDWARE/F103_ADS1220_V10_240810/PCB/F103_ADS1220_V10_240810.brd
+\i (00:00:06) trapsize 3983
+\i (00:00:06) trapsize 4059
+\i (00:00:06) trapsize 4072
+\i (00:00:06) trapsize 4120
+\i (00:00:06) trapsize 4481
+\t (00:00:06) Loading NV GPU Plugin
+\i (00:00:06) generaledit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -5.3446 21.7020
+\i (00:00:09) trapsize 2241
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -3.3727 21.7916
+\i (00:00:09) trapsize 1120
+\i (00:00:11) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:12) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in 14.4185 17.5791
+\i (00:00:54) trapsize 560
+\i (00:01:03) prmed 
+\i (00:01:05) setwindow form.prmedit
+\i (00:01:05) FORM prmedit thru_via_labels NO 
+\i (00:01:05) FORM prmedit display_pin_nums YES 
+\i (00:01:06) FORM prmedit display_embed_via_net_names YES 
+\i (00:01:07) FORM prmedit done  
+\i (00:01:07) setwindow pcb
+\i (00:01:07) generaledit 
+\i (00:01:10) zoom in 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom in 12.3235 19.4502
+\i (00:01:10) trapsize 280
+\i (00:01:10) zoom in 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom in 12.5196 19.5566
+\i (00:01:10) trapsize 140
+\i (00:01:10) zoom in 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom in 12.5196 19.5566
+\i (00:01:10) trapsize 70
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out 12.4692 19.7947
+\i (00:01:11) trapsize 140
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out 12.4805 19.7919
+\i (00:01:11) trapsize 280
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out 12.4860 19.7863
+\i (00:01:11) trapsize 560
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 19.9811 15.3274
+\i (00:01:12) trapsize 1120
+\i (00:01:12) zoom in 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom in 18.4800 32.9615
+\i (00:01:12) trapsize 560
+\i (00:01:13) zoom out 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom out 14.3012 32.6254
+\i (00:01:13) trapsize 1120
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 9.7750 31.4604
+\i (00:01:14) trapsize 560
+\i (00:01:18) color192 
+\i (00:01:18) generaledit 
+\i (00:01:21) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:21) QtSignal CVPLayerGrid CVPBoxAllL03-vcc clicked true
+\i (00:01:22) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:22) QtSignal CVPLayerGrid CVPBoxAllL03-vcc clicked false
+\i (00:01:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:01:26) QtSignal CVDLayerTable VertHeader clickedCheckBox "Silkscreen_Bottom" 1
+\i (00:01:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:01:27) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 1
+\i (00:01:27) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 30 0
+\i (00:01:27) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:01:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:01:28) QtSignal 1
+\i (00:01:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 2
+\i (00:01:28) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:29) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:01:32) pick grid -2.1006 28.4018
+\t (00:01:32) last pick:  -2.1000 28.4000
+\i (00:01:32) pop bbdrill 
+\i (00:01:32) pop swap 
+\i (00:01:32) subclass bottom 
+\e (00:01:32) No match for subclass command, BOTTOM
+\i (00:01:32) trapsize 560
+\i (00:01:34) add connect 
+\t (00:01:34) Pick first element.
+\i (00:01:35) pop bbdrill 
+\i (00:01:35) pop swap 
+\t (00:01:35) Pick first element.
+\i (00:01:35) subclass bottom 
+\i (00:01:35) trapsize 560
+\i (00:01:35) updateport CVPane
+\i (00:01:36) zoom out 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom out 10.1447 29.3877
+\i (00:01:36) trapsize 1120
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 12.3630 31.0683
+\i (00:01:37) trapsize 560
+\i (00:01:38) flipdesign 
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in 16.5419 25.2873
+\i (00:01:39) trapsize 280
+\i (00:01:40) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in 16.3627 25.5058
+\i (00:01:40) trapsize 140
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 16.2899 26.4414
+\i (00:01:40) trapsize 280
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 16.2898 26.4413
+\i (00:01:40) trapsize 560
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 16.2899 26.4413
+\i (00:01:40) trapsize 1120
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 8.8957 21.2878
+\i (00:01:41) trapsize 560
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 8.8957 21.3102
+\i (00:01:41) trapsize 280
+\i (00:04:45) zoom out 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom out 6.1845 22.0664
+\i (00:04:45) trapsize 560
+\i (00:04:46) zoom in 1 
+\i (00:04:46) setwindow pcb
+\i (00:04:46) zoom in 13.8812 11.2552
+\i (00:04:46) trapsize 280
+\i (00:04:46) zoom in 1 
+\i (00:04:46) setwindow pcb
+\i (00:04:46) zoom in 13.6348 11.4289
+\i (00:04:46) trapsize 140
+\i (00:04:48) zoom out 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom out 13.2175 13.0030
+\i (00:04:48) trapsize 280
+\i (00:04:48) zoom in 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom in 13.3239 10.1629
+\i (00:04:48) trapsize 140
+\i (00:04:49) zoom out 1 
+\i (00:04:49) setwindow pcb
+\i (00:04:49) zoom out 14.0269 11.6586
+\i (00:04:49) trapsize 280
+\i (00:05:06) zoom out 1 
+\t (00:05:06) [15:22:17.003224] periodic Lic check successful
+[15:22:17.003224] Feature usage summary:
+[15:22:17.003224] Allegro_PCB_RF  
+[15:22:17.003224] Allegro_Venture_PCB_Designer  
+[15:22:17.003224] PCB_design_studio  
+[15:22:17.003224] Venture_PCB_Schematic  
+[15:22:17.003224] Allegro_Venture_PCB_Designer2  
+[15:22:17.003224] Allegro_X_Platinum_Layout  
+[15:22:17.016528]  Allegro_PCB_Productivity_TB  
+[15:22:17.399543]   Allegro_X_Advanced_PCB_Router  
+
+\i (00:05:06) setwindow pcb
+\i (00:05:06) zoom out 12.2344 11.0872
+\i (00:05:06) trapsize 560
+\i (00:05:06) zoom out 1 
+\i (00:05:06) setwindow pcb
+\i (00:05:06) zoom out 11.4614 11.1544
+\i (00:05:06) trapsize 1120
+\i (00:05:07) zoom in 1 
+\i (00:05:07) setwindow pcb
+\i (00:05:07) zoom in 2.4987 12.7901
+\i (00:05:07) trapsize 560
+\i (00:13:54) zoom in 1 
+\t (00:13:54) [15:31:05.003200] periodic Lic check successful
+[15:31:05.003200] Feature usage summary:
+[15:31:05.003200] Allegro_PCB_RF  
+[15:31:05.003200] Allegro_Venture_PCB_Designer  
+[15:31:05.003200] PCB_design_studio  
+[15:31:05.003200] Venture_PCB_Schematic  
+[15:31:05.003200] Allegro_Venture_PCB_Designer2  
+[15:31:05.003200] Allegro_X_Platinum_Layout  
+[15:31:05.016504]  Allegro_PCB_Productivity_TB  
+[15:31:05.399519]   Allegro_X_Advanced_PCB_Router  
+
+\i (00:13:54) setwindow pcb
+\i (00:13:54) zoom in 4.6722 10.7287
+\i (00:13:54) trapsize 280
+\i (00:13:54) zoom in 1 
+\i (00:13:54) setwindow pcb
+\i (00:13:54) zoom in 4.6722 10.7287
+\i (00:13:54) trapsize 140
+\i (00:14:22) zoom out 1 
+\i (00:14:22) setwindow pcb
+\i (00:14:22) zoom out 4.6750 10.7707
+\i (00:14:22) trapsize 280
+\i (00:14:22) zoom out 1 
+\i (00:14:22) setwindow pcb
+\i (00:14:22) zoom out 4.6526 10.7259
+\i (00:14:22) trapsize 560
+\i (00:14:22) zoom out 1 
+\i (00:14:22) setwindow pcb
+\i (00:14:22) zoom out 4.6527 10.7147
+\i (00:14:22) trapsize 1120
+\i (00:14:23) zoom in 1 
+\i (00:14:23) setwindow pcb
+\i (00:14:23) zoom in 2.3000 23.3971
+\i (00:14:23) trapsize 560
+\i (00:14:24) zoom in 1 
+\i (00:14:24) setwindow pcb
+\i (00:14:24) zoom in 2.2664 23.4083
+\i (00:14:24) trapsize 280
+\i (00:14:24) zoom out 1 
+\i (00:14:24) setwindow pcb
+\i (00:14:24) zoom out 2.2384 23.4139
+\i (00:14:24) trapsize 560
+\i (00:53:13) exit 
+\t (00:53:13) [16:10:23.003184] periodic Lic check successful
+[16:10:23.003184] Feature usage summary:
+[16:10:23.003184] Allegro_PCB_RF  
+[16:10:23.003184] Allegro_Venture_PCB_Designer  
+[16:10:23.003184] PCB_design_studio  
+[16:10:23.003184] Venture_PCB_Schematic  
+[16:10:23.003184] Allegro_Venture_PCB_Designer2  
+[16:10:23.003184] Allegro_X_Platinum_Layout  
+[16:10:23.016488]  Allegro_PCB_Productivity_TB  
+[16:10:23.399503]   Allegro_X_Advanced_PCB_Router  
+
+\e (00:53:13) Do you want to save the changes you made to F103_ADS1220_V10_240810.brd?
+\i (00:53:14) fillin no 
+\t (00:53:14)     Journal end - Fri Nov  7 16:10:25 2025

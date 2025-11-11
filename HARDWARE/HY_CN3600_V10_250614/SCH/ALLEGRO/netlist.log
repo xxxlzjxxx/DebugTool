@@ -1,0 +1,20 @@
+{ Using PSTWRITER 24.1.0 d001Jun-14-2025 at 13:39:51 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 02 CHARGER (43.18, 254.00). Connecting pin to net "GND".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 02 CHARGER (43.18, 271.78). Connecting pin to net "GND".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "MH3.1" ignored for MH3: MAIN, 02 CHARGER (22.86, 254.00). Connecting pin to net "GND".
+#4 WARNING(ORCAP-36006): Part Name "DC-044B-5A-2.0_DC-044B-5A-2R0_DC-044B-5A-2.0" is renamed to "DC-044B-5A-2.0_DC-044B-5A-2R0_D".
+#5 WARNING(ORCAP-36006): Part Name "BH-AAA-B5AA005_BH-AAA-B5AA005_BH-AAA-B5AA005" is renamed to "BH-AAA-B5AA005_BH-AAA-B5AA005_B".
+#6 WARNING(ORCAP-36006): Part Name "BH-AA-B5BA034_BH-AA-B5BA034_BH-AA-B5BA034" is renamed to "BH-AA-B5BA034_BH-AA-B5BA034_BH-".
+#7 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_1_L10040_FXL1040-220-M" is renamed to "IND_BEAD_0805_600OHM_1_L10040_F".
+#8 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CN3600_V10_250614\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CN3600_V10_250614\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CN3600_V10_250614\SCH\ALLEGRO\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CN3600_V10_250614\SCH\ALLEGRO\pstxnet.dat
+packaging the design view...

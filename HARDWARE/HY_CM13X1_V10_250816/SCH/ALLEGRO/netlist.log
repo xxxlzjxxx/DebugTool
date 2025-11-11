@@ -1,0 +1,15 @@
+{ Using PSTWRITER 24.1.0 d001Aug-22-2025 at 16:26:33 }
+
+#1 WARNING(ORCAP-36006): Part Name "CONN RCPT 7_0_HC-HA-7AWT_HC-HA-7AWT" is renamed to "CONN RCPT 7_0_HC-HA-7AWT_HC-HA-".
+#2 WARNING(ORCAP-36006): Part Name "SI4497DY-T1-GE3_2_DFN3X3_WSD3030DN33" is renamed to "SI4497DY-T1-GE3_2_DFN3X3_WSD303".
+#3 WARNING(ORCAP-36006): Part Name "R_GENERIC_0_R1206_100K " is renamed to "R_GENERIC_0_R1206_100K".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CM13X1_V10_250816\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CM13X1_V10_250816\SCH\ALLEGRO\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CM13X1_V10_250816\SCH\ALLEGRO\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_CM13X1_V10_250816\SCH\ALLEGRO\pstxnet.dat
+packaging the design view...

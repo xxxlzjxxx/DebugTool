@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[07/08/23]")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[07/08/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -128,8 +128,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\hy_sw3518s_v11.dsn")
-      (Path "Design Resources" ".\hy_sw3518s_v11.dsn" "MAIN")
+      (Path "Design Resources"
+         "G:\github\DebugTool\HARDWARE\HY_SW3518S_V11\SCH\hy_sw3518s_v11.dsn")
+      (Path "Design Resources"
+         "G:\github\DebugTool\HARDWARE\HY_SW3518S_V11\SCH\hy_sw3518s_v11.dsn"
+         "MAIN")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources" "Library"
@@ -138,14 +141,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 287 0 871"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 1231"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1310 28 917")
-        (Scroll "1636 1636")
-        (Zoom "288")
+        (Placement "44 0 1 -1 -1 5 28 5 2201 28 1277")
+        (Scroll "-235 -11")
+        (Zoom "103")
         (Occurrence "/"))
       (Path
          "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_SW3518S_V11\SCH\HY_SW3518S_V11.DSN")

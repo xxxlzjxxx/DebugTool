@@ -1,7 +1,7 @@
-{ Using PSTWRITER 23.1.0 d001Apr-11-2025 at 15:12:45 }
+{ Using PSTWRITER 23.1.0 d001Apr-18-2025 at 15:52:47 }
 
-#1 WARNING(ORCAP-36038): "No_connect" property on Pin "SW6.2" ignored for SW6: MAIN, 02 CHARGER (241.30, 33.02). Connecting pin to net "VBAT".
-#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.52" ignored for U2: MAIN, 02 CHARGER (76.20, 7.62). Connecting pin to net "DPC".
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "SW2.2" ignored for SW2: MAIN, 02 CHARGER (241.30, 33.02). Connecting pin to net "VBAT".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.52" ignored for U1: MAIN, 02 CHARGER (76.20, 7.62). Connecting pin to net "DPC".
 #3 WARNING(ORCAP-36006): Part Name "CAPT_100UF_3528_6R3V_10%_LXXXX_CAP-6R3X7R7-SMD_100UF_35V" is renamed to "CAPT_100UF_3528_6R3V_10%_LXXXX_".
 #4 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_1_L10040_FXL1040-100-M" is renamed to "IND_BEAD_0805_600OHM_1_L10040_F".
 #5 WARNING(ORCAP-36006): Part Name "SI4497DY-T1-GE3_2_DFN3X3_WSD4070DN" is renamed to "SI4497DY-T1-GE3_2_DFN3X3_WSD407".

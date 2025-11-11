@@ -1,0 +1,46 @@
+{ Using PSTWRITER 24.1.0 d001Nov-11-2025 at 16:31:34 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.7" ignored for J4: MAIN, 03 USBHUB (373.38, 205.74). Connecting pin to net "GND_EARTH".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.12" ignored for J4: MAIN, 03 USBHUB (373.38, 205.74). Connecting pin to net "VCC_3.3V_CH397A".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.9" ignored for J4: MAIN, 03 USBHUB (373.38, 205.74). Connecting pin to net "VCC_3.3V_CH397A".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.10" ignored for USB1: MAIN, 03 USBHUB (370.84, 53.34). Connecting pin to net "N17503759".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U26.8" ignored for U26: MAIN, 03 USBHUB (119.38, 25.40). Connecting pin to net "PWREN#".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.11" ignored for J4: MAIN, 03 USBHUB (373.38, 205.74). Connecting pin to net "N17459440".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "J4.10" ignored for J4: MAIN, 03 USBHUB (373.38, 205.74). Connecting pin to net "N17459522".
+#8 WARNING(ORCAP-36038): "No_connect" property on Pin "U26.25" ignored for U26: MAIN, 03 USBHUB (119.38, 25.40). Connecting pin to net "OVCUR1#".
+#9 WARNING(ORCAP-36038): "No_connect" property on Pin "U26.24" ignored for U26: MAIN, 03 USBHUB (119.38, 25.40). Connecting pin to net "OVCUR2#".
+#10 WARNING(ORCAP-36038): "No_connect" property on Pin "MH1.1" ignored for MH1: MAIN, 03 USBHUB (259.08, 259.08). Connecting pin to net "GND".
+#11 WARNING(ORCAP-36038): "No_connect" property on Pin "MH3.1" ignored for MH3: MAIN, 03 USBHUB (259.08, 276.86). Connecting pin to net "GND".
+#12 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 03 USBHUB (233.68, 259.08). Connecting pin to net "GND".
+#13 WARNING(ORCAP-36038): "No_connect" property on Pin "MH5.1" ignored for MH5: MAIN, 03 USBHUB (284.48, 276.86). Connecting pin to net "GND".
+#14 WARNING(ORCAP-36038): "No_connect" property on Pin "MH6.1" ignored for MH6: MAIN, 03 USBHUB (284.48, 259.08). Connecting pin to net "GND".
+#15 WARNING(ORCAP-36006): Part Name "CAPT_100UF_3528_6R3V_10%_LXXXX_CAP-2R5-6R3X7_470UF_6V3" is renamed to "CAPT_100UF_3528_6R3V_10%_LXXXX_".
+#16 WARNING(ORCAP-36006): Part Name "CONN RCPT 6_DB2ERC-2R54-6P-GN_DB2ERC-2.54-6P-GN" is renamed to "CONN RCPT 6_DB2ERC-2R54-6P-GN_D".
+#17 WARNING(ORCAP-36006): Part Name "CONN RCPT 4_CN1X4-2P54-Z_CN1X4-2P54-Z" is renamed to "CONN RCPT 4_CN1X4-2P54-Z_CN1X4-".
+#18 WARNING(ORCAP-36006): Part Name "CON_RJ45_1X8_F_RA_0_HR911105A_HR911105A" is renamed to "CON_RJ45_1X8_F_RA_0_HR911105A_H".
+#19 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_200MA_L0603_BLM18PG121SN1D" is renamed to "IND_BEAD_0805_600OHM_200MA_L060".
+#20 WARNING(ORCAP-36006): Part Name "FERRITE BEAD_L0603_BLM18PG121SN1D" is renamed to "FERRITE BEAD_L0603_BLM18PG121SN".
+#21 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_1_L0420_FXL0420-1R5-M" is renamed to "IND_BEAD_0805_600OHM_1_L0420_FX".
+#22 WARNING(ORCAP-36006): Part Name "TPD4E1U06DBVR_SOT363_TPD4E1U06DCKR" is renamed to "TPD4E1U06DBVR_SOT363_TPD4E1U06D".
+#23 WARNING(ORCAP-36006): Part Name "TPS63070RNMR_VQFN15-2R5X3R0X0R5_TPS63070RNMR" is renamed to "TPS63070RNMR_VQFN15-2R5X3R0X0R5".
+#24 WARNING(ORCAP-36006): Part Name "GL852GT_1_QFN28-5X5X0R5-3R2X3R2_CH334H" is renamed to "GL852GT_1_QFN28-5X5X0R5-3R2X3R2".
+#25 WARNING(ORCAP-36042): Pin "VDD33" is renamed to "VDD33#28" as visible power pin of same name already exists in Package GL852GT_1 , U26: MAIN, 03 USBHUB (119.38, 25.40).
+#26 WARNING(ORCAP-36042): Pin "VDD33" is renamed to "VDD33#14" as visible power pin of same name already exists in Package GL852GT_1 , U26: MAIN, 03 USBHUB (119.38, 25.40).
+#27 WARNING(ORCAP-36042): Pin "VDD33" is renamed to "VDD33#21" as visible power pin of same name already exists in Package GL852GT_1 , U26: MAIN, 03 USBHUB (119.38, 25.40).
+#28 WARNING(ORCAP-36006): Part Name "CH397A_QFN24-4X4X0R5-2R7X2R7_CH397A" is renamed to "CH397A_QFN24-4X4X0R5-2R7X2R7_CH".
+#29 WARNING(ORCAP-36006): Part Name "MAX3485ESA_0_SOIC8_SP3490EN-L/TR" is renamed to "MAX3485ESA_0_SOIC8_SP3490EN-L/T".
+#30 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+#31 WARNING(ORCAP-36006): Part Name "USB-A-DOUBLE_USB-A-DOUBLE_U224-081N-1BR61" is renamed to "USB-A-DOUBLE_USB-A-DOUBLE_U224-".
+#32 WARNING(ORCAP-36006): Part Name "TSX-3225_X-4P-3R2X2R5-SMD_X322525MSB4SI" is renamed to "TSX-3225_X-4P-3R2X2R5-SMD_X3225".
+#33 WARNING(ORCAP-36006): Part Name "TSX-3225_X-4P-3R2X2R5-SMD_X322512MSB4SI" is renamed to "TSX-3225_X-4P-3R2X2R5-SMD_X32_1".
+#34 WARNING(ORCAP-36006): Part Name "TSX-3225_X-4P-3R2X2R5-SMD_X32258MSB4SI" is renamed to "TSX-3225_X-4P-3R2X2R5-SMD_X32_2".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V30_251110\allegro\pstchip.dat
+
+Loading... G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V30_251110\allegro\pstchip.dat
+
+Loading... G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V30_251110\allegro\pstxprt.dat
+
+Loading... G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V30_251110\allegro\pstxnet.dat
+packaging the design view...

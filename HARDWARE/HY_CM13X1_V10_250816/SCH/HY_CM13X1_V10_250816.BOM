@@ -1,0 +1,29 @@
+HY_CM13X1_V10_250816  Revised: Thursday, August 21, 2025
+01 COVER          Revision: V10
+
+
+
+
+
+
+
+Bill Of Materials         August 22,2025      17:45:54	Page1
+
+Item	ERPcode	Part	Quantity	Reference	PCB Footprint	Description	Corporation	Type	Note
+______________________________________________
+
+1		10uF_25V	1	C1	C0805				
+2		100nF_50V	9	C2,C3,C4,C5,C6,C7,C8,C9,C10	C0603				
+3		B5819W SL	1	D1	SOD123				
+4		HC-HA-7AWT	1	J1	HC-HA-7AWT				
+5		BCX53-16	8	Q1,Q2,Q3,Q4,Q5,Q6,Q9,Q10	SOT89-3L	Plastic-Encapsulate Transistors	CJ	NPN	
+6		WSD3030DN33	4	Q7,Q8,Q11,Q12	DFN3X3				
+7		100R	14	R1,R2,R3,R4,R5,R20,R21,R22,R23,R24,R28,R29,R31,R32	R0805				
+8		100K 	1	R6	R1206				
+9		10M	3	R8,R26,R35	R0603				
+10		20K	1	R9	R0603				
+11		10mR	2	R10,R33	R2512				
+12		1K	11	R11,R12,R14,R15,R16,R17,R18,R25,R27,R30,R34	R0603				
+13		300K	1	R13	R0603				
+14		3M	1	R19	R0603				
+15		CM1351-LAT	1	U1	TSSOP16				

@@ -1,0 +1,151 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_TERM_IDENT!FUNC_CDS_FSP_INSTANCE_ID!FUNC_CDS_FSP_IS_FPGA!FUNC_CDS_FSP_UID!
+J!G:/github/DebugTool/HARDWARE/HY_UART_DBUG_V30_251110/hy_uart_dbug_v30_251110.brd!Tue Nov 11 16:31:33 2025!-1000.0000!-300.0000!1000.0000!4700.0000!0.0001!millimeters!HY_UART_DBUG_V30_251110!62.992126 mil!4!OUT OF DATE!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579077@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_100NF_50V!C13!.\chipsView.dat!!!!!!F141!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579101@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_100NF_50V!C3!.\chipsView.dat!!!!!!F140!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17578827@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_100NF_50V!C303!.\chipsView.dat!!!!!!F139!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579093@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_100NF_50V!C304!.\chipsView.dat!!!!!!F138!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579085@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_100NF_50V!C9!.\chipsView.dat!!!!!!F137!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558084@hy_lpmb_0s12_6753_v10a.\cap np_0.normal\(chips)!CAP NP_0_C0603_10UF_10V!C260!.\chipsView.dat!!!!!!F118!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17557963@hy_lpmb_0s12_6753_v10a.\cap np_0.normal\(chips)!CAP NP_0_C0603_10UF_10V!C279!.\chipsView.dat!!!!!!F117!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17578811@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_20PF_50V!C301!.\chipsView.dat!!!!!!F113!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17578819@mk60_zcyt_v11a.\cap np_3.normal\(chips)!CAP NP_3_C0402_20PF_50V!C302!.\chipsView.dat!!!!!!F112!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579900@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D1!.\chipsView.dat!!!!!!F108!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580025@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D10!.\chipsView.dat!!!!!!F107!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579875@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D12!.\chipsView.dat!!!!!!F106!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579950@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D13!.\chipsView.dat!!!!!!F105!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579975@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D14!.\chipsView.dat!!!!!!F104!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17589296@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D15!.\chipsView.dat!!!!!!F103!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579925@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D2!.\chipsView.dat!!!!!!F102!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579848@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D4!.\chipsView.dat!!!!!!F101!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17527528@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D5!.\chipsView.dat!!!!!!F100!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579393@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D6!.\chipsView.dat!!!!!!F99!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579341@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D7!.\chipsView.dat!!!!!!F98!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579368@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D8!.\chipsView.dat!!!!!!F97!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580000@f543_gps_v10a.\led_4.normal\(chips)!LED_4_LED0603_GREEN-0603!D9!.\chipsView.dat!!!!!!F96!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581347@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1210_SMD1210B010TF!F10!.\chipsView.dat!!!!!!F92!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581315@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1210_SMD1210B010TF!F4!.\chipsView.dat!!!!!!F91!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581414@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1210_SMD1210B010TF!F5!.\chipsView.dat!!!!!!F90!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581446@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1210_SMD1210B010TF!F7!.\chipsView.dat!!!!!!F89!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581216@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1210_SMD1210B010TF!F8!.\chipsView.dat!!!!!!F88!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581248@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1210_SMD1210B010TF!F9!.\chipsView.dat!!!!!!F87!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17594338@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1206_NSMD200-12V!F11!.\chipsView.dat!!!!!!F86!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17533973@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1206_NSMD200-12V!F3!.\chipsView.dat!!!!!!F85!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558045@ep_lf_orcad_library1.\ind_bead_0805_600ohm_200ma.convert\(chips)!IND_BEAD_0805_600OHM_200MA_L060!L17!.\chipsView.dat!!!!!!F80!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556340@omap3530_discrete.\ferrite bead.normal\(chips)!FERRITE BEAD_L0603_BLM18PG121SN!L18!.\chipsView.dat!!!!!!F79!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17592386@omap3530_discrete.\ferrite bead.normal\(chips)!FERRITE BEAD_L0603_BLM18PG121SN!L19!.\chipsView.dat!!!!!!F78!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556716@tronlong_sch_lib0.\resistor.normal\(chips)!RESISTOR_R0402__10K!R148!.\chipsView.dat!!!!!!F48!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17575892@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_56K!R156!.\chipsView.dat!!!!!!F47!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17576161@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_56K!R157!.\chipsView.dat!!!!!!F46!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17576289@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_56K!R158!.\chipsView.dat!!!!!!F45!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17576341@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_56K!R159!.\chipsView.dat!!!!!!F44!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581337@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0805_120R/NI!R17!.\chipsView.dat!!!!!!F40!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581436@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0805_120R/NI!R21!.\chipsView.dat!!!!!!F39!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581238@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0805_120R/NI!R27!.\chipsView.dat!!!!!!F38!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17503700@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_5.1K!R34!.\chipsView.dat!!!!!!F37!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17503764@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_5.1K!R37!.\chipsView.dat!!!!!!F36!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17468415@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R1206_1M!R5!.\chipsView.dat!!!!!!F31!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558034@imx6_jysp_zb_v10a.\testpoint_0.normal\(chips)!TESTPOINT_0_TP-0R75_TP/NI!TP37!.\chipsView.dat!!!!!!F27!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581278@ic.\pesd1can.normal\(chips)!PESD1CAN_SOT23-3_SDT23C15L02!U12!.\chipsView.dat!!!!!!F17!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581377@ic.\pesd1can.normal\(chips)!PESD1CAN_SOT23-3_SDT23C15L02!U7!.\chipsView.dat!!!!!!F16!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581476@ic.\pesd1can.normal\(chips)!PESD1CAN_SOT23-3_SDT23C15L02!U9!.\chipsView.dat!!!!!!F15!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556366@\tlt3_a40if-evm-a10-000-d\.\gl852gt_1.normal\(chips)!GL852GT_1_QFN28-5X5X0R5-3R2X3R2!U26!.\chipsView.dat!!!!!!F12!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17578578@ic.\ch344q.normal\(chips)!CH344Q_LQFP48-7X7X0R5_CH344Q!U4!.\chipsView.dat!!!!!!F11!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17557900@ic.\ch397a.normal\(chips)!CH397A_QFN24-4X4X0R5-2R7X2R7_CH!U47!.\chipsView.dat!!!!!!F10!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17574711@ic.\ch217k.normal\(chips)!CH217K_SOT23-6_CH217K!U50!.\chipsView.dat!!!!!!F9!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17576297@ic.\ch217k.normal\(chips)!CH217K_SOT23-6_CH217K!U51!.\chipsView.dat!!!!!!F8!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17455725@hyoc.\usb-a-double.normal\(chips)!USB-A-DOUBLE_USB-A-DOUBLE_U224-!USB2!.\chipsView.dat!!!!!!F4!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17433033@hyoc.\usb-b.normal\(chips)!USB-B_USB-B_U241-041N-1BR85-1!USB3!.\chipsView.dat!!!!!!F3!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17577276@alex_general_lib.\tsx-3225.normal\(chips)!TSX-3225_X-4P-3R2X2R5-SMD_X32_1!X2!.\chipsView.dat!!!!!!F1!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17578774@alex_general_lib.\tsx-3225.normal\(chips)!TSX-3225_X-4P-3R2X2R5-SMD_X32_2!X3!.\chipsView.dat!!!!!!F0!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17545834@connector.\conn rcpt 6.normal\(chips)!CONN RCPT 6_DB2ERC-2R54-6P-GN_D!J1!.\chipsView.dat!!!!!!F84!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17559475@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0402_100NF_50V!C300!.\chipsView.dat!!!!!!F116!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17470255@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0402_100NF_50V!C37!.\chipsView.dat!!!!!!F115!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17458075@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0402_100NF_50V!C5!.\chipsView.dat!!!!!!F114!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17468434@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C1206_1NF_2KV!C1!.\chipsView.dat!!!!!!F148!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556430@tronlong_sch_lib0.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C138!.\chipsView.dat!!!!!!F136!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580540@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C14!.\chipsView.dat!!!!!!F135!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556422@tronlong_sch_lib0.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C145!.\chipsView.dat!!!!!!F134!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556414@tronlong_sch_lib0.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C167!.\chipsView.dat!!!!!!F133!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558108@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C255!.\chipsView.dat!!!!!!F132!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558116@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C256!.\chipsView.dat!!!!!!F131!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558092@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C267!.\chipsView.dat!!!!!!F130!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17557984@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C278!.\chipsView.dat!!!!!!F129!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558100@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C299!.\chipsView.dat!!!!!!F128!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580463@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C305!.\chipsView.dat!!!!!!F127!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17549673@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C53!.\chipsView.dat!!!!!!F126!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17550276@discrete.\cap np.normal\(chips)!CAP NP_C0402_100NF_50V!C54!.\chipsView.dat!!!!!!F125!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17582606@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1206_NSMD200!F2!.\chipsView.dat!!!!!!F93!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17582493@xxxlzjxxx.\fuse.normal\(chips)!FUSE_FUSE1206_NSMD200!F1!.\chipsView.dat!!!!!!F94!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17470330@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)!IND_BEAD_0805_600OHM_1_L0420_FX!L5!.\chipsView.dat!!!!!!F76!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507528@damp_v10a.\inductor_0.normal\(chips)!INDUCTOR_0_L3015_SWPA3015S2R2NT!L4!.\chipsView.dat!!!!!!F77!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17542098@bcm95398r8g_ws_951219.\hold_1.normal\(chips)!HOLD_1_HOLE6R90X3R40_HOLE_M3/NI!MH4!.\chipsView.dat!!!!!!F72!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17542105@bcm95398r8g_ws_951219.\hold_1.normal\(chips)!HOLD_1_HOLE6R90X3R40_HOLE_M3/NI!MH1!.\chipsView.dat!!!!!!F75!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17542120@bcm95398r8g_ws_951219.\hold_1.normal\(chips)!HOLD_1_HOLE6R90X3R40_HOLE_M3/NI!MH2!.\chipsView.dat!!!!!!F74!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17542127@bcm95398r8g_ws_951219.\hold_1.normal\(chips)!HOLD_1_HOLE6R90X3R40_HOLE_M3/NI!MH3!.\chipsView.dat!!!!!!F73!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17542686@bcm95398r8g_ws_951219.\hold_1.normal\(chips)!HOLD_1_HOLE6R90X3R40_HOLE_M3/NI!MH6!.\chipsView.dat!!!!!!F70!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17542697@bcm95398r8g_ws_951219.\hold_1.normal\(chips)!HOLD_1_HOLE6R90X3R40_HOLE_M3/NI!MH5!.\chipsView.dat!!!!!!F71!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17578762@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_10K!R160!.\chipsView.dat!!!!!!F43!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580522@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_10K!R26!.\chipsView.dat!!!!!!F42!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17469818@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_10K!R47!.\chipsView.dat!!!!!!F41!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579892@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R1!.\chipsView.dat!!!!!!F69!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579867@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R10!.\chipsView.dat!!!!!!F68!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579385@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R11!.\chipsView.dat!!!!!!F67!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579333@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R12!.\chipsView.dat!!!!!!F66!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579992@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R15!.\chipsView.dat!!!!!!F65!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581369@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R16!.\chipsView.dat!!!!!!F64!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579360@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R161!.\chipsView.dat!!!!!!F63!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17589288@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R162!.\chipsView.dat!!!!!!F62!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580017@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R18!.\chipsView.dat!!!!!!F61!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581305@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R19!.\chipsView.dat!!!!!!F60!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579917@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R2!.\chipsView.dat!!!!!!F59!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581404@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R20!.\chipsView.dat!!!!!!F58!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579942@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R22!.\chipsView.dat!!!!!!F57!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17527520@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R6!.\chipsView.dat!!!!!!F50!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579840@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R9!.\chipsView.dat!!!!!!F49!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17458116@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R29!.\chipsView.dat!!!!!!F52!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17458163@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R32!.\chipsView.dat!!!!!!F51!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581270@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R28!.\chipsView.dat!!!!!!F53!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581206@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R25!.\chipsView.dat!!!!!!F54!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17579967@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R24!.\chipsView.dat!!!!!!F55!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17581468@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_2K!R23!.\chipsView.dat!!!!!!F56!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17471030@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_100K!R48!.\chipsView.dat!!!!!!F33!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17472010@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_100K!R49!.\chipsView.dat!!!!!!F32!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507644@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_100K!R44!.\chipsView.dat!!!!!!F34!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17471997@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_523K!R50!.\chipsView.dat!!!!!!F30!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507576@\emulation module\.\r_generic.normal\(chips)!R_GENERIC_R0402_453K!R43!.\chipsView.dat!!!!!!F35!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17553420@xxxlzjxxx.\testpoint.normal\(chips)!TESTPOINT_TP-0R75_TP/NI!TP2!.\chipsView.dat!!!!!!F28!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507486@xxxlzjxxx.\testpoint.normal\(chips)!TESTPOINT_TP-0R75_TP/NI!TP1!.\chipsView.dat!!!!!!F29!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507497@ic.\tlv62565dbvr.normal\(chips)!TLV62565DBVR_SOT23-5_TLV62565DB!U14!.\chipsView.dat!!!!!!F14!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17508885@ic.\lm66100dckr.normal\(chips)!LM66100DCKR_SC70-6_LM66100DCKR!U15!.\chipsView.dat!!!!!!F18!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17508974@ic.\lm66100dckr.normal\(chips)!LM66100DCKR_SC70-6_LM66100DCKR!U11!.\chipsView.dat!!!!!!F19!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580471@library1.\max3485esa.normal\(chips)!MAX3485ESA_SOIC8_SP3485EN-L/TR!U52!.\chipsView.dat!!!!!!F7!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17580554@mk60_a8_001.\max3485esa_0.normal\(chips)!MAX3485ESA_0_SOIC8_SP3490EN-L/T!U53!.\chipsView.dat!!!!!!F6!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17558151@alex_general_lib.\tsx-3225.normal\(chips)!TSX-3225_X-4P-3R2X2R5-SMD_X3225!X1!.\chipsView.dat!!!!!!F2!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17503708@connect.\type-c_16p.normal\(chips)!TYPE-C_16P_TYPE-C-31-M-12_TYPE-!USB1!.\chipsView.dat!!!!!!F5!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17590720@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)!CAPT_100UF_3528_6R3V_10%_LXXXX_!C306!.\chipsView.dat!!!!!!F111!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17483778@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)!CAPT_100UF_3528_6R3V_10%_LXXXX_!C46!.\chipsView.dat!!!!!!F110!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17483671@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)!CAPT_100UF_3528_6R3V_10%_LXXXX_!C47!.\chipsView.dat!!!!!!F109!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556406@tronlong_sch_lib0.\cap np.normal\(chips)!CAP NP_C0603_10UF_10V!C143!.\chipsView.dat!!!!!!F144!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17556532@tronlong_sch_lib0.\cap np.normal\(chips)!CAP NP_C0603_10UF_10V!C159!.\chipsView.dat!!!!!!F143!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507584@discrete.\cap np.normal\(chips)!CAP NP_C0603_10UF_10V!C17!.\chipsView.dat!!!!!!F142!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507598@discrete.\cap np.normal\(chips)!CAP NP_C0603_10UF_10V!C10!.\chipsView.dat!!!!!!F147!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507606@discrete.\cap np.normal\(chips)!CAP NP_C0603_10UF_10V!C11!.\chipsView.dat!!!!!!F146!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17507614@discrete.\cap np.normal\(chips)!CAP NP_C0603_10UF_10V!C12!.\chipsView.dat!!!!!!F145!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17469432@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0805_10UF_25V!C23!.\chipsView.dat!!!!!!F123!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17469230@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0805_10UF_25V!C24!.\chipsView.dat!!!!!!F122!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17469419@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0805_10UF_25V!C22!.\chipsView.dat!!!!!!F124!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17471698@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0805_22UF_10V!C25!.\chipsView.dat!!!!!!F121!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17470919@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0805_22UF_10V!C26!.\chipsView.dat!!!!!!F120!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17470906@mk60_ytai_v41b.\cap np_2.normal\(chips)!CAP NP_2_C0805_22UF_10V!C27!.\chipsView.dat!!!!!!F119!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17458085@zhzk_stm32_rs485_v10b.\con_rj45_1x8_f_ra_0.normal\(chips)!CON_RJ45_1X8_F_RA_0_HR911105A_H!J4!.\chipsView.dat!!!!!!F81!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17469162@ic.\tps63070rnmr.normal\(chips)!TPS63070RNMR_VQFN15-2R5X3R0X0R5!U16!.\chipsView.dat!!!!!!F13!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17560999@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U48!.\chipsView.dat!!!!!!F21!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17561215@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U49!.\chipsView.dat!!!!!!F20!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17582637@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U2!.\chipsView.dat!!!!!!F23!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17582524@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U1!.\chipsView.dat!!!!!!F26!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17466722@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U20!.\chipsView.dat!!!!!!F22!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17467702@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U19!.\chipsView.dat!!!!!!F24!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17467511@ic.\tpd4e1u06dbvr.normal\(chips)!TPD4E1U06DBVR_SOT363_TPD4E1U06D!U17!.\chipsView.dat!!!!!!F25!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17582508@connector.\conn rcpt 4.normal\(chips)!CONN RCPT 4_CN1X4-2P54-Z_CN1X4-!J2!.\chipsView.dat!!!!!!F83!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17582621@connector.\conn rcpt 4.normal\(chips)!CONN RCPT 4_CN1X4-2P54-Z_CN1X4-!J3!.\chipsView.dat!!!!!!F82!!!!!!!
+S!@hy_uart_dbug_v30_251110.main(sch_1):ins17468995@hyoc.\dc005.normal\(chips)!DC005_DC005_DC005!DC1!.\chipsView.dat!!!!!!F95!!!!!!!

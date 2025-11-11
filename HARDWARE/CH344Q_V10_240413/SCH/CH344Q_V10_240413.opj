@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[04/20/24]")
+  (SoftwareVersion "24.1 S006 (4326263)  [7/24/2025]-[04/20/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -128,19 +128,19 @@
       (Path "Design Resources")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\ch344q_v10_240413.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 895"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 302 0 1231"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 917")
-        (Scroll "304 0")
-        (Zoom "118")
+        (Placement "44 0 1 -1 -1 -1 -1 5 2212 28 1277")
+        (Scroll "-241 -11")
+        (Zoom "103")
         (Occurrence "/"))
       (Path
          "G:\GITHUB\DEBUGTOOL\HARDWARE\CH344Q_V10_240413\SCH\CH344Q_V10_240413.DSN")

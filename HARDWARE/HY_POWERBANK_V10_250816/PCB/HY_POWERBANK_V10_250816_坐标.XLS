@@ -1,0 +1,914 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Component Report</title></head>
+<body>
+<b><u>Design Name</u>&nbsp;G:/github/DebugTool/HARDWARE/HY_POWERBANK_V10_250816/PCB/HY_POWERBANK_V10_250816.brd</b><br>
+<b><u>Date</u>&nbsp;Sat Aug 16 13:36:32 2025</b><br>
+<b><u>Total Components: </b></u>&nbsp81<br><br><BODY>
+
+<table align=center border=1><caption><b><u>Component Report</u></b></caption>
+<tr>
+<td><b>REFDES</b></td>
+<td><b>COMP_DEVICE_TYPE</b></td>
+<td><b>COMP_VALUE</b></td>
+<td><b>COMP_TOL</b></td>
+<td><b>COMP_PACKAGE</b></td>
+<td><b>SYM_X</b></td>
+<td><b>SYM_Y</b></td>
+<td><b>SYM_ROTATE</b></td>
+<td><b>SYM_MIRROR</b></td>
+</tr>
+<tr>
+<td nowrap=true>C1</td>
+<td nowrap=true>CAP NP_2_C0603_2.2NF_50V</td>
+<td nowrap=true>2.2nF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0603</td>
+<td nowrap=true align=right>40.6000</td>
+<td nowrap=true align=right>38.0000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C2</td>
+<td nowrap=true>CAP NP_2_C0603_2.2NF_50V</td>
+<td nowrap=true>2.2nF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0603</td>
+<td nowrap=true align=right>59.2000</td>
+<td nowrap=true align=right>38.0000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C3</td>
+<td nowrap=true>CAP NP_2_C0402_1UF_25V</td>
+<td nowrap=true>1uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0402</td>
+<td nowrap=true align=right>37.3000</td>
+<td nowrap=true align=right>25.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C4</td>
+<td nowrap=true>CAP NP_2_C0402_1UF_25V</td>
+<td nowrap=true>1uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0402</td>
+<td nowrap=true align=right>62.6000</td>
+<td nowrap=true align=right>25.9000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C5</td>
+<td nowrap=true>CAPT_100UF_3528_6R3V_10%_LXXXX_</td>
+<td nowrap=true>100uF_35V</td>
+<td>&nbsp;</td>
+<td nowrap=true>CAP-6R3X7R7-SMD</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>24.4000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C6</td>
+<td nowrap=true>CAP NP_2_C0402_100NF_50V</td>
+<td nowrap=true>100nF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0402</td>
+<td nowrap=true align=right>45.0000</td>
+<td nowrap=true align=right>22.8000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C7</td>
+<td nowrap=true>CAP NP_2_C0402_100NF_50V</td>
+<td nowrap=true>100nF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0402</td>
+<td nowrap=true align=right>47.8000</td>
+<td nowrap=true align=right>22.8000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C8</td>
+<td nowrap=true>CAP NP_2_C0805_22UF_25V</td>
+<td nowrap=true>22uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0805</td>
+<td nowrap=true align=right>35.8000</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C9</td>
+<td nowrap=true>CAP NP_2_C0805_22UF_25V</td>
+<td nowrap=true>22uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0805</td>
+<td nowrap=true align=right>37.7000</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C10</td>
+<td nowrap=true>CAP NP_2_C0805_22UF_25V</td>
+<td nowrap=true>22uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0805</td>
+<td nowrap=true align=right>39.6000</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C11</td>
+<td nowrap=true>CAP NP_2_C0805_22UF_25V</td>
+<td nowrap=true>22uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0805</td>
+<td nowrap=true align=right>53.1000</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C12</td>
+<td nowrap=true>CAP NP_2_C0805_22UF_25V</td>
+<td nowrap=true>22uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0805</td>
+<td nowrap=true align=right>55.0000</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C13</td>
+<td nowrap=true>CAP NP_2_C0805_22UF_25V</td>
+<td nowrap=true>22uF_25V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0805</td>
+<td nowrap=true align=right>56.9000</td>
+<td nowrap=true align=right>21.6000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C14</td>
+<td nowrap=true>CAPT_100UF_3528_6R3V_10%_LXXXX_</td>
+<td nowrap=true>100uF_35V</td>
+<td>&nbsp;</td>
+<td nowrap=true>CAP-6R3X7R7-SMD</td>
+<td nowrap=true align=right>69.9000</td>
+<td nowrap=true align=right>19.9000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C15</td>
+<td nowrap=true>CAP NP_2_C0603_2.2UF_10V</td>
+<td nowrap=true>2.2uF_10V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0603</td>
+<td nowrap=true align=right>38.0000</td>
+<td nowrap=true align=right>18.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C16</td>
+<td nowrap=true>CAP NP_2_C0603_2.2UF_10V</td>
+<td nowrap=true>2.2uF_10V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0603</td>
+<td nowrap=true align=right>38.0000</td>
+<td nowrap=true align=right>17.3000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C17</td>
+<td nowrap=true>CAP NP_2_C1206_2.2UF_50V</td>
+<td nowrap=true>2.2uF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C1206</td>
+<td nowrap=true align=right>18.6000</td>
+<td nowrap=true align=right>16.5000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C18</td>
+<td nowrap=true>CAP NP_2_C1206_2.2UF_50V</td>
+<td nowrap=true>2.2uF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C1206</td>
+<td nowrap=true align=right>26.4000</td>
+<td nowrap=true align=right>16.5000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C19</td>
+<td nowrap=true>CAP NP_2_C1206_10UF_50V</td>
+<td nowrap=true>10uF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C1206</td>
+<td nowrap=true align=right>61.8000</td>
+<td nowrap=true align=right>14.8000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C20</td>
+<td nowrap=true>CAP NP_2_C1206_10UF_50V</td>
+<td nowrap=true>10uF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C1206</td>
+<td nowrap=true align=right>53.9280</td>
+<td nowrap=true align=right>12.5000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>C21</td>
+<td nowrap=true>CAP NP_2_C0402_100NF_50V</td>
+<td nowrap=true>100nF_50V</td>
+<td>&nbsp;</td>
+<td nowrap=true>C0402</td>
+<td nowrap=true align=right>43.3000</td>
+<td nowrap=true align=right>9.1000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D1</td>
+<td nowrap=true>P6SMB_3_SOD123_SMF30CA</td>
+<td nowrap=true>SMF30CA</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOD123</td>
+<td nowrap=true align=right>43.0000</td>
+<td nowrap=true align=right>24.4000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D2</td>
+<td nowrap=true>P6SMB_3_SOD123_SMF30CA</td>
+<td nowrap=true>SMF30CA</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOD123</td>
+<td nowrap=true align=right>49.8000</td>
+<td nowrap=true align=right>24.4000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D3</td>
+<td nowrap=true>DIODE13_9_SOD123_1N4148</td>
+<td nowrap=true>1N4148</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOD123</td>
+<td nowrap=true align=right>28.8000</td>
+<td nowrap=true align=right>16.5000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D4</td>
+<td nowrap=true>LED_2_LED-5R0X5R0_LED_GREEN</td>
+<td nowrap=true>LED_GREEN</td>
+<td>&nbsp;</td>
+<td nowrap=true>LED-5R0X5R0</td>
+<td nowrap=true align=right>17.2000</td>
+<td nowrap=true align=right>0.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D5</td>
+<td nowrap=true>LED_2_LED0805_LED_GREEN</td>
+<td nowrap=true>LED_GREEN</td>
+<td>&nbsp;</td>
+<td nowrap=true>LED0805</td>
+<td nowrap=true align=right>24.0000</td>
+<td nowrap=true align=right>0.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D6</td>
+<td nowrap=true>LED_2_LED0805_LED_GREEN</td>
+<td nowrap=true>LED_GREEN</td>
+<td>&nbsp;</td>
+<td nowrap=true>LED0805</td>
+<td nowrap=true align=right>29.0000</td>
+<td nowrap=true align=right>0.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D7</td>
+<td nowrap=true>LED_2_LED0805_LED_GREEN</td>
+<td nowrap=true>LED_GREEN</td>
+<td>&nbsp;</td>
+<td nowrap=true>LED0805</td>
+<td nowrap=true align=right>32.9000</td>
+<td nowrap=true align=right>0.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D8</td>
+<td nowrap=true>LED_2_LED0805_LED_GREEN</td>
+<td nowrap=true>LED_GREEN</td>
+<td>&nbsp;</td>
+<td nowrap=true>LED0805</td>
+<td nowrap=true align=right>36.8000</td>
+<td nowrap=true align=right>0.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>D9</td>
+<td nowrap=true>LED_2_LED0805_LED_GREEN</td>
+<td nowrap=true>LED_GREEN</td>
+<td>&nbsp;</td>
+<td nowrap=true>LED0805</td>
+<td nowrap=true align=right>40.7000</td>
+<td nowrap=true align=right>0.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>H1</td>
+<td nowrap=true>HOLE_HOLE6R90X4R20_SMTSO3040C_1</td>
+<td nowrap=true>SMTSO3040CTJ/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>HOLE6R90X4R20</td>
+<td nowrap=true align=right>6.2000</td>
+<td nowrap=true align=right>35.7000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>H2</td>
+<td nowrap=true>HOLE_HOLE6R90X4R20_SMTSO3040CTJ</td>
+<td nowrap=true>SMTSO3040CTJ</td>
+<td>&nbsp;</td>
+<td nowrap=true>HOLE6R90X4R20</td>
+<td nowrap=true align=right>14.2000</td>
+<td nowrap=true align=right>35.7000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>H3</td>
+<td nowrap=true>HOLE_HOLE6R90X4R20_SMTSO3040CTJ</td>
+<td nowrap=true>SMTSO3040CTJ</td>
+<td>&nbsp;</td>
+<td nowrap=true>HOLE6R90X4R20</td>
+<td nowrap=true align=right>24.2000</td>
+<td nowrap=true align=right>35.7000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>H4</td>
+<td nowrap=true>HOLE_HOLE6R90X4R20_SMTSO3040C_1</td>
+<td nowrap=true>SMTSO3040CTJ/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>HOLE6R90X4R20</td>
+<td nowrap=true align=right>80.3000</td>
+<td nowrap=true align=right>35.7000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>H5</td>
+<td nowrap=true>HOLE_HOLE6R90X4R20_SMTSO3040C_1</td>
+<td nowrap=true>SMTSO3040CTJ/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>HOLE6R90X4R20</td>
+<td nowrap=true align=right>6.2000</td>
+<td nowrap=true align=right>7.7000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>H6</td>
+<td nowrap=true>HOLE_HOLE6R90X4R20_SMTSO3040C_1</td>
+<td nowrap=true>SMTSO3040CTJ/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>HOLE6R90X4R20</td>
+<td nowrap=true align=right>80.3000</td>
+<td nowrap=true align=right>7.7000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>J1</td>
+<td nowrap=true>CONN RCPT 2X2_TR34070_TR34070</td>
+<td nowrap=true>TR34070</td>
+<td>&nbsp;</td>
+<td nowrap=true>TR34070</td>
+<td nowrap=true align=right>6.2000</td>
+<td nowrap=true align=right>10.2000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>J2</td>
+<td nowrap=true>CONN RCPT 2X2_TR34070_TR34070</td>
+<td nowrap=true>TR34070</td>
+<td>&nbsp;</td>
+<td nowrap=true>TR34070</td>
+<td nowrap=true align=right>80.3000</td>
+<td nowrap=true align=right>10.2000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>L1</td>
+<td nowrap=true>IND_BEAD_0805_600OHM_1_L13065_F</td>
+<td nowrap=true>FXL1360-100-M</td>
+<td>&nbsp;</td>
+<td nowrap=true>L13065</td>
+<td nowrap=true align=right>49.9000</td>
+<td nowrap=true align=right>33.0784</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q1</td>
+<td nowrap=true>SI4497DY-T1-GE3_2_DFN3X3_WSD303</td>
+<td nowrap=true>WSD3030DN33</td>
+<td>&nbsp;</td>
+<td nowrap=true>DFN3X3</td>
+<td nowrap=true align=right>33.4000</td>
+<td nowrap=true align=right>36.3000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q2</td>
+<td nowrap=true>SI4497DY-T1-GE3_2_DFN3X3_WSD303</td>
+<td nowrap=true>WSD3030DN33</td>
+<td>&nbsp;</td>
+<td nowrap=true>DFN3X3</td>
+<td nowrap=true align=right>66.5000</td>
+<td nowrap=true align=right>36.3000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q3</td>
+<td nowrap=true>SI4497DY-T1-GE3_2_DFN3X3_WSD303</td>
+<td nowrap=true>WSD3030DN33</td>
+<td>&nbsp;</td>
+<td nowrap=true>DFN3X3</td>
+<td nowrap=true align=right>33.4000</td>
+<td nowrap=true align=right>30.9000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q4</td>
+<td nowrap=true>SI4497DY-T1-GE3_2_DFN3X3_WSD303</td>
+<td nowrap=true>WSD3030DN33</td>
+<td>&nbsp;</td>
+<td nowrap=true>DFN3X3</td>
+<td nowrap=true align=right>66.5000</td>
+<td nowrap=true align=right>30.9000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q5</td>
+<td nowrap=true>MOS-P_0_SOT23-3_2N7002</td>
+<td nowrap=true>2N7002</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOT23-3</td>
+<td nowrap=true align=right>76.7000</td>
+<td nowrap=true align=right>19.3000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q6</td>
+<td nowrap=true>MOS-P_0_SOT23-3_2N7002</td>
+<td nowrap=true>2N7002</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOT23-3</td>
+<td nowrap=true align=right>80.3000</td>
+<td nowrap=true align=right>19.3000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q7</td>
+<td nowrap=true>MOS-P_SOT23-3_CJ3401A</td>
+<td nowrap=true>CJ3401A</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOT23-3</td>
+<td nowrap=true align=right>76.7000</td>
+<td nowrap=true align=right>15.6000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q8</td>
+<td nowrap=true>MOS-P_SOT23-3_CJ3401A</td>
+<td nowrap=true>CJ3401A</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOT23-3</td>
+<td nowrap=true align=right>80.3000</td>
+<td nowrap=true align=right>15.6000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q9</td>
+<td nowrap=true>SI4497DY-T1-GE3_2_DFN3X3_WSD303</td>
+<td nowrap=true>WSD3030DN33</td>
+<td>&nbsp;</td>
+<td nowrap=true>DFN3X3</td>
+<td nowrap=true align=right>58.5000</td>
+<td nowrap=true align=right>14.8000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>Q10</td>
+<td nowrap=true>SI4497DY-T1-GE3_2_DFN3X3_WSD303</td>
+<td nowrap=true>WSD3030DN33</td>
+<td>&nbsp;</td>
+<td nowrap=true>DFN3X3</td>
+<td nowrap=true align=right>65.1000</td>
+<td nowrap=true align=right>14.8000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R1</td>
+<td nowrap=true>R_GENERIC_R0603_2R</td>
+<td nowrap=true>2R</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>42.1000</td>
+<td nowrap=true align=right>38.0000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R2</td>
+<td nowrap=true>R_GENERIC_R0603_2R</td>
+<td nowrap=true>2R</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>57.7000</td>
+<td nowrap=true align=right>38.0000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R3</td>
+<td nowrap=true>R_GENERIC_0_CN1X2-2P54-Z_NTCG16</td>
+<td nowrap=true>NTCG163JF103FT1S</td>
+<td>&nbsp;</td>
+<td nowrap=true>CN1X2-2P54-Z</td>
+<td nowrap=true align=right>71.1000</td>
+<td nowrap=true align=right>37.2000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R4</td>
+<td nowrap=true>R_GENERIC_R0402_10R</td>
+<td nowrap=true>10R</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>35.7000</td>
+<td nowrap=true align=right>26.4000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R5</td>
+<td nowrap=true>R_GENERIC_R0402_10R</td>
+<td nowrap=true>10R</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>64.2000</td>
+<td nowrap=true align=right>26.3000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R6</td>
+<td nowrap=true>R_GENERIC_R1206_0R005</td>
+<td nowrap=true>0R005</td>
+<td>&nbsp;</td>
+<td nowrap=true>R1206</td>
+<td nowrap=true align=right>33.4000</td>
+<td nowrap=true align=right>25.9000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R7</td>
+<td nowrap=true>R_GENERIC_R1206_0R005</td>
+<td nowrap=true>0R005</td>
+<td>&nbsp;</td>
+<td nowrap=true>R1206</td>
+<td nowrap=true align=right>66.5000</td>
+<td nowrap=true align=right>25.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R8</td>
+<td nowrap=true>R_GENERIC_R0402_10K</td>
+<td nowrap=true>10K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>76.6000</td>
+<td nowrap=true align=right>22.3000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R9</td>
+<td nowrap=true>R_GENERIC_R0402_10K</td>
+<td nowrap=true>10K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>77.8000</td>
+<td nowrap=true align=right>22.3000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R10</td>
+<td nowrap=true>R_GENERIC_R0402_10K</td>
+<td nowrap=true>10K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>80.2000</td>
+<td nowrap=true align=right>22.3000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R11</td>
+<td nowrap=true>R_GENERIC_R0402_10K</td>
+<td nowrap=true>10K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>81.4000</td>
+<td nowrap=true align=right>22.3000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R12</td>
+<td nowrap=true>R_GENERIC_R0603_0R/NI</td>
+<td nowrap=true>0R/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>53.9280</td>
+<td nowrap=true align=right>17.3000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R13</td>
+<td nowrap=true>R_GENERIC_R0603_0R/NI</td>
+<td nowrap=true>0R/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>53.9280</td>
+<td nowrap=true align=right>15.9000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R14</td>
+<td nowrap=true>R_GENERIC_R0603_27K</td>
+<td nowrap=true>27K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>38.0280</td>
+<td nowrap=true align=right>15.8000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R15</td>
+<td nowrap=true>R_GENERIC_R0603_6.2K</td>
+<td nowrap=true>6.2K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>38.0280</td>
+<td nowrap=true align=right>14.4000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R16</td>
+<td nowrap=true>R_GENERIC_R0603_6.2K</td>
+<td nowrap=true>6.2K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>38.0280</td>
+<td nowrap=true align=right>13.0000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R17</td>
+<td nowrap=true>R_GENERIC_R0603_0R</td>
+<td nowrap=true>0R</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>38.0280</td>
+<td nowrap=true align=right>11.6000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R18</td>
+<td nowrap=true>R_GENERIC_R0603_3.6K</td>
+<td nowrap=true>3.6K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0603</td>
+<td nowrap=true align=right>38.0280</td>
+<td nowrap=true align=right>8.8000</td>
+<td nowrap=true align=right>180.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R19</td>
+<td nowrap=true>R_GENERIC_R0805_20R</td>
+<td nowrap=true>20R</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0805</td>
+<td nowrap=true align=right>16.6000</td>
+<td nowrap=true align=right>7.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R20</td>
+<td nowrap=true>R_GENERIC_R0402_10K</td>
+<td nowrap=true>10K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>18.2000</td>
+<td nowrap=true align=right>7.1000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R21</td>
+<td nowrap=true>R_GENERIC_R0402_1K</td>
+<td nowrap=true>1K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>23.0000</td>
+<td nowrap=true align=right>2.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R22</td>
+<td nowrap=true>R_GENERIC_R0402_1K</td>
+<td nowrap=true>1K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>28.0000</td>
+<td nowrap=true align=right>2.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R23</td>
+<td nowrap=true>R_GENERIC_R0402_1K</td>
+<td nowrap=true>1K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>31.9000</td>
+<td nowrap=true align=right>2.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R24</td>
+<td nowrap=true>R_GENERIC_R0402_1K</td>
+<td nowrap=true>1K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>35.8000</td>
+<td nowrap=true align=right>2.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>R25</td>
+<td nowrap=true>R_GENERIC_R0402_1K</td>
+<td nowrap=true>1K</td>
+<td>&nbsp;</td>
+<td nowrap=true>R0402</td>
+<td nowrap=true align=right>39.7000</td>
+<td nowrap=true align=right>2.9000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>SW1</td>
+<td nowrap=true>SWITCH-SPST-4P_SW-6X6X6-L_TS-10</td>
+<td nowrap=true>TS-1002N-06026</td>
+<td>&nbsp;</td>
+<td nowrap=true>SW-6X6X6-L</td>
+<td nowrap=true align=right>17.2000</td>
+<td nowrap=true align=right>4.5000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>U1</td>
+<td nowrap=true>AGM406MNQ_WQFN8-5X6_AGM406MNQ/N</td>
+<td nowrap=true>AGM406MNQ/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>WQFN8-5X6</td>
+<td nowrap=true align=right>38.3000</td>
+<td nowrap=true align=right>32.5000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>U2</td>
+<td nowrap=true>AGM406MNQ_WQFN8-5X6_AGM406MNQ/N</td>
+<td nowrap=true>AGM406MNQ/NI</td>
+<td>&nbsp;</td>
+<td nowrap=true>WQFN8-5X6</td>
+<td nowrap=true align=right>61.5000</td>
+<td nowrap=true align=right>32.5000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>U3</td>
+<td nowrap=true>AMS1117-3_0.3_SOT89-3L_ME6203A5</td>
+<td nowrap=true>ME6203A50PG</td>
+<td>&nbsp;</td>
+<td nowrap=true>SOT89-3L</td>
+<td nowrap=true align=right>22.5000</td>
+<td nowrap=true align=right>16.5000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>U4</td>
+<td nowrap=true>IP5389_QFN64-8X8X0R4-6R2X6R2_IP</td>
+<td nowrap=true>IP5389</td>
+<td>&nbsp;</td>
+<td nowrap=true>QFN64-8X8X0R4-6R2X6R2</td>
+<td nowrap=true align=right>46.4000</td>
+<td nowrap=true align=right>16.3000</td>
+<td nowrap=true align=right>90.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>USB1</td>
+<td nowrap=true>USB-A_U-A-24DS-W-2_U-A-24DS-W-2</td>
+<td nowrap=true>U-A-24DS-W-2</td>
+<td>&nbsp;</td>
+<td nowrap=true>U-A-24DS-W-2</td>
+<td nowrap=true align=right>65.3000</td>
+<td nowrap=true align=right>9.7000</td>
+<td nowrap=true align=right>270.000</td>
+<td nowrap=true>NO</td>
+</tr>
+<tr>
+<td nowrap=true>USB2</td>
+<td nowrap=true>TYPE-C_16P_TYPE-C-31-M-12_TYPE-</td>
+<td nowrap=true>TYPE-C-31-M-12</td>
+<td>&nbsp;</td>
+<td nowrap=true>TYPE-C-31-M-12</td>
+<td nowrap=true align=right>49.3000</td>
+<td nowrap=true align=right>6.3000</td>
+<td nowrap=true align=right>0.000</td>
+<td nowrap=true>NO</td>
+</tr>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,32 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_CDS_PINID!PIN_TERMINATION!PIN_TERM_IDENT!PIN_NET_SHORT!PIN_XNET_PINS!PIN_RKO_NUM_LAYERS!PIN_RKO_SHORT_SIDE_OVERSIZE!PIN_RKO_LONG_SIDE_OVERSIZE!
+J!G:/github/DebugTool/HARDWARE/V3MINIE_TO_DC3-10P_V10_251101/v3minie_to_dc3-10p_v10_251101.brd!Sat Nov  1 13:47:42 2025!-100.0000!-250.0000!408.0000!250.0000!0.0001!millimeters!V3MINIE_TO_DC3-10P_V10_251101!62.992126 mil!2!UP TO DATE!
+S!!J5!1!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!VCC_3.3V!J5!10!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!TDI/NC!J5!3!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!TMS/SWDIO!J5!5!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!CLK/SWCLK!J5!7!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!TDO/SWO!J5!9!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!GND!J5!2!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!T_VCP_RX!J5!4!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!T_VCP_TX!J5!6!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!NRST!J5!8!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17243104@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_4.normal\(chips)!CONN RCPT 5X2_4_CN2X5-2P54-Z_CN!!!F0!!!!!!!!!
+S!!J4!1!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!VCC_3.3V!J4!10!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!TMS/SWDIO!J4!3!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!TDO/SWO!J4!5!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!T_VCP_RX!J4!7!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!NRST!J4!9!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!TDI/NC!J4!2!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!CLK/SWCLK!J4!4!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!GND!J4!6!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!T_VCP_TX!J4!8!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17242519@\v3minie_to_dc3-10p_v10_251101\.\conn rcpt 5x2_2.normal\(chips)!CONN RCPT 5X2_2_CN2X5-2P00-V-SM!!!F1!!!!!!!!!
+S!SWCLK!J2!3!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!SWDIO!J2!1!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!GND!J2!9!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!!J2!6!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!!J2!8!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!NRST!J2!2!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!T_VCP_RX!J2!7!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!T_VCP_TX!J2!5!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!VCC_3.3V!J2!10!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!
+S!!J2!4!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):ins17238125@hyoc.\dc3-10p-z-l.normal\(chips)!DC3-10P-Z-L_DC3-10P-Z-L_DC3-10P!!!F2!!!!!!!!!

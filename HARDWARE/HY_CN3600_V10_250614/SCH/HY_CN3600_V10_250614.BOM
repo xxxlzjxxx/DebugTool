@@ -1,0 +1,28 @@
+HY_CN3600_V10_250614  Revised: Saturday, June 14, 2025
+01 COVER          Revision: V10
+
+
+
+
+
+
+
+Bill Of Materials           June 14,2025      15:43:45	Page1
+
+Item	ERPcode	Part	Quantity	Reference	PCB Footprint	Description	Corporation	Type	Note
+______________________________________________
+
+1		10uF_10V	4	C1,C2,C3,C4	C0603				
+2		100nF_50V	1	C5	C0402				
+3		1uF_50V	1	C6	C0603				
+4		SS56F	2	D1,D4	SMAF				
+5		LED_GREEN	2	D2,D3	LED0603				
+6		0469005.WR	1	F1	FUSE1206				
+7		BH-AA-B5BA034	2	J1,J4	BH-AA-B5BA034				
+8		BH-AAA-B5AA005	2	J2,J5	BH-AAA-B5AA005				
+9		DC-044B-5A-2.0	1	J3	DC-044B-5A-2R0				
+10		FXL1040-220-M	1	L1	L10040				
+11		HOLE-M3/NI	4	MH1,MH2,MH3,MH4	HOLE6R90X3R40				NI
+12		4.7K	4	R1,R2,R3,R4	R0402				
+13		TYPE-C-31-M-12	1	USB1	TYPE-C-31-M-12				
+14		CN3600	1	U1	SOIC8-3R50X2R50				

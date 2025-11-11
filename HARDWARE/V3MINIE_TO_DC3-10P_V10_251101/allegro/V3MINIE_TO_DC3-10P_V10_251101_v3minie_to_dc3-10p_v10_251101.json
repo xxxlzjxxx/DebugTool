@@ -1,0 +1,33 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "VCC_3.3V",
+			"C_PATH" : "@\\v3minie_to_dc3-10p_v10_251101\\.main(sch_1):\\vcc_3.3v\\",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "3.3 V"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@\\v3minie_to_dc3-10p_v10_251101\\.main(sch_1):gnd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "J2.6",
+			"C_PATH" : "@\\v3minie_to_dc3-10p_v10_251101\\.main(sch_1):ins17238125@hyoc.\\dc3-10p-z-l.normal\\(chips):REV1",
+			"Logical" : "TDO\/SWO",
+			"Physical" : "NC"
+		}
+	]
+}

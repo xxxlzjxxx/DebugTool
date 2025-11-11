@@ -1,0 +1,74 @@
+\t (00:00:05) allegro 24.1 S006 (4326263) [7/24/2025] Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Thu Aug 28 19:07:31 2025
+\t (00:00:05)         Host=XXXLZJXXX-HY User=Administrator Pid=20184 CPUs=20
+\t (00:00:05) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe G:\github\DebugTool\HARDWARE\HY_CM13X1_V10_250816\PCB\HY_CM13X1_V10_250816.brd
+\t (00:00:05) 
+\t (00:00:05) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: G:/github/DebugTool/HARDWARE/HY_CM13X1_V10_250816/PCB/HY_CM13X1_V10_250816.brd
+\i (00:00:06) trapsize 6477
+\i (00:00:06) trapsize 6708
+\i (00:00:06) trapsize 6748
+\i (00:00:06) trapsize 6899
+\i (00:00:06) trapsize 6899
+\i (00:00:06) trapsize 3623
+\i (00:00:06) generaledit 
+\i (00:00:07) pick grid 23.5911 -48.7757
+\t (00:00:07) last pick:  23.6000 -48.8000
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 48.8086 -62.0366
+\i (00:00:07) trapsize 7246
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 11.5620 45.3551
+\i (00:00:08) trapsize 3623
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 11.4895 42.4566
+\i (00:00:08) trapsize 1812
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 44.0260 18.4710
+\i (00:00:10) trapsize 3623
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 23.4461 56.5872
+\i (00:00:12) trapsize 1812
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 29.9678 52.7104
+\i (00:00:13) trapsize 906
+\i (00:00:57) pick grid 27.2866 37.1306
+\t (00:00:57) last pick:  27.3000 37.1000
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 27.2504 46.4785
+\i (00:00:57) trapsize 1812
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 21.7794 31.6595
+\i (00:00:58) trapsize 906
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 21.8156 31.6052
+\i (00:00:58) trapsize 453
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 21.8065 33.9603
+\i (00:01:04) trapsize 906
+\i (00:01:05) pick grid 29.9407 35.9893
+\t (00:01:05) last pick:  29.9000 36.0000
+\i (01:16:36) exit 
+\t (01:16:37) [20:24:03.003168] periodic Lic check successful
+[20:24:03.003168] Feature usage summary:
+[20:24:03.003168] Allegro_PCB_RF  
+[20:24:03.003168] Allegro_Venture_PCB_Designer  
+[20:24:03.003168] PCB_design_studio  
+[20:24:03.003168] Venture_PCB_Schematic  
+[20:24:03.003168] Allegro_Venture_PCB_Designer2  
+[20:24:03.003168] Allegro_X_Platinum_Layout  
+[20:24:03.016472]  Allegro_PCB_Productivity_TB  
+[20:24:03.399487]   Allegro_X_Advanced_PCB_Router  
+
+\t (01:16:37)     Journal end - Thu Aug 28 20:24:03 2025

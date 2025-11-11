@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[01/11/23]")
+  (SoftwareVersion "24.1 S006 (4326263)  [7/24/2025]-[01/11/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -106,7 +106,8 @@
     (GATE_&_PIN_SWAP_Scope "0")
     (GATE_&_PIN_SWAP_File_Name
        "G:\github\MBED-TOOLS\HARDWARE\HY_UART_DBUG_V20_230103\SCH\rename.SWP")
-    (Backannotation_TAB "1"))
+    (Backannotation_TAB "1")
+    (Display_Online_DRC_Results "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\hy_uart_dbug_v20_230103.drc"
@@ -126,16 +127,30 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\hy_uart_dbug_v20_230103.dsn")
-      (Path "Design Resources" ".\hy_uart_dbug_v20_230103.dsn" "MAIN")
+      (Path "Design Resources"
+         "G:\github\DebugTool\HARDWARE\HY_UART_DBUG_V20_230103\SCH\hy_uart_dbug_v20_230103.dsn")
+      (Path "Design Resources"
+         "G:\github\DebugTool\HARDWARE\HY_UART_DBUG_V20_230103\SCH\hy_uart_dbug_v20_230103.dsn"
+         "MAIN")
       (Path "Design Resources" "Library")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 350 0 1231"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 302 0 1231"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 2212 28 1277")
+        (Scroll "868 320")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V20_230103\SCH\HY_UART_DBUG_V20_230103.DSN")
+      (Schematic "MAIN")
+      (Page "04 IO")))
   (PartMRUSelector
     ("CONN RCPT 6"
       (FullPartName "CONN RCPT 6.Normal")

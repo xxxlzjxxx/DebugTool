@@ -1,0 +1,5 @@
+Name,Type,Page,Page Number,Schematic,PartPin,LocationX,LocationY,Zone,IREF
+"HUB4_DM","OffPage","04 IO","4","MAIN","U4.42","420","170","4D","{3}"
+"HUB4_DM","OffPage","03 USBHUB","3","MAIN","U26.15","690","110","3D","{4}"
+"HUB4_DP","OffPage","04 IO","4","MAIN","U4.43","420","160","4D","{3}"
+"HUB4_DP","OffPage","03 USBHUB","3","MAIN","U26.16","690","100","3D","{4}"

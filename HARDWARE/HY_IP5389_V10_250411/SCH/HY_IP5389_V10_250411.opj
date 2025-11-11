@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[04/11/25]")
+  (SoftwareVersion "23.1 S006 (4221051)  [7/26/2024]-[04/18/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -87,7 +87,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "G:\github\MBED-TOOLS\HARDWARE\HY_SW3518S_V11\SCH\HY_SW3518S_V11.BOM")
+       "G:\github\DebugTool\HARDWARE\HY_IP5389_V10_250411\SCH\HY_IP5389_V10_250411.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{ERPcode}\t{Value}\t{Quantity}\t{Reference}\t{PCB Footprint}\t{Description}\t{Corporation}\t{Type}\t{Note}")
@@ -143,30 +143,28 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\hy_ip5389_v10_250411.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "G:\github\DebugTool\HARDWARE\HY_IP5389_V10_250411\SCH\hy_ip5389_v10_250411.dsn")
-      (Path "Design Resources"
-         "G:\github\DebugTool\HARDWARE\HY_IP5389_V10_250411\SCH\hy_ip5389_v10_250411.dsn"
-         "MAIN")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\hy_ip5389_v10_250411.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 340 0 895"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 291 0 1231"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1534 28 917")
-        (Scroll "0 207")
-        (Zoom "105")
+        (Placement "44 2 3 -1 -1 5 28 5 1946 28 1277")
+        (Scroll "339 5")
+        (Zoom "144")
         (Occurrence "/"))
       (Path
          "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_IP5389_V10_250411\SCH\HY_IP5389_V10_250411.DSN")

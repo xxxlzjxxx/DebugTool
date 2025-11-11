@@ -1,0 +1,13 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_VOLTAGE!
+J!G:/github/DebugTool/HARDWARE/V3MINIE_TO_DC3-10P_V10_251101/v3minie_to_dc3-10p_v10_251101.brd!Sat Nov  1 13:47:42 2025!-100.0000!-250.0000!408.0000!250.0000!0.0001!millimeters!V3MINIE_TO_DC3-10P_V10_251101!62.992126 mil!2!UP TO DATE!
+S!TDI/NC!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):\tdi/nc\!!
+S!TMS/SWDIO!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):\tms/swdio\!!
+S!CLK/SWCLK!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):\clk/swclk\!!
+S!TDO/SWO!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):\tdo/swo\!!
+S!SWCLK!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):swclk!!
+S!SWDIO!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):swdio!!
+S!NRST!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):nrst!!
+S!VCC_3.3V!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):\vcc_3.3v\!3.3 V!
+S!T_VCP_RX!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):t_vcp_rx!!
+S!T_VCP_TX!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):t_vcp_tx!!
+S!GND!@\v3minie_to_dc3-10p_v10_251101\.main(sch_1):gnd!0 V!

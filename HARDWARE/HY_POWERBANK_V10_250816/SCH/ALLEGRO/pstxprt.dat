@@ -1,0 +1,1144 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 24.1.0 d001Aug-16-2025 at 11:41:44 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HY_POWERBANK_V10_250816';
+ POST_TIME='Jul 24 2025 22:28:05';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C10 'CAP NP_2_C0805_22UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17597294@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17597294@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17597294@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,550)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(150,550,170,560)',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_2_C0805_22UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17597189@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17597189@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17597189@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(110,550)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(110,550,130,560)',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_2_C0805_22UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17596826@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17596826@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17596826@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(70,550)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(70,550,90,560)',
+ SECTION='';
+
+PART_NAME
+ C13 'CAPT_100UF_3528_6R3V_10%_LXXXX_':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17600876@EP_LF_ORCAD_LIBRARY1.CAPT_100UF_3528_6R3V_10%_LXXXX.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17600876@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17600876@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(590,550)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(590,550,610,560)',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP NP_2_C0805_22UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17601006@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17601006@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17601006@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,550)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(710,550,730,560)',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_2_C0805_22UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17600998@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17600998@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17600998@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(670,550)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(670,550,690,560)',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_2_C0805_22UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17600990@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17600990@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17600990@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(630,550)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(630,550,650,560)',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_2_C0402_1UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599848@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599848@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599848@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(540,470)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(540,470,550,490)',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_2_C0603_2.2NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599329@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599329@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599329@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(420,680)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(420,680,440,690)',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_2_C0603_2.2NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599197@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599197@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599197@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(340,680)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(340,680,360,690)',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP NP_2_C0402_1UF_25V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17562022@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17562022@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17562022@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(230,470)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(230,470,240,490)',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17600213@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17600213@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17600213@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,310)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(240,310,250,330)',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17600179@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17600179@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17600179@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,260)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(240,260,250,280)',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP NP_2_C1206_2.2UF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17648038@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17648038@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17648038@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(590,1120)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(590,1120,610,1130)',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP NP_2_C1206_2.2UF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17648025@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17648025@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17648025@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(640,1120)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(640,1120,660,1130)',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP NP_2_C0603_2.2UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17609725@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17609725@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17609725@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,380)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(520,380,540,390)',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP NP_2_C0603_2.2UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17609797@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17609797@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17609797@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,380)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(560,380,580,390)',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP NP_2_C1206_10UF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17579395@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17579395@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17579395@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,950)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(210,950,230,960)',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_2_C1206_10UF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17634774@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17634774@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17634774@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,1090)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(200,1090,220,1100)',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17605942@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17605942@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17605942@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(630,60)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(630,60,640,80)',
+ SECTION='';
+
+PART_NAME
+ C9 'CAPT_100UF_3528_6R3V_10%_LXXXX_':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17597397@EP_LF_ORCAD_LIBRARY1.CAPT_100UF_3528_6R3V_10%_LXXXX.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17597397@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17597397@ep_lf_orcad_library1.\capt_100uf_3528_6r3v_10%_lxxxx.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(190,550)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(190,550,210,560)',
+ SECTION='';
+
+PART_NAME
+ D10 'LED_2_LED0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17608629@HY_IP5328_TEST_V10A.LED_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17608629@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17608629@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,330)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,330,690,350)',
+ SECTION='';
+
+PART_NAME
+ D2 'P6SMB_3_SOD123_SMF30CA':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17600256@YJ_VCU_H743_V10_240831.P6SMB_3.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17600256@yj_vcu_h743_v10_240831.\p6smb_3.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17600256@yj_vcu_h743_v10_240831.\p6smb_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(260,380)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(260,380,280,400)',
+ SECTION='';
+
+PART_NAME
+ D3 'P6SMB_3_SOD123_SMF30CA':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599687@YJ_VCU_H743_V10_240831.P6SMB_3.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599687@yj_vcu_h743_v10_240831.\p6smb_3.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599687@yj_vcu_h743_v10_240831.\p6smb_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(300,380)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(300,380,320,400)',
+ SECTION='';
+
+PART_NAME
+ D4 'DIODE13_9_SOD123_1N4148':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17647946@ZHZK_DTU_F103VE_V10A.DIODE13_9.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17647946@zhzk_dtu_f103ve_v10a.\diode13_9.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17647946@zhzk_dtu_f103ve_v10a.\diode13_9.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(680,1090)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(680,1090,700,1110)',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_2_LED-5R0X5R0_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17611491@HY_IP5328_TEST_V10A.LED_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17611491@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17611491@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,420)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,420,690,440)',
+ SECTION='';
+
+PART_NAME
+ D6 'LED_2_LED0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606946@HY_IP5328_TEST_V10A.LED_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606946@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606946@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,240)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,240,690,260)',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_2_LED0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606906@HY_IP5328_TEST_V10A.LED_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606906@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606906@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,210)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,210,690,230)',
+ SECTION='';
+
+PART_NAME
+ D8 'LED_2_LED0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606866@HY_IP5328_TEST_V10A.LED_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606866@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606866@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,180)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,180,690,200)',
+ SECTION='';
+
+PART_NAME
+ D9 'LED_2_LED0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17571165@HY_IP5328_TEST_V10A.LED_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17571165@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17571165@hy_ip5328_test_v10a.\led_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,150)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,150,690,170)',
+ SECTION='';
+
+PART_NAME
+ H1 'HOLE_HOLE6R90X4R20_SMTSO3040CTJ':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17663448@OMAP3530_DISCRETE.HOLE.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17663448@omap3530_discrete.\hole.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17663448@omap3530_discrete.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(700,470)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(700,470,740,510)',
+ SECTION='';
+
+PART_NAME
+ H2 'HOLE_HOLE6R90X4R20_SMTSO3040CTJ':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17663457@OMAP3530_DISCRETE.HOLE.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17663457@omap3530_discrete.\hole.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17663457@omap3530_discrete.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(700,610)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(700,610,740,650)',
+ SECTION='';
+
+PART_NAME
+ H3 'HOLE_HOLE6R90X4R20_SMTSO3040C_1':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17665755@OMAP3530_DISCRETE.HOLE.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17665755@omap3530_discrete.\hole.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17665755@omap3530_discrete.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(40,60)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(40,60,80,100)',
+ SECTION='';
+
+PART_NAME
+ H4 'HOLE_HOLE6R90X4R20_SMTSO3040C_1':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17665918@OMAP3530_DISCRETE.HOLE.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17665918@omap3530_discrete.\hole.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17665918@omap3530_discrete.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(120,60)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(120,60,160,100)',
+ SECTION='';
+
+PART_NAME
+ H5 'HOLE_HOLE6R90X4R20_SMTSO3040C_1':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17666088@OMAP3530_DISCRETE.HOLE.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17666088@omap3530_discrete.\hole.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17666088@omap3530_discrete.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(40,150)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(40,150,80,190)',
+ SECTION='';
+
+PART_NAME
+ H6 'HOLE_HOLE6R90X4R20_SMTSO3040C_1':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17666094@OMAP3530_DISCRETE.HOLE.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17666094@omap3530_discrete.\hole.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17666094@omap3530_discrete.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(120,150)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(120,150,160,190)',
+ SECTION='';
+
+PART_NAME
+ J1 'CONN RCPT 2X2_TR34070_TR34070':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17667332@CONNECTOR.CONN RCPT 2X2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17667332@connector.\conn rcpt 2x2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17667332@connector.\conn rcpt 2x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(90,270)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(90,270,120,300)',
+ SECTION='';
+
+PART_NAME
+ J2 'CONN RCPT 2X2_TR34070_TR34070':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17667349@CONNECTOR.CONN RCPT 2X2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17667349@connector.\conn rcpt 2x2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17667349@connector.\conn rcpt 2x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(90,320)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(90,320,120,350)',
+ SECTION='';
+
+PART_NAME
+ L1 'IND_BEAD_0805_600OHM_1_L13065_F':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17558484@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17558484@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17558484@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(370,620)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(370,620,410,630)',
+ SECTION='';
+
+PART_NAME
+ Q10 'MOS-P_0_SOT23-3_2N7002':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650049@F247_POWE_V12C.MOS-P_0.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650049@f247_powe_v12c.\mos-p_0.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650049@f247_powe_v12c.\mos-p_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(870,1060)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(870,1060,900,1100)',
+ SECTION='';
+
+PART_NAME
+ Q11 'MOS-P_SOT23-3_CJ3401A':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650587@IC.MOS-P.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650587@ic.\mos-p.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650587@ic.\mos-p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1110,990)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(1110,990,1150,1020)',
+ SECTION='';
+
+PART_NAME
+ Q12 'MOS-P_SOT23-3_CJ3401A':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650023@IC.MOS-P.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650023@ic.\mos-p.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650023@ic.\mos-p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(880,990)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(880,990,920,1020)',
+ SECTION='';
+
+PART_NAME
+ Q13 'SI4497DY-T1-GE3_2_DFN3X3_WSD303':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17575246@HY_IP5328_TEST_V10B.SI4497DY-T1-GE3_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17575246@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17575246@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(100,920)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(100,920,160,970)',
+ SECTION='';
+
+PART_NAME
+ Q14 'SI4497DY-T1-GE3_2_DFN3X3_WSD303':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17635093@HY_IP5328_TEST_V10B.SI4497DY-T1-GE3_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17635093@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17635093@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(100,1060)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(100,1060,160,1110)',
+ SECTION='';
+
+PART_NAME
+ Q15 'SI4497DY-T1-GE3_2_DFN3X3_WSD303':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17663639@HY_IP5328_TEST_V10B.SI4497DY-T1-GE3_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17663639@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17663639@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,740)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(560,740,610,800)',
+ SECTION='';
+
+PART_NAME
+ Q16 'SI4497DY-T1-GE3_2_DFN3X3_WSD303':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17663664@HY_IP5328_TEST_V10B.SI4497DY-T1-GE3_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17663664@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17663664@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,840)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(560,840,610,900)',
+ SECTION='';
+
+PART_NAME
+ Q17 'SI4497DY-T1-GE3_2_DFN3X3_WSD303':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17664521@HY_IP5328_TEST_V10B.SI4497DY-T1-GE3_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17664521@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17664521@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(720,740)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(720,740,770,800)',
+ SECTION='';
+
+PART_NAME
+ Q18 'SI4497DY-T1-GE3_2_DFN3X3_WSD303':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17664550@HY_IP5328_TEST_V10B.SI4497DY-T1-GE3_2.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17664550@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17664550@hy_ip5328_test_v10b.\si4497dy-t1-ge3_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(720,840)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(720,840,770,900)',
+ SECTION='';
+
+PART_NAME
+ Q9 'MOS-P_0_SOT23-3_2N7002':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650629@F247_POWE_V12C.MOS-P_0.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650629@f247_powe_v12c.\mos-p_0.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650629@f247_powe_v12c.\mos-p_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1100,1060)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1100,1060,1130,1100)',
+ SECTION='';
+
+PART_NAME
+ R27 'R_GENERIC_R1206_0R005':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599877@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599877@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599877@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,520)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(530,520,560,540)',
+ SECTION='';
+
+PART_NAME
+ R28 'R_GENERIC_R1206_0R005':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17559290@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17559290@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17559290@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(220,520)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(220,520,250,540)',
+ SECTION='';
+
+PART_NAME
+ R29 'R_GENERIC_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599869@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599869@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599869@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(510,490)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(510,490,530,520)',
+ SECTION='';
+
+PART_NAME
+ R30 'R_GENERIC_R0603_2R':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599321@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599321@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599321@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(420,640)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(420,640,440,670)',
+ SECTION='';
+
+PART_NAME
+ R31 'R_GENERIC_R0603_2R':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17599285@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17599285@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17599285@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(340,640)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(340,640,360,670)',
+ SECTION='';
+
+PART_NAME
+ R32 'R_GENERIC_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17597720@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17597720@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17597720@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(250,490)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(250,490,270,520)',
+ SECTION='';
+
+PART_NAME
+ R33 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650653@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650653@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650653@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1080,1110)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1080,1110,1110,1130)',
+ SECTION='';
+
+PART_NAME
+ R34 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650206@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650206@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650206@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(850,1110)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(850,1110,880,1130)',
+ SECTION='';
+
+PART_NAME
+ R35 'R_GENERIC_R0603_27K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606259@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606259@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606259@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,300)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,300,650,320)',
+ SECTION='';
+
+PART_NAME
+ R36 'R_GENERIC_R0603_0R/NI':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17595670@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17595670@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17595670@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,130)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(290,130,320,150)',
+ SECTION='';
+
+PART_NAME
+ R37 'R_GENERIC_R0603_6.2K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17608056@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17608056@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17608056@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,290)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(660,290,690,310)',
+ SECTION='';
+
+PART_NAME
+ R38 'R_GENERIC_R0603_0R/NI':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17595340@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17595340@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17595340@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,110)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(290,110,320,130)',
+ SECTION='';
+
+PART_NAME
+ R39 'R_GENERIC_R0603_6.2K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17607958@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17607958@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17607958@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,280)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,280,650,300)',
+ SECTION='';
+
+PART_NAME
+ R40 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650613@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650613@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650613@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1080,1030)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1080,1030,1110,1050)',
+ SECTION='';
+
+PART_NAME
+ R41 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17650469@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17650469@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17650469@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(850,1030)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(850,1030,880,1050)',
+ SECTION='';
+
+PART_NAME
+ R42 'R_GENERIC_R0603_0R':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17607030@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17607030@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17607030@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,260)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,260,650,280)',
+ SECTION='';
+
+PART_NAME
+ R43 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17610058@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17610058@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17610058@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(610,390)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(610,390,640,410)',
+ SECTION='';
+
+PART_NAME
+ R44 'R_GENERIC_R0805_20R':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17611483@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17611483@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17611483@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,420)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,420,650,440)',
+ SECTION='';
+
+PART_NAME
+ R45 'R_GENERIC_R0603_3.6K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606542@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606542@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606542@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,120)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,120,650,140)',
+ SECTION='';
+
+PART_NAME
+ R46 'R_GENERIC_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606938@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606938@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606938@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,240)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,240,650,260)',
+ SECTION='';
+
+PART_NAME
+ R47 'R_GENERIC_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606898@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606898@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606898@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,210)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,210,650,230)',
+ SECTION='';
+
+PART_NAME
+ R48 'R_GENERIC_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17606858@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17606858@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17606858@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,180)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,180,650,200)',
+ SECTION='';
+
+PART_NAME
+ R49 'R_GENERIC_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17571157@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17571157@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17571157@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,150)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,150,650,170)',
+ SECTION='';
+
+PART_NAME
+ R50 'R_GENERIC_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17608621@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17608621@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17608621@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,330)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,330,650,350)',
+ SECTION='';
+
+PART_NAME
+ R7 'R_GENERIC_0_CN1X2-2P54-Z_NTCG16':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17588517@HY_HWYT_3S24_V11_220916.R_GENERIC_0.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17588517@hy_hwyt_3s24_v11_220916.\r_generic_0.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17588517@hy_hwyt_3s24_v11_220916.\r_generic_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,90)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,90,650,110)',
+ SECTION='';
+
+PART_NAME
+ SW1 'SWITCH-SPST-4P_SW-6X6X6-L_TS-10':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17610105@XXXLZJXXX.SWITCH-SPST-4P.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17610105@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17610105@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,370)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(650,370,680,410)',
+ SECTION='';
+
+PART_NAME
+ U2 'AGM406MNQ_WQFN8-5X6_AGM406MNQ/N':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17633687@HYOC.AGM406MNQ.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17633687@hyoc.\agm406mnq.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17633687@hyoc.\agm406mnq.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(470,580)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(470,580,520,670)',
+ SECTION='';
+
+PART_NAME
+ U3 'AGM406MNQ_WQFN8-5X6_AGM406MNQ/N':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17632268@HYOC.AGM406MNQ.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17632268@hyoc.\agm406mnq.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17632268@hyoc.\agm406mnq.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(260,580)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(260,580,310,670)',
+ SECTION='';
+
+PART_NAME
+ U4 'AMS1117-3_0.3_SOT89-3L_ME6203A5':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17647717@HY_POWERBANK_V10_250705.AMS1117-3_0.3.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17647717@hy_powerbank_v10_250705.\ams1117-3_0.3.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17647717@hy_powerbank_v10_250705.\ams1117-3_0.3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,990)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(550,990,650,1060)',
+ SECTION='';
+
+PART_NAME
+ U5 'IP5389_QFN64-8X8X0R4-6R2X6R2_IP':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17594294@IC.IP5389.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17594294@ic.\ip5389.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17594294@ic.\ip5389.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(350,40)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(350,40,470,380)',
+ SECTION='';
+
+PART_NAME
+ USB1 'USB-A_U-A-24DS-W-2_U-A-24DS-W-2':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17634726@HYOC.USB-A.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17634726@hyoc.\usb-a.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17634726@hyoc.\usb-a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(270,1050)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(270,1050,340,1120)',
+ SECTION='';
+
+PART_NAME
+ USB2 'TYPE-C_16P_TYPE-C-31-M-12_TYPE-':;
+
+SECTION_NUMBER 1
+ '@HY_POWERBANK_V10_250816.MAIN(SCH_1):INS17556443@CONNECT.TYPE-C_16P.NORMAL(CHIPS)':
+ C_PATH='@hy_powerbank_v10_250816.main(sch_1):ins17556443@connect.\type-c_16p.normal\(chips)',
+ P_PATH='@hy_powerbank_v10_250816.main(sch_1):page2_ins17556443@connect.\type-c_16p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(270,810)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(270,810,360,950)',
+ SECTION='';
+
+END.

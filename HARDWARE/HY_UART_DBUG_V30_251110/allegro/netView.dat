@@ -1,0 +1,103 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_VOLTAGE!
+J!G:/github/DebugTool/HARDWARE/HY_UART_DBUG_V30_251110/hy_uart_dbug_v30_251110.brd!Tue Nov 11 16:31:33 2025!-1000.0000!-300.0000!1000.0000!4700.0000!0.0001!millimeters!HY_UART_DBUG_V30_251110!62.992126 mil!4!OUT OF DATE!
+S!UP0_DP!@hy_uart_dbug_v30_251110.main(sch_1):up0_dp!!
+S!UP0_DM!@hy_uart_dbug_v30_251110.main(sch_1):up0_dm!!
+S!HUB4_DP!@hy_uart_dbug_v30_251110.main(sch_1):hub4_dp!!
+S!HUB4_DM!@hy_uart_dbug_v30_251110.main(sch_1):hub4_dm!!
+S!HUB3_DP!@hy_uart_dbug_v30_251110.main(sch_1):hub3_dp!!
+S!HUB3_DM!@hy_uart_dbug_v30_251110.main(sch_1):hub3_dm!!
+S!HUB2_DP!@hy_uart_dbug_v30_251110.main(sch_1):hub2_dp!!
+S!HUB2_DM!@hy_uart_dbug_v30_251110.main(sch_1):hub2_dm!!
+S!HUB1_DP!@hy_uart_dbug_v30_251110.main(sch_1):hub1_dp!!
+S!HUB1_DM!@hy_uart_dbug_v30_251110.main(sch_1):hub1_dm!!
+S!V5!@hy_uart_dbug_v30_251110.main(sch_1):v5!!
+S!N17556739!@hy_uart_dbug_v30_251110.main(sch_1):n17556739!!
+S!N17556590!@hy_uart_dbug_v30_251110.main(sch_1):n17556590!!
+S!N17557936!@hy_uart_dbug_v30_251110.main(sch_1):n17557936!!
+S!N17557943!@hy_uart_dbug_v30_251110.main(sch_1):n17557943!!
+S!N17556676!@hy_uart_dbug_v30_251110.main(sch_1):n17556676!!
+S!N17576328!@hy_uart_dbug_v30_251110.main(sch_1):n17576328!!
+S!TXD2!@hy_uart_dbug_v30_251110.main(sch_1):txd2!!
+S!N17576148!@hy_uart_dbug_v30_251110.main(sch_1):n17576148!!
+S!OVCUR2#!@hy_uart_dbug_v30_251110.main(sch_1):\ovcur2#\!!
+S!OVCUR1#!@hy_uart_dbug_v30_251110.main(sch_1):\ovcur1#\!!
+S!PWREN#!@hy_uart_dbug_v30_251110.main(sch_1):\pwren#\!!
+S!N17579988!@hy_uart_dbug_v30_251110.main(sch_1):n17579988!!
+S!N17579963!@hy_uart_dbug_v30_251110.main(sch_1):n17579963!!
+S!N17579863!@hy_uart_dbug_v30_251110.main(sch_1):n17579863!!
+S!N17579888!@hy_uart_dbug_v30_251110.main(sch_1):n17579888!!
+S!N17580013!@hy_uart_dbug_v30_251110.main(sch_1):n17580013!!
+S!N17580036!@hy_uart_dbug_v30_251110.main(sch_1):n17580036!!
+S!N17556439!@hy_uart_dbug_v30_251110.main(sch_1):n17556439!!
+S!VCC_PWR1!@hy_uart_dbug_v30_251110.main(sch_1):vcc_pwr1!!
+S!N17559592!@hy_uart_dbug_v30_251110.main(sch_1):n17559592!!
+S!N17559484!@hy_uart_dbug_v30_251110.main(sch_1):n17559484!!
+S!ETHU_TDN!@hy_uart_dbug_v30_251110.main(sch_1):ethu_tdn!!
+S!ETHU_LED0!@hy_uart_dbug_v30_251110.main(sch_1):ethu_led0!!
+S!ETHU_TDP!@hy_uart_dbug_v30_251110.main(sch_1):ethu_tdp!!
+S!VCC_3.3V_CH397A!@hy_uart_dbug_v30_251110.main(sch_1):\vcc_3.3v_ch397a\!!
+S!N17557955!@hy_uart_dbug_v30_251110.main(sch_1):n17557955!!
+S!N17557946!@hy_uart_dbug_v30_251110.main(sch_1):n17557946!!
+S!N17579356!@hy_uart_dbug_v30_251110.main(sch_1):n17579356!!
+S!N17579406!@hy_uart_dbug_v30_251110.main(sch_1):n17579406!!
+S!N17579381!@hy_uart_dbug_v30_251110.main(sch_1):n17579381!!
+S!ETHU_RDN!@hy_uart_dbug_v30_251110.main(sch_1):ethu_rdn!!
+S!ETHU_RDP!@hy_uart_dbug_v30_251110.main(sch_1):ethu_rdp!!
+S!ETHU_LED1!@hy_uart_dbug_v30_251110.main(sch_1):ethu_led1!!
+S!N17469009!@hy_uart_dbug_v30_251110.main(sch_1):n17469009!!
+S!RESET!@hy_uart_dbug_v30_251110.main(sch_1):reset!!
+S!ACT/CFG!@hy_uart_dbug_v30_251110.main(sch_1):\act/cfg\!!
+S!RXD1!@hy_uart_dbug_v30_251110.main(sch_1):rxd1!!
+S!TNOW1!@hy_uart_dbug_v30_251110.main(sch_1):tnow1!!
+S!TX_LED!@hy_uart_dbug_v30_251110.main(sch_1):tx_led!!
+S!TXD0!@hy_uart_dbug_v30_251110.main(sch_1):txd0!!
+S!TNOW0!@hy_uart_dbug_v30_251110.main(sch_1):tnow0!!
+S!TNOW2!@hy_uart_dbug_v30_251110.main(sch_1):tnow2!!
+S!TNOW3!@hy_uart_dbug_v30_251110.main(sch_1):tnow3!!
+S!N175892930!@hy_uart_dbug_v30_251110.main(sch_1):n175892930!!
+S!TXD3!@hy_uart_dbug_v30_251110.main(sch_1):txd3!!
+S!TXD1!@hy_uart_dbug_v30_251110.main(sch_1):txd1!!
+S!RXD2!@hy_uart_dbug_v30_251110.main(sch_1):rxd2!!
+S!RXD0!@hy_uart_dbug_v30_251110.main(sch_1):rxd0!!
+S!RX_LED!@hy_uart_dbug_v30_251110.main(sch_1):rx_led!!
+S!RXD3!@hy_uart_dbug_v30_251110.main(sch_1):rxd3!!
+S!N17582618!@hy_uart_dbug_v30_251110.main(sch_1):n17582618!!
+S!N17527537!@hy_uart_dbug_v30_251110.main(sch_1):n17527537!!
+S!N17507593!@hy_uart_dbug_v30_251110.main(sch_1):n17507593!!
+S!N17507551!@hy_uart_dbug_v30_251110.main(sch_1):n17507551!!
+S!VCC_VBUS!@hy_uart_dbug_v30_251110.main(sch_1):vcc_vbus!5 V!
+S!N17503759!@hy_uart_dbug_v30_251110.main(sch_1):n17503759!!
+S!N17503731!@hy_uart_dbug_v30_251110.main(sch_1):n17503731!!
+S!422Y!@hy_uart_dbug_v30_251110.main(sch_1):\422y\!!
+S!422Z!@hy_uart_dbug_v30_251110.main(sch_1):\422z\!!
+S!422A!@hy_uart_dbug_v30_251110.main(sch_1):\422a\!!
+S!422B!@hy_uart_dbug_v30_251110.main(sch_1):\422b\!!
+S!485A!@hy_uart_dbug_v30_251110.main(sch_1):\485a\!!
+S!485B!@hy_uart_dbug_v30_251110.main(sch_1):\485b\!!
+S!422_Y!@hy_uart_dbug_v30_251110.main(sch_1):\422_y\!!
+S!422_Z!@hy_uart_dbug_v30_251110.main(sch_1):\422_z\!!
+S!422_A!@hy_uart_dbug_v30_251110.main(sch_1):\422_a\!!
+S!422_B!@hy_uart_dbug_v30_251110.main(sch_1):\422_b\!!
+S!N17582505!@hy_uart_dbug_v30_251110.main(sch_1):n17582505!!
+S!485_A!@hy_uart_dbug_v30_251110.main(sch_1):\485_a\!!
+S!485_B!@hy_uart_dbug_v30_251110.main(sch_1):\485_b\!!
+S!VCC_IN!@hy_uart_dbug_v30_251110.main(sch_1):vcc_in!12 V!
+S!N17579913!@hy_uart_dbug_v30_251110.main(sch_1):n17579913!!
+S!N17579938!@hy_uart_dbug_v30_251110.main(sch_1):n17579938!!
+S!VCC_PWR2!@hy_uart_dbug_v30_251110.main(sch_1):vcc_pwr2!5 V!
+S!VCC_5V!@hy_uart_dbug_v30_251110.main(sch_1):vcc_5v!5 V!
+S!N17459522!@hy_uart_dbug_v30_251110.main(sch_1):n17459522!!
+S!N17459440!@hy_uart_dbug_v30_251110.main(sch_1):n17459440!!
+S!XI!@hy_uart_dbug_v30_251110.main(sch_1):xi!!
+S!XO!@hy_uart_dbug_v30_251110.main(sch_1):xo!!
+S!GND_EARTH!@hy_uart_dbug_v30_251110.main(sch_1):gnd_earth!0 V!
+S!VCC_5V_DC!@hy_uart_dbug_v30_251110.main(sch_1):vcc_5v_dc!5 V!
+S!N17471980!@hy_uart_dbug_v30_251110.main(sch_1):n17471980!!
+S!N17471041!@hy_uart_dbug_v30_251110.main(sch_1):n17471041!!
+S!N17470525!@hy_uart_dbug_v30_251110.main(sch_1):n17470525!!
+S!N17470516!@hy_uart_dbug_v30_251110.main(sch_1):n17470516!!
+S!N17470263!@hy_uart_dbug_v30_251110.main(sch_1):n17470263!!
+S!VCC_USB!@hy_uart_dbug_v30_251110.main(sch_1):vcc_usb!5 V!
+S!N17469844!@hy_uart_dbug_v30_251110.main(sch_1):n17469844!!
+S!VCC_3.3V!@hy_uart_dbug_v30_251110.main(sch_1):\vcc_3.3v\!3.3 V!
+S!GND!@hy_uart_dbug_v30_251110.main(sch_1):gnd!0 V!

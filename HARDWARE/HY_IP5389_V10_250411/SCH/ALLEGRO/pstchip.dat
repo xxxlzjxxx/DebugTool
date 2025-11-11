@@ -1,5 +1,20 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 23.1.0 d001Apr-11-2025 at 15:12:45}
+{ Using PSTWRITER 23.1.0 d001Apr-18-2025 at 15:52:47}
+primitive 'CAP NP_2_C0402_100NF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_2';
+    JEDEC_TYPE='C0402';
+    VALUE='100nF_50V';
+  end_body;
+end_primitive;
 primitive 'CAP NP_2_C0402_1UF_16V';
   pin
     '1':
@@ -13,21 +28,6 @@ primitive 'CAP NP_2_C0402_1UF_16V';
     PART_NAME='CAP NP_2';
     JEDEC_TYPE='C0402';
     VALUE='1uF_16V';
-  end_body;
-end_primitive;
-primitive 'CAP NP_2_C1206_10UF_50V';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP_2';
-    JEDEC_TYPE='C1206';
-    VALUE='10uF_50V';
   end_body;
 end_primitive;
 primitive 'CAP NP_2_C1206_22UF_25V';
@@ -60,6 +60,21 @@ primitive 'CAPT_100UF_3528_6R3V_10%_LXXXX_';
     VALUE='100uF_35V';
   end_body;
 end_primitive;
+primitive 'CAP NP_2_C1206_10UF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_2';
+    JEDEC_TYPE='C1206';
+    VALUE='10uF_50V';
+  end_body;
+end_primitive;
 primitive 'CAP NP_2_C0402_2.2NF_50V';
   pin
     '1':
@@ -73,21 +88,6 @@ primitive 'CAP NP_2_C0402_2.2NF_50V';
     PART_NAME='CAP NP_2';
     JEDEC_TYPE='C0402';
     VALUE='2.2nF_50V';
-  end_body;
-end_primitive;
-primitive 'CAP NP_2_C0402_100NF_50V';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP_2';
-    JEDEC_TYPE='C0402';
-    VALUE='100nF_50V';
   end_body;
 end_primitive;
 primitive 'CAP NP_2_C0402_2.2UF_10V';
@@ -291,6 +291,21 @@ primitive 'R_GENERIC_R0402_0R';
     VALUE='0R';
   end_body;
 end_primitive;
+primitive 'R_GENERIC_R0402_4.99K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0402';
+    VALUE='4.99K';
+  end_body;
+end_primitive;
 primitive 'R_GENERIC_R0402_0R/NI';
   pin
     '1':
@@ -304,51 +319,6 @@ primitive 'R_GENERIC_R0402_0R/NI';
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0402';
     VALUE='0R/NI';
-  end_body;
-end_primitive;
-primitive 'R_GENERIC_R0402_10R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R_Generic';
-    JEDEC_TYPE='R0402';
-    VALUE='10R';
-  end_body;
-end_primitive;
-primitive 'R_GENERIC_R0603_2R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R_Generic';
-    JEDEC_TYPE='R0603';
-    VALUE='2R';
-  end_body;
-end_primitive;
-primitive 'R_GENERIC_R1206_0R005';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R_Generic';
-    JEDEC_TYPE='R1206';
-    VALUE='0R005';
   end_body;
 end_primitive;
 primitive 'R_GENERIC_R0402_27K';
@@ -366,7 +336,7 @@ primitive 'R_GENERIC_R0402_27K';
     VALUE='27K';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0402_18K';
+primitive 'R_GENERIC_R0402_1K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -378,10 +348,10 @@ primitive 'R_GENERIC_R0402_18K';
   body
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0402';
-    VALUE='18K';
+    VALUE='1K';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0402_3.6K';
+primitive 'R_GENERIC_R0402_100K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -393,10 +363,10 @@ primitive 'R_GENERIC_R0402_3.6K';
   body
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0402';
-    VALUE='3.6K';
+    VALUE='100K';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0402_4.99K';
+primitive 'R_GENERIC_R0402_10R';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -408,7 +378,37 @@ primitive 'R_GENERIC_R0402_4.99K';
   body
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0402';
-    VALUE='4.99K';
+    VALUE='10R';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R1206_0R005';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R1206';
+    VALUE='0R005';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0603_2R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='R0603';
+    VALUE='2R';
   end_body;
 end_primitive;
 primitive 'R_GENERIC_R0805_20R';
@@ -441,7 +441,7 @@ primitive 'R_GENERIC_0_R0603_NTCG163JF103F';
     VALUE='NTCG163JF103FT1S';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0402_100K';
+primitive 'R_GENERIC_R0402_18K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -453,10 +453,10 @@ primitive 'R_GENERIC_R0402_100K';
   body
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0402';
-    VALUE='100K';
+    VALUE='18K';
   end_body;
 end_primitive;
-primitive 'R_GENERIC_R0402_1K';
+primitive 'R_GENERIC_R0402_3.6K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -468,7 +468,7 @@ primitive 'R_GENERIC_R0402_1K';
   body
     PART_NAME='R_Generic';
     JEDEC_TYPE='R0402';
-    VALUE='1K';
+    VALUE='3.6K';
   end_body;
 end_primitive;
 primitive 'SWITCH-SPST-4P_K2-1112SW-A4SW-0';
