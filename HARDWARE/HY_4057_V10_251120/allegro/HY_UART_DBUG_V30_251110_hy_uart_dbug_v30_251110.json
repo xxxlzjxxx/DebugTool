@@ -1,0 +1,180 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "ETHU_RDP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):ethu_rdp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "ETHU_RD",
+			"Physical" : null
+		},
+		{
+			"Name" : "VCC_5V_DC",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):vcc_5v_dc",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "ETHU_RDN",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):ethu_rdn",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "ETHU_RD",
+			"Physical" : null
+		},
+		{
+			"Name" : "GND_EARTH",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):gnd_earth",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		},
+		{
+			"Name" : "ETHU_TDP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):ethu_tdp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "ETHU_TD",
+			"Physical" : null
+		},
+		{
+			"Name" : "ETHU_TDN",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):ethu_tdn",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "ETHU_TD",
+			"Physical" : null
+		},
+		{
+			"Name" : "VCC_VBUS",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):vcc_vbus",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "VCC_3.3V",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):\\vcc_3.3v\\",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "3.3 V"
+		},
+		{
+			"Name" : "VCC_USB",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):vcc_usb",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "VCC_PWR2",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):vcc_pwr2",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "VCC_5V",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):vcc_5v",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):gnd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		},
+		{
+			"Name" : "HUB1_DM",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub1_dm",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB1_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB1_DP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub1_dp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB1_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB2_DM",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub2_dm",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB2_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB2_DP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub2_dp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB2_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB3_DM",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub3_dm",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB3_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB3_DP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub3_dp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB3_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB4_DM",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub4_dm",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB4_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "HUB4_DP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):hub4_dp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "HUB4_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "UP0_DM",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):up0_dm",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "UP0_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "UP0_DP",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):up0_dp",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "UP0_D",
+			"Physical" : null
+		},
+		{
+			"Name" : "VCC_IN",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):vcc_in",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "12 V"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "U20.5",
+			"C_PATH" : "@hy_uart_dbug_v30_251110.main(sch_1):ins17466722@ic.\\tpd4e1u06dbvr.normal\\(chips):NC",
+			"Logical" : "NC",
+			"Physical" : "GND"
+		}
+	]
+}

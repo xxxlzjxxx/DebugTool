@@ -1,0 +1,467 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  BAT-         pins ADDED TO this new net
+                                 C33.1          TP9.1          U16.6          
+                                 U17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C26.2          C30.2          C31.2          
+                                 C32.2          D8.1           D15.1          
+                                 R27.1          R34.2          R36.1          
+                                 R38.1          R40.2          TP4.1          
+                                 TP5.1          U14.2          U15.1          
+                                 U17.3          USB1.1         USB1.12        
+                                 USB1.13        USB1.14        USB1.15        
+                                 USB1.16        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N175892931   pins ADDED TO this new net
+                                 D13.2          R31.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N176015921   pins ADDED TO this new net
+                                 D14.2          R35.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17503731    pins ADDED TO this new net
+                                 R27.2          USB1.4         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17503735    pins ADDED TO this new net
+                                 F9.1           USB1.2         USB1.11        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17503759    pins ADDED TO this new net
+                                 R34.1          USB1.10        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17601628    pins ADDED TO this new net
+                                 R36.2          U14.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17601680    pins ADDED TO this new net
+                                 R35.1          U14.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17601715    pins ADDED TO this new net
+                                 R31.1          U14.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17604145    pins ADDED TO this new net
+                                 U16.1          U17.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17604157    pins ADDED TO this new net
+                                 U16.3          U17.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17604169    pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U17.2          U17.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17604245    pins ADDED TO this new net
+                                 R38.2          U16.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17604389    pins ADDED TO this new net
+                                 C33.2          R39.2          U16.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_3.3V     pins ADDED TO this new net
+                                 C32.1          R37.1          TP6.1          
+                                 U15.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_4.2V_BAT pins ADDED TO this new net
+                                 C30.1          C31.1          D15.2          
+                                 R37.2          R39.1          R40.1          
+                                 TP3.1          TP8.1          U14.3          
+                                 U15.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_5V       pins ADDED TO this new net
+                                 C26.1          D8.2           D13.1          
+                                 D14.1          F9.2           U14.4          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP NP_C0603_10UF_10V
+ CAP NP_C0603_100NF_50V
+ DW01+_SOT23-6_DW01
+ FS8205A_0_SOT23-6_FS8205A
+ FUSE_FUSE1206_NSMD200
+ LED_4_LED0603_GREEN-0603
+ LED_4_LED0603_RED-0603
+ R_GENERIC_R0402_0R/NI
+ R_GENERIC_R0402_1K
+ R_GENERIC_R0402_2K
+ R_GENERIC_R0402_5.1K
+ R_GENERIC_R0402_100R
+ TESTPOINT_TP-0R75_TP/NI
+ TP4057_SOT23-6_TP4057
+ TVS_0_SOD523_CESD5V0D5
+ TYPE-C_16P_TYPE-C-31-M-12_TYPE-
+ XC6206P332MR_SOT23-3_XC6206P332
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C26                 CAP NP_C0603_10UF_10V 
+ C30                 CAP NP_C0603_10UF_10V 
+ C31                 CAP NP_C0603_10UF_10V 
+ C32                 CAP NP_C0603_10UF_10V 
+ C33                 CAP NP_C0603_100NF_50V 
+ D8                  TVS_0_SOD523_CESD5V0D5 
+ D13                 LED_4_LED0603_RED-0603 
+ D14                 LED_4_LED0603_GREEN-0603 
+ D15                 TVS_0_SOD523_CESD5V0D5 
+ F9                  FUSE_FUSE1206_NSMD200 
+ R27                 R_GENERIC_R0402_5.1K  
+ R31                 R_GENERIC_R0402_2K    
+ R34                 R_GENERIC_R0402_5.1K  
+ R35                 R_GENERIC_R0402_2K    
+ R36                 R_GENERIC_R0402_2K    
+ R37                 R_GENERIC_R0402_0R/NI 
+ R38                 R_GENERIC_R0402_1K    
+ R39                 R_GENERIC_R0402_100R  
+ R40                 R_GENERIC_R0402_0R/NI 
+ TP3                 TESTPOINT_TP-0R75_TP/NI 
+ TP4                 TESTPOINT_TP-0R75_TP/NI 
+ TP5                 TESTPOINT_TP-0R75_TP/NI 
+ TP6                 TESTPOINT_TP-0R75_TP/NI 
+ TP8                 TESTPOINT_TP-0R75_TP/NI 
+ TP9                 TESTPOINT_TP-0R75_TP/NI 
+ U14                 TP4057_SOT23-6_TP4057 
+ U15                 XC6206P332MR_SOT23-3_XC6206P332 
+ U16                 DW01+_SOT23-6_DW01    
+ U17                 FS8205A_0_SOT23-6_FS8205A 
+ USB1                TYPE-C_16P_TYPE-C-31-M-12_TYPE- 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          SCH_BBOX       (610,250,630,260)
+ C26.2                          SCH_MIRROR     (0)
+ C26.2                          SCH_ORIENT     (0)
+ C26.2                          XY             (610,250)
+ C30.2                          PRIM_FILE      .\pstchip.dat
+ C30.2                          SCH_BBOX       (900,250,920,260)
+ C30.2                          SCH_MIRROR     (0)
+ C30.2                          SCH_ORIENT     (0)
+ C30.2                          XY             (900,250)
+ C31.2                          PRIM_FILE      .\pstchip.dat
+ C31.2                          SCH_BBOX       (1230,250,1250,260)
+ C31.2                          SCH_MIRROR     (0)
+ C31.2                          SCH_ORIENT     (0)
+ C31.2                          XY             (1230,250)
+ C32.2                          PRIM_FILE      .\pstchip.dat
+ C32.2                          SCH_BBOX       (1300,320,1320,330)
+ C32.2                          SCH_MIRROR     (0)
+ C32.2                          SCH_ORIENT     (0)
+ C32.2                          XY             (1300,320)
+ C33.2                          PRIM_FILE      .\pstchip.dat
+ C33.2                          SCH_BBOX       (840,460,860,470)
+ C33.2                          SCH_MIRROR     (0)
+ C33.2                          SCH_ORIENT     (0)
+ C33.2                          XY             (840,460)
+ D8.2                           PRIM_FILE      .\pstchip.dat
+ D8.2                           SCH_BBOX       (430,250,450,260)
+ D8.2                           SCH_MIRROR     (0)
+ D8.2                           SCH_ORIENT     (0)
+ D8.2                           XY             (430,250)
+ D13.2                          PRIM_FILE      .\pstchip.dat
+ D13.2                          SCH_BBOX       (650,250,670,290)
+ D13.2                          SCH_MIRROR     (0)
+ D13.2                          SCH_ORIENT     (270)
+ D13.2                          XY             (650,250)
+ D14.2                          PRIM_FILE      .\pstchip.dat
+ D14.2                          SCH_BBOX       (690,250,710,290)
+ D14.2                          SCH_MIRROR     (0)
+ D14.2                          SCH_ORIENT     (270)
+ D14.2                          XY             (690,250)
+ D15.2                          PRIM_FILE      .\pstchip.dat
+ D15.2                          SCH_BBOX       (940,250,960,260)
+ D15.2                          SCH_MIRROR     (0)
+ D15.2                          SCH_ORIENT     (0)
+ D15.2                          XY             (940,250)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ F9.2                           PRIM_FILE      .\pstchip.dat
+ F9.2                           SCH_BBOX       (390,220,420,240)
+ F9.2                           SCH_MIRROR     (0)
+ F9.2                           SCH_ORIENT     (0)
+ F9.2                           XY             (390,220)
+ R27.2                          PRIM_FILE      .\pstchip.dat
+ R27.2                          SCH_BBOX       (310,190,330,220)
+ R27.2                          SCH_MIRROR     (1)
+ R27.2                          SCH_ORIENT     (270)
+ R27.2                          XY             (310,190)
+ R31.2                          PRIM_FILE      .\pstchip.dat
+ R31.2                          SCH_BBOX       (650,300,670,330)
+ R31.2                          SCH_MIRROR     (0)
+ R31.2                          SCH_ORIENT     (270)
+ R31.2                          XY             (650,300)
+ R34.2                          PRIM_FILE      .\pstchip.dat
+ R34.2                          SCH_BBOX       (310,330,330,360)
+ R34.2                          SCH_MIRROR     (1)
+ R34.2                          SCH_ORIENT     (270)
+ R34.2                          XY             (310,330)
+ R35.2                          PRIM_FILE      .\pstchip.dat
+ R35.2                          SCH_BBOX       (690,300,710,330)
+ R35.2                          SCH_MIRROR     (0)
+ R35.2                          SCH_ORIENT     (270)
+ R35.2                          XY             (690,300)
+ R36.2                          PRIM_FILE      .\pstchip.dat
+ R36.2                          SCH_BBOX       (720,300,740,330)
+ R36.2                          SCH_MIRROR     (0)
+ R36.2                          SCH_ORIENT     (270)
+ R36.2                          XY             (720,300)
+ R37.2                          PRIM_FILE      .\pstchip.dat
+ R37.2                          SCH_BBOX       (1310,220,1340,240)
+ R37.2                          SCH_MIRROR     (0)
+ R37.2                          SCH_ORIENT     (0)
+ R37.2                          XY             (1310,220)
+ R38.2                          PRIM_FILE      .\pstchip.dat
+ R38.2                          SCH_BBOX       (720,510,740,540)
+ R38.2                          SCH_MIRROR     (0)
+ R38.2                          SCH_ORIENT     (270)
+ R38.2                          XY             (720,510)
+ R39.2                          PRIM_FILE      .\pstchip.dat
+ R39.2                          SCH_BBOX       (870,480,900,500)
+ R39.2                          SCH_MIRROR     (0)
+ R39.2                          SCH_ORIENT     (0)
+ R39.2                          XY             (870,480)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R40.2                          PRIM_FILE      .\pstchip.dat
+ R40.2                          SCH_BBOX       (900,510,920,540)
+ R40.2                          SCH_MIRROR     (0)
+ R40.2                          SCH_ORIENT     (90)
+ R40.2                          XY             (900,510)
+ TP3.1                          PRIM_FILE      .\pstchip.dat
+ TP3.1                          SCH_BBOX       (940,200,960,210)
+ TP3.1                          SCH_MIRROR     (0)
+ TP3.1                          SCH_ORIENT     (0)
+ TP3.1                          XY             (940,200)
+ TP4.1                          PRIM_FILE      .\pstchip.dat
+ TP4.1                          SCH_BBOX       (1050,200,1070,210)
+ TP4.1                          SCH_MIRROR     (0)
+ TP4.1                          SCH_ORIENT     (0)
+ TP4.1                          XY             (1050,200)
+ TP5.1                          PRIM_FILE      .\pstchip.dat
+ TP5.1                          SCH_BBOX       (1380,330,1400,340)
+ TP5.1                          SCH_MIRROR     (0)
+ TP5.1                          SCH_ORIENT     (0)
+ TP5.1                          XY             (1380,330)
+ TP6.1                          PRIM_FILE      .\pstchip.dat
+ TP6.1                          SCH_BBOX       (1340,330,1360,340)
+ TP6.1                          SCH_MIRROR     (0)
+ TP6.1                          SCH_ORIENT     (180)
+ TP6.1                          XY             (1340,330)
+ TP8.1                          PRIM_FILE      .\pstchip.dat
+ TP8.1                          SCH_BBOX       (950,480,960,500)
+ TP8.1                          SCH_MIRROR     (0)
+ TP8.1                          SCH_ORIENT     (270)
+ TP8.1                          XY             (950,480)
+ TP9.1                          PRIM_FILE      .\pstchip.dat
+ TP9.1                          SCH_BBOX       (950,430,960,450)
+ TP9.1                          SCH_MIRROR     (0)
+ TP9.1                          SCH_ORIENT     (270)
+ TP9.1                          XY             (950,430)
+ U14.4                          PRIM_FILE      .\pstchip.dat
+ U14.4                          SCH_BBOX       (760,220,830,260)
+ U14.4                          SCH_MIRROR     (0)
+ U14.4                          SCH_ORIENT     (180)
+ U14.4                          XY             (760,220)
+ U15.1                          PRIM_FILE      .\pstchip.dat
+ U15.1                          SCH_BBOX       (1260,250,1320,280)
+ U15.1                          SCH_MIRROR     (0)
+ U15.1                          SCH_ORIENT     (0)
+ U15.1                          XY             (1260,250)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U16.5                          PRIM_FILE      .\pstchip.dat
+ U16.5                          SCH_BBOX       (750,470,800,510)
+ U16.5                          SCH_MIRROR     (0)
+ U16.5                          SCH_ORIENT     (0)
+ U16.5                          XY             (750,470)
+ U17.3                          PRIM_FILE      .\pstchip.dat
+ U17.3                          SCH_BBOX       (590,510,670,550)
+ U17.3                          SCH_MIRROR     (0)
+ U17.3                          SCH_ORIENT     (0)
+ U17.3                          XY             (590,510)
+ USB1.11                        PRIM_FILE      .\pstchip.dat
+ USB1.11                        SCH_BBOX       (190,200,280,340)
+ USB1.11                        SCH_MIRROR     (0)
+ USB1.11                        SCH_ORIENT     (0)
+ USB1.11                        XY             (190,200)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C26.1                          SCH_LOC        (620,250)
+ C26.2                          SCH_LOC        (620,260)
+ C30.1                          SCH_LOC        (910,250)
+ C30.2                          SCH_LOC        (910,260)
+ C31.1                          SCH_LOC        (1240,250)
+ C31.2                          SCH_LOC        (1240,260)
+ C32.1                          SCH_LOC        (1310,320)
+ C32.2                          SCH_LOC        (1310,330)
+ C33.1                          SCH_LOC        (850,460)
+ C33.2                          SCH_LOC        (850,470)
+ D8.1                           SCH_LOC        (440,260)
+ D8.2                           SCH_LOC        (440,250)
+ D13.1                          SCH_LOC        (660,250)
+ D13.2                          SCH_LOC        (660,290)
+ D14.1                          SCH_LOC        (700,250)
+ D14.2                          SCH_LOC        (700,290)
+ D15.1                          SCH_LOC        (950,260)
+ D15.2                          SCH_LOC        (950,250)
+ F9.1                           SCH_LOC        (390,230)
+ F9.2                           SCH_LOC        (420,230)
+ R27.1                          SCH_LOC        (320,190)
+ R27.2                          SCH_LOC        (320,220)
+ R31.1                          SCH_LOC        (660,330)
+ R31.2                          SCH_LOC        (660,300)
+ R34.1                          SCH_LOC        (320,330)
+ R34.2                          SCH_LOC        (320,360)
+ R35.1                          SCH_LOC        (700,330)
+ R35.2                          SCH_LOC        (700,300)
+ R36.1                          SCH_LOC        (730,330)
+ R36.2                          SCH_LOC        (730,300)
+ R37.1                          SCH_LOC        (1340,230)
+ R37.2                          SCH_LOC        (1310,230)
+ R38.1                          SCH_LOC        (730,540)
+ R38.2                          SCH_LOC        (730,510)
+ R39.1                          SCH_LOC        (900,490)
+ R39.2                          SCH_LOC        (870,490)
+ R40.1                          SCH_LOC        (910,510)
+ R40.2                          SCH_LOC        (910,540)
+ TP3.1                          SCH_LOC        (950,210)
+ TP4.1                          SCH_LOC        (1060,210)
+ TP5.1                          SCH_LOC        (1390,340)
+ TP6.1                          SCH_LOC        (1350,330)
+ TP8.1                          SCH_LOC        (950,490)
+ TP9.1                          SCH_LOC        (950,440)
+ U14.1                          SCH_LOC        (830,250)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U14.2                          SCH_LOC        (830,240)
+ U14.3                          SCH_LOC        (830,230)
+ U14.4                          SCH_LOC        (760,230)
+ U14.5                          SCH_LOC        (760,240)
+ U14.6                          SCH_LOC        (760,250)
+ U15.1                          SCH_LOC        (1270,280)
+ U15.2                          SCH_LOC        (1310,280)
+ U15.3                          SCH_LOC        (1290,250)
+ U16.1                          SCH_LOC        (750,480)
+ U16.2                          SCH_LOC        (750,490)
+ U16.3                          SCH_LOC        (750,500)
+ U16.5                          SCH_LOC        (800,490)
+ U16.6                          SCH_LOC        (800,480)
+ U17.1                          SCH_LOC        (590,520)
+ U17.2                          SCH_LOC        (590,530)
+ U17.3                          SCH_LOC        (590,540)
+ U17.4                          SCH_LOC        (670,540)
+ U17.5                          SCH_LOC        (670,530)
+ U17.6                          SCH_LOC        (670,520)
+ USB1.1                         SCH_LOC        (280,220)
+ USB1.2                         SCH_LOC        (280,230)
+ USB1.4                         SCH_LOC        (280,250)
+ USB1.10                        SCH_LOC        (280,310)
+ USB1.11                        SCH_LOC        (280,320)
+ USB1.12                        SCH_LOC        (280,330)
+ USB1.13                        SCH_LOC        (200,200)
+ USB1.14                        SCH_LOC        (230,200)
+ USB1.15                        SCH_LOC        (200,340)
+ USB1.16                        SCH_LOC        (230,340)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd      |
+|                                                    Thu Nov 20 17:35:23 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      74                                        |
+|       Comp definitions added:      17                                        |
+|       Components added      :      30                                        |
+|       Pin property added    :      74                                        |
+|       Slot property added   :     150                                        |
+|                                                                              |
+|   Total ECO changes reported:     345                                        |
+|------------------------------------------------------------------------------|

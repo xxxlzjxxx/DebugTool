@@ -153,25 +153,30 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\hy_uart_dbug_v30_251110.dsn")
-      (Path "Design Resources" ".\hy_uart_dbug_v30_251110.dsn" "MAIN")
+      (Path "Design Resources"
+         "g:\github\debugtool\hardware\hy_uart_dbug_v30_251110\hy_uart_dbug_v30_251110.dsn")
+      (Path "Design Resources"
+         "g:\github\debugtool\hardware\hy_uart_dbug_v30_251110\hy_uart_dbug_v30_251110.dsn"
+         "MAIN")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\hy_uart_dbug_v30_251110.dsn"))
+      (Select "Design Resources"
+         "g:\github\debugtool\hardware\hy_uart_dbug_v30_251110\hy_uart_dbug_v30_251110.dsn"
+         "MAIN" "04 IO"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 288 0 1255"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 348 0 1058"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 2226 28 1277")
-        (Scroll "0 0")
-        (Zoom "144")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1883 28 1104")
+        (Scroll "-76 90")
+        (Zoom "103")
         (Occurrence "/"))
       (Path
          "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V30_251110\HY_UART_DBUG_V30_251110.DSN")
@@ -180,9 +185,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 2226 28 1277")
-        (Scroll "182 403")
-        (Zoom "144")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1883 28 1104")
+        (Scroll "-101 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_UART_DBUG_V30_251110\HY_UART_DBUG_V30_251110.DSN")

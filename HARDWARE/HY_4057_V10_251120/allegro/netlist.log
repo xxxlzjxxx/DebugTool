@@ -1,0 +1,15 @@
+{ Using PSTWRITER 24.1.0 d001Nov-20-2025 at 19:06:30 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.10" ignored for USB1: MAIN, 03 USBHUB (48.26, 50.80). Connecting pin to net "N17503759".
+#2 WARNING(ORCAP-36006): Part Name "XC6206P332MR_SOT23-3_XC6206P332MR" is renamed to "XC6206P332MR_SOT23-3_XC6206P332".
+#3 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\pstxnet.dat
+packaging the design view...

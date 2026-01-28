@@ -1,0 +1,61 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "VCC_5V",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):vcc_5v",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "VCC_5V",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):vcc_5v",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		},
+		{
+			"Name" : "VCC_3.3V",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):\\vcc_3.3v\\",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "3.3 V"
+		},
+		{
+			"Name" : "VCC_3.3V",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):\\vcc_3.3v\\",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):gnd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):gnd",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "R40.1",
+			"C_PATH" : "@hy_4057_v10_251120.main(sch_1):ins17604593@\\emulation module\\.\\r_generic.normal\\(chips):\\1\\",
+			"Logical" : "BAT-",
+			"Physical" : "VCC_4.2V_BAT"
+		}
+	]
+}

@@ -1,0 +1,80 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : hy_4057_v10_251120.brd                        )
+(    Software Version : 24.1S006                                      )
+(    Date/Time        : Thu Nov 20 17:35:23 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro'
+Design Directory:            'g:/github/debugtool/hardware/hy_4057_v10_251120'
+Old design name:             'g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd'
+New design name:             'g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd'
+
+CmdLine: netrev.exe -y 1 -n -i G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd g:/github/debugtool/hardware/hy_4057_v10_251120/hy_4057_v10_251120.brd
+
+------ Preparing to read pst files ------
+
+Starting to read G:/github/DebugTool/HARDWARE/HY_4057_V10_251120/allegro/pstchip.dat 
+   Finished reading G:/github/DebugTool/HARDWARE/HY_4057_V10_251120/allegro/pstchip.dat (00:00:00.00)
+Starting to read G:/github/DebugTool/HARDWARE/HY_4057_V10_251120/allegro/pstxprt.dat 
+   Finished reading G:/github/DebugTool/HARDWARE/HY_4057_V10_251120/allegro/pstxprt.dat (00:00:00.00)
+Starting to read G:/github/DebugTool/HARDWARE/HY_4057_V10_251120/allegro/pstxnet.dat 
+   Finished reading G:/github/DebugTool/HARDWARE/HY_4057_V10_251120/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/modules 
+
+PSMPATH =  E:/OneDrive/OrcadCIS/footprints/ 
+           F:/SVN/test/PCB/rk3568/LIB 
+
+PADPATH =  E:/OneDrive/OrcadCIS/pads/ 
+           F:/SVN/test/PCB/rk3568/LIB 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 20 17:35:23 2025
+   DESIGN NAME : 'HY_4057_V10_251120'
+   PACKAGING ON Jul 24 2025 22:28:05
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:36
+elapsed time  0:00:01
+

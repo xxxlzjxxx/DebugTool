@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "24.1 S006 (4326263)  [7/24/2025]-[09/19/20]")
+  (SoftwareVersion "24.1 S006 (4326263)  [7/24/2025]-[11/20/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -19,7 +19,7 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
-       "H:\github\MBED-TOOLS\HARDWARE\CP210X_TEST_V10\SCH\CP210X_TEST_V10.DRC")
+       "g:\github\debugtool\hardware\hy_uart_dbug_v30_251110\hy_uart_dbug_v30_251110.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -64,15 +64,14 @@
     (width_start "80")
     (width_End "80")
     (IREFReportFile
-       "H:\MBED-TOOLS\HARDWARE\HY_UART_DBUG_V10A\SCH\HY_UART_DBUG_V10A.csv")
+       "G:\github\DebugTool\HARDWARE\HY_UART_DBUG_V30_251110\hy_uart_dbug_v30_251110.csv")
     (IREFViewOutput "0")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory"
-       "H:\github\MBED-TOOLS\HARDWARE\CH340E_TEST_V10\SCH\ALLEGRO")
+    ("Allegro Netlist Directory" "allegro")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\MK60_YTAI_V41G.brd")
+    ("Allegro Netlist Output Board File" ".\hy_4057_v10_251120.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -87,7 +86,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "H:\github\MBED-TOOLS\HARDWARE\CH340E_TEST_V10\SCH\CH340E_TEST_V10.BOM")
+       "G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\hy_4057_v10_251120.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{ERPcode}\t{Value}\t{Quantity}\t{Reference}\t{PCB Footprint}\t{Description}\t{Corporation}\t{Type}\t{Note}")
@@ -101,10 +100,41 @@
     (BOM_View_Output "FALSE")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (Board_sim_option "VHDL_flow")
-    (File ".\ch340e_test_v10.dsn"
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\LOG\rename.SWP")
+    (Backannotation_TAB "1")
+    (Display_Online_DRC_Results "FALSE")
+    (DRC_View_Output_Type "2")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (File ".\hy_4057_v10_251120.dsn"
       (Type "Schematic Design")))
-  (Folder "Layout")
+  (Folder "Layout"
+    (File ".\hy_4057_v10_251120.brd"
+      (Type "Board File")
+      (OutputBoard ".\hy_4057_v10_251120.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -115,58 +145,69 @@
     (File ".\allegro\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat"))
-    (File ".\ch340e_test_v10.bom"
+    (File ".\hy_4057_v10_251120.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\ch340e_test_v10.dsn")
-      (Path "Design Resources" ".\ch340e_test_v10.dsn" "MAIN")
       (Path "Design Resources" "Library")
+      (Path "Layout")
       (Path "Outputs")
-      (Select "Design Resources" ".\ch340e_test_v10.dsn" "MAIN" "02 USB"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 891"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1231"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1963 28 913")
-        (Scroll "-116 0")
-        (Zoom "103")
+        (Placement "44 0 1 -1 -1 -1 -1 5 2031 28 1277")
+        (Scroll "343 126")
+        (Zoom "206")
         (Occurrence "/"))
       (Path
-         "G:\GITHUB\DEBUGTOOL\HARDWARE\CH340E_TEST_V10\SCH\CH340E_TEST_V10.DSN")
+         "G:\GITHUB\DEBUGTOOL\HARDWARE\HY_4057_V10_251120\HY_4057_V10_251120.DSN")
       (Schematic "MAIN")
-      (Page "02 USB")))
+      (Page "03 USBHUB")))
   (PartMRUSelector
-    (CH340E
-      (FullPartName "CH340E.Normal")
+    (FS8205A
+      (FullPartName "FS8205A.Normal")
       (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
-    (TXB0102DCUR
-      (FullPartName "TXB0102DCUR.Normal")
-      (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
-      (DeviceIndex "0"))
-    (CP2104-F03-GM
-      (FullPartName "CP2104-F03-GM.Normal")
+    (DW01+
+      (FullPartName "DW01+.Normal")
       (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
     (XC6206P332MR
       (FullPartName "XC6206P332MR.Normal")
       (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
-    (CP2102
-      (FullPartName "CP2102.Normal")
+    (TP4057
+      (FullPartName "TP4057.Normal")
       (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
-    (USB-A-MALE
-      (FullPartName "USB-A-MALE.Normal")
-      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
+    (CH217K
+      (FullPartName "CH217K.Normal")
+      (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    ("CONN RCPT 6"
+      (FullPartName "CONN RCPT 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CA-IS3642HW
+      (FullPartName "CA-IS3642HW.Normal")
+      (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (PESD1CAN
+      (FullPartName "PESD1CAN.Normal")
+      (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (LM66100DCKR
+      (FullPartName "LM66100DCKR.Normal")
+      (LibraryName "E:\ONEDRIVE\ORCADCIS\SYMBOLS\IC.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-BIDIR
       (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -229,18 +270,6 @@
     (TYPE-C_16P
       (FullPartName "TYPE-C_16P.Normal")
       (LibraryName "E:\CADENCELIB\ORCAD\CONNECT.OLB")
-      (DeviceIndex "0"))
-    (FPC-40P-0R5-D
-      (FullPartName "FPC-40P-0R5-D.Normal")
-      (LibraryName "E:\CADENCELIB\ORCAD\CONNECT.OLB")
-      (DeviceIndex "0"))
-    (PS-22F02
-      (FullPartName "PS-22F02.Normal")
-      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
-      (DeviceIndex "0"))
-    (HLK-RM08K
-      (FullPartName "HLK-RM08K.Normal")
-      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
@@ -252,4 +281,19 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs"))
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\netlist.log"))
+    (File ".\netlist.log"
+      (Type "Log File")
+      (LogFile "g:\github\debugtool\hardware\hy_4057_v10_251120\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "G:\github\DebugTool\HARDWARE\HY_4057_V10_251120\allegro\eco.txt"))))
