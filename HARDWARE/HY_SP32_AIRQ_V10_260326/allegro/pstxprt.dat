@@ -1,0 +1,1032 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 25.1.0 d001Mar-27-2026 at 11:27:46 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HY_SP32_AIRQ_V10_260326';
+ POST_TIME='Feb  5 2026 13:43:38';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C105 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141408@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141408@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141408@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,920)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(210,920,230,930)',
+ SECTION='';
+
+PART_NAME
+ C109 'CAP NP_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141067@RK_DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141067@rk_discrete.\cap np.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141067@rk_discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(600,780)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(600,780,620,790)',
+ SECTION='';
+
+PART_NAME
+ C116 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141253@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141253@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141253@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,840)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(210,840,230,850)',
+ SECTION='';
+
+PART_NAME
+ C117 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18142383@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18142383@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18142383@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(170,100)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(170,100,190,110)',
+ SECTION='';
+
+PART_NAME
+ C118 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18146643@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18146643@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18146643@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1050,590)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1050,590,1070,600)',
+ SECTION='';
+
+PART_NAME
+ C119 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18146853@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18146853@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18146853@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(940,590)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(940,590,960,600)',
+ SECTION='';
+
+PART_NAME
+ C120 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147480@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147480@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147480@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,830)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1290,830,1310,840)',
+ SECTION='';
+
+PART_NAME
+ C121 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147602@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147602@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147602@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1470,820)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1470,820,1490,830)',
+ SECTION='';
+
+PART_NAME
+ C122 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18148229@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18148229@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18148229@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1330,590)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1330,590,1350,600)',
+ SECTION='';
+
+PART_NAME
+ C123 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18148494@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18148494@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18148494@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1340,440)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1340,440,1360,450)',
+ SECTION='';
+
+PART_NAME
+ C124 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18148625@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18148625@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18148625@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1450,340)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1450,340,1470,350)',
+ SECTION='';
+
+PART_NAME
+ C125 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18148939@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18148939@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18148939@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,180)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1320,180,1340,190)',
+ SECTION='';
+
+PART_NAME
+ C126 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18149668@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18149668@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18149668@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,90)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,90,640,100)',
+ SECTION='';
+
+PART_NAME
+ C127 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18159789@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18159789@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18159789@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,390)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,390,640,400)',
+ SECTION='';
+
+PART_NAME
+ C128 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18163910@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18163910@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18163910@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,540)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,540,640,550)',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158972@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158972@discrete.\cap np.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158972@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(440,1050)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(440,1050,460,1060)',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158988@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158988@discrete.\cap np.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158988@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,1050)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(520,1050,540,1060)',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158980@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158980@discrete.\cap np.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158980@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,1050)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(480,1050,500,1060)',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158958@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158958@discrete.\cap np.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158958@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,1050)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(240,1050,260,1060)',
+ SECTION='';
+
+PART_NAME
+ C39 'CAP NP_2_C0402_100NF_50V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141570@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141570@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141570@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,240)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,240,640,250)',
+ SECTION='';
+
+PART_NAME
+ C51 'CAP NP_2_C0603_22UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18142255@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18142255@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18142255@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(130,100)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(130,100,150,110)',
+ SECTION='';
+
+PART_NAME
+ C53 'CAP NP_2_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18154111@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18154111@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18154111@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(810,80)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(810,80,830,90)',
+ SECTION='';
+
+PART_NAME
+ C54 'CAP NP_2_C0603_10UF_10V':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18154103@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18154103@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18154103@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(770,80)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(770,80,790,90)',
+ SECTION='';
+
+PART_NAME
+ D30 'LED_4_LED0603_GREEN-0603':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141169@F543_GPS_V10A.LED_4.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141169@f543_gps_v10a.\led_4.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141169@f543_gps_v10a.\led_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,780)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(180,780,220,800)',
+ SECTION='';
+
+PART_NAME
+ D31 'LED_4_LED0603_GREEN-0603':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141112@F543_GPS_V10A.LED_4.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141112@f543_gps_v10a.\led_4.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141112@f543_gps_v10a.\led_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,740)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(180,740,220,760)',
+ SECTION='';
+
+PART_NAME
+ D35 'DIODE13_7_SOD323_B0520WS':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141419@MK60_YTAI_V41B.DIODE13_7.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141419@mk60_ytai_v41b.\diode13_7.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141419@mk60_ytai_v41b.\diode13_7.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(270,940)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(270,940,280,960)',
+ SECTION='';
+
+PART_NAME
+ D36 'LED_4_LED0603_GREEN-0603':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18161432@F543_GPS_V10A.LED_4.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18161432@f543_gps_v10a.\led_4.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18161432@f543_gps_v10a.\led_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(400,450)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(400,450,420,490)',
+ SECTION='';
+
+PART_NAME
+ F8 'FUSE_FUSE0805_SMD0805-050-6':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141135@HYOC.FUSE.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141135@hyoc.\fuse.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141135@hyoc.\fuse.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,800)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(490,800,520,820)',
+ SECTION='';
+
+PART_NAME
+ J19 'TYPE-C_16P_TYPE-C-31-M-12_TYPE-':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141078@CONNECT.TYPE-C_16P.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141078@connect.\type-c_16p.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141078@connect.\type-c_16p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,780)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(660,780,750,920)',
+ SECTION='';
+
+PART_NAME
+ J20 'CONN RCPT 8_CN1X8-1P25-Z_1.25MM':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18142963@CONNECTOR.CONN RCPT 8.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18142963@connector.\conn rcpt 8.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18142963@connector.\conn rcpt 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1380,610)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1380,610,1400,700)',
+ SECTION='';
+
+PART_NAME
+ J6 '0.5K-AS-24PWBG_0R5K-AS-24PWBG_0':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18154071@HYOC.0.5K-AS-24PWBG.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18154071@hyoc.\0.5k-as-24pwbg.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18154071@hyoc.\0.5k-as-24pwbg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(890,70)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(890,70,930,320)',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_0_L3015_SWPA3015S2R2NT':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158902@DAMP_V10A.INDUCTOR_0.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158902@damp_v10a.\inductor_0.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158902@damp_v10a.\inductor_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,1020)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(390,1020,430,1040)',
+ SECTION='';
+
+PART_NAME
+ MH1 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18139928@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18139928@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18139928@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1020,1100)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1020,1100,1081,1150)',
+ SECTION='';
+
+PART_NAME
+ MH2 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18139921@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18139921@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18139921@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1110,1050)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1110,1050,1171,1100)',
+ SECTION='';
+
+PART_NAME
+ MH3 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18139935@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18139935@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18139935@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1110,1100)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1110,1100,1171,1150)',
+ SECTION='';
+
+PART_NAME
+ MH4 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18139914@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18139914@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18139914@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1020,1050)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1020,1050,1081,1100)',
+ SECTION='';
+
+PART_NAME
+ Q2 'DTC043ZMT2L_SOT723_DTC043ZMT2L':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18154182@HYOC.DTC043ZMT2L.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18154182@hyoc.\dtc043zmt2l.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18154182@hyoc.\dtc043zmt2l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1030,200)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1030,200,1050,220)',
+ SECTION='';
+
+PART_NAME
+ Q26 'MOS-N_SOT23-3_2SK3018':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141314@HYOC.MOS-N.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141314@hyoc.\mos-n.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141314@hyoc.\mos-n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(250,860)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(250,860,290,890)',
+ SECTION='';
+
+PART_NAME
+ Q27 'DTC043ZMT2L_SOT723_DTC043ZMT2L':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18160062@HYOC.DTC043ZMT2L.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18160062@hyoc.\dtc043zmt2l.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18160062@hyoc.\dtc043zmt2l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,510)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(390,510,410,530)',
+ SECTION='';
+
+PART_NAME
+ R100 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141286@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141286@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141286@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(580,900)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(580,900,600,930)',
+ SECTION='';
+
+PART_NAME
+ R108 'R_GENERIC_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141400@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141400@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141400@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(310,910)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(310,910,330,940)',
+ SECTION='';
+
+PART_NAME
+ R109 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18143370@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18143370@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18143370@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1300,670)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1300,670,1320,700)',
+ SECTION='';
+
+PART_NAME
+ R11 'R_GENERIC_R0402_453K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158950@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158950@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158950@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,1040)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(560,1040,580,1070)',
+ SECTION='';
+
+PART_NAME
+ R110 'R_GENERIC_R0402_0R/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18143383@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18143383@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18143383@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1330,670)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1330,670,1350,700)',
+ SECTION='';
+
+PART_NAME
+ R111 'R_GENERIC_R0402_5.1K/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147100@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147100@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147100@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(860,660)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(860,660,880,690)',
+ SECTION='';
+
+PART_NAME
+ R112 'R_GENERIC_R0402_5.1K/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147126@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147126@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147126@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(890,660)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(890,660,910,690)',
+ SECTION='';
+
+PART_NAME
+ R113 'R_GENERIC_R0402_5.1K/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147144@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147144@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147144@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1100,660)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1100,660,1120,690)',
+ SECTION='';
+
+PART_NAME
+ R114 'R_GENERIC_R0402_5.1K/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147152@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147152@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147152@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1130,660)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1130,660,1150,690)',
+ SECTION='';
+
+PART_NAME
+ R115 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18147165@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18147165@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18147165@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1050,700)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1050,700,1070,730)',
+ SECTION='';
+
+PART_NAME
+ R116 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18149358@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18149358@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18149358@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1250,90)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1250,90,1280,110)',
+ SECTION='';
+
+PART_NAME
+ R117 'R_GENERIC_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18149379@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18149379@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18149379@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,100)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1290,100,1320,120)',
+ SECTION='';
+
+PART_NAME
+ R118 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18157204@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18157204@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18157204@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,180)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,180,640,210)',
+ SECTION='';
+
+PART_NAME
+ R119 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18159765@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18159765@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18159765@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,330)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,330,640,360)',
+ SECTION='';
+
+PART_NAME
+ R12 'R_GENERIC_R0402_100K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18159018@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18159018@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18159018@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,1100)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(560,1100,580,1130)',
+ SECTION='';
+
+PART_NAME
+ R120 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18161358@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18161358@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18161358@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(400,410)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(400,410,420,440)',
+ SECTION='';
+
+PART_NAME
+ R121 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18163867@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18163867@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18163867@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,480)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(620,480,640,510)',
+ SECTION='';
+
+PART_NAME
+ R91 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141161@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141161@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141161@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(130,780)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(130,780,160,800)',
+ SECTION='';
+
+PART_NAME
+ R94 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141104@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141104@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141104@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(130,740)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(130,740,160,760)',
+ SECTION='';
+
+PART_NAME
+ R99 'R_GENERIC_R0402_5.1K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141278@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141278@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141278@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,900)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(550,900,570,930)',
+ SECTION='';
+
+PART_NAME
+ S1 'SW PUSHBUTTON_0_KEY-2P-SMD-6R2X':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141558@MK60_SWTH_V10A.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141558@mk60_swth_v10a.\sw pushbutton_0.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141558@mk60_swth_v10a.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,230)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,230,670,260)',
+ SECTION='';
+
+PART_NAME
+ S2 'SW PUSHBUTTON_0_KEY-2P-SMD-6R2X':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18149660@MK60_SWTH_V10A.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18149660@mk60_swth_v10a.\sw pushbutton_0.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18149660@mk60_swth_v10a.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,80)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(650,80,670,110)',
+ SECTION='';
+
+PART_NAME
+ SW1 'SWITCH-SPST-4P_K2-1112SW-A4SW-0':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18161602@XXXLZJXXX.SWITCH-SPST-4P.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18161602@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18161602@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(700,340)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(700,340,730,380)',
+ SECTION='';
+
+PART_NAME
+ SW2 'SWITCH-SPST-4P_K2-1112SW-A4SW-0':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18163875@XXXLZJXXX.SWITCH-SPST-4P.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18163875@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18163875@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(700,490)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(700,490,730,530)',
+ SECTION='';
+
+PART_NAME
+ TP10 'TESTPOINT_TP-0R75_TP/NI':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158860@XXXLZJXXX.TESTPOINT.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158860@xxxlzjxxx.\testpoint.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158860@xxxlzjxxx.\testpoint.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,1000)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(560,1000,580,1010)',
+ SECTION='';
+
+PART_NAME
+ U1 'WZ-S-K_WZ-S-K_WZ-S-K':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18140469@HYOC.WZ-S-K.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18140469@hyoc.\wz-s-k.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18140469@hyoc.\wz-s-k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1350,70)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1350,70,1470,190)',
+ SECTION='';
+
+PART_NAME
+ U2 'ESP32-S3-WROOM-1-N8R2_ESP32-S3-':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18140630@HYOC.ESP32-S3-WROOM-1-N8R2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18140630@hyoc.\esp32-s3-wroom-1-n8r2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18140630@hyoc.\esp32-s3-wroom-1-n8r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(220,80)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(220,80,410,300)',
+ SECTION='';
+
+PART_NAME
+ U3 'SHT30-DIS-B_DFN8_SHT30-DIS-B':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18140690@IC.SHT30-DIS-B.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18140690@ic.\sht30-dis-b.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18140690@ic.\sht30-dis-b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1360,270)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1360,270,1440,340)',
+ SECTION='';
+
+PART_NAME
+ U37 'CH340E_MSOP10_CH340E':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141296@IC.CH340E.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141296@ic.\ch340e.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141296@ic.\ch340e.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(120,860)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(120,860,200,920)',
+ SECTION='';
+
+PART_NAME
+ U39 'TPD4E1U06DBVR_SOT363_TPD4E1U06D':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18141217@IC.TPD4E1U06DBVR.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18141217@ic.\tpd4e1u06dbvr.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18141217@ic.\tpd4e1u06dbvr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(470,880)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(470,880,520,920)',
+ SECTION='';
+
+PART_NAME
+ U40 'AGS2602_AGS2602_AGS2602':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18142627@HYOC.AGS2602.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18142627@hyoc.\ags2602.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18142627@hyoc.\ags2602.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1370,460)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1370,460,1430,510)',
+ SECTION='';
+
+PART_NAME
+ U41 'SCD40-D-R2_SCD40-D-R2_SCD40-D-R':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18143844@HYOC.SCD40-D-R2.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18143844@hyoc.\scd40-d-r2.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18143844@hyoc.\scd40-d-r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1330,780)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(1330,780,1430,900)',
+ SECTION='';
+
+PART_NAME
+ U43 'TXS0104EPWR_TSSOP14_TXS0104EPWR':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18145741@IC.TXS0104EPWR.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18145741@ic.\txs0104epwr.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18145741@ic.\txs0104epwr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(970,620)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(970,620,1040,700)',
+ SECTION='';
+
+PART_NAME
+ U6 'TLV62565DBVR_SOT23-5_TLV62565DB':;
+
+SECTION_NUMBER 1
+ '@HY_SP32_AIRQ_V10_260326.MAIN(SCH_1):INS18158871@IC.TLV62565DBVR.NORMAL(CHIPS)':
+ C_PATH='@hy_sp32_airq_v10_260326.main(sch_1):ins18158871@ic.\tlv62565dbvr.normal\(chips)',
+ P_PATH='@hy_sp32_airq_v10_260326.main(sch_1):page3_ins18158871@ic.\tlv62565dbvr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,1020)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(290,1020,340,1060)',
+ SECTION='';
+
+END.

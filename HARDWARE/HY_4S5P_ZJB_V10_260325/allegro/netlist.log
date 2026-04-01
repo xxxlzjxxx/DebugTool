@@ -1,0 +1,22 @@
+{ Using PSTWRITER 25.1.0 d001Mar-25-2026 at 15:51:47 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 03 IO (116.84, 43.18). Connecting pin to net "GND".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 03 IO (139.70, 43.18). Connecting pin to net "GND".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "MH3.1" ignored for MH3: MAIN, 03 IO (139.70, 55.88). Connecting pin to net "GND".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "J3.5" ignored for J3: MAIN, 03 IO (45.72, 33.02). Connecting pin to net "BAT1".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "J3.11" ignored for J3: MAIN, 03 IO (45.72, 33.02). Connecting pin to net "BAT_PACK+".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "J3.9" ignored for J3: MAIN, 03 IO (45.72, 33.02). Connecting pin to net "BAT3".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "J3.7" ignored for J3: MAIN, 03 IO (45.72, 33.02). Connecting pin to net "BAT2".
+#8 WARNING(ORCAP-36006): Part Name "HX30002-12A_HX30002-12WA_HX30002-12WA" is renamed to "HX30002-12A_HX30002-12WA_HX3000".
+#9 WARNING(ORCAP-36006): Part Name "CONN RCPT 2X2_T54105100-1050_T54105100-1050" is renamed to "CONN RCPT 2X2_T54105100-1050_T5".
+#10 WARNING(ORCAP-36006): Part Name "CONN RCPT 5_HX25035-5A_HX25035-5A" is renamed to "CONN RCPT 5_HX25035-5A_HX25035-".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4S5P_ZJB_V10_260325\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4S5P_ZJB_V10_260325\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4S5P_ZJB_V10_260325\allegro\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_4S5P_ZJB_V10_260325\allegro\pstxnet.dat
+packaging the design view...

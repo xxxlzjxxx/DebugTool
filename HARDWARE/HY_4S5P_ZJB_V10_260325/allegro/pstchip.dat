@@ -1,0 +1,105 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 25.1.0 d001Mar-25-2026 at 15:51:47}
+primitive 'HX30002-12A_HX30002-12WA_HX3000';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HX30002-12A';
+    JEDEC_TYPE='HX30002-12WA';
+    VALUE='HX30002-12WA';
+  end_body;
+end_primitive;
+primitive 'CONN RCPT 2X2_T54105100-1050_T5';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN RCPT 2x2';
+    JEDEC_TYPE='T54105100-1050';
+    VALUE='T54105100-1050';
+  end_body;
+end_primitive;
+primitive 'CONN RCPT 5_HX25035-5A_HX25035-';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN RCPT 5';
+    JEDEC_TYPE='HX25035-5A';
+    VALUE='HX25035-5A';
+  end_body;
+end_primitive;
+primitive 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Hold_1';
+    JEDEC_TYPE='HOLE6R90X3R10';
+    VALUE='HOLE-M3/NI';
+  end_body;
+end_primitive;
+END.

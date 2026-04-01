@@ -1,0 +1,27 @@
+{ Using PSTWRITER 25.1.0 d001Mar-27-2026 at 11:27:46 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.33" ignored for U2: MAIN, 03 IO (55.88, 20.32). Connecting pin to net "GPIO40/USER_KEY2".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.27" ignored for U2: MAIN, 03 IO (55.88, 20.32). Connecting pin to net "GPIO0/BOOT".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "MH4.1" ignored for MH4: MAIN, 03 IO (259.08, 266.70). Connecting pin to net "GND".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "MH2.1" ignored for MH2: MAIN, 03 IO (281.94, 266.70). Connecting pin to net "GND".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "MH3.1" ignored for MH3: MAIN, 03 IO (281.94, 279.40). Connecting pin to net "GND".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.7" ignored for U3: MAIN, 03 IO (345.44, 68.58). Connecting pin to net "GND".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "U39.4" ignored for U39: MAIN, 03 IO (119.38, 223.52). Connecting pin to net "N18141144".
+#8 WARNING(ORCAP-36006): Part Name "TYPE-C_16P_TYPE-C-31-M-12_TYPE-C-31-M-12" is renamed to "TYPE-C_16P_TYPE-C-31-M-12_TYPE-".
+#9 WARNING(ORCAP-36006): Part Name "CONN RCPT 8_CN1X8-1P25-Z_1.25MM-8P ZZ-MS" is renamed to "CONN RCPT 8_CN1X8-1P25-Z_1.25MM".
+#10 WARNING(ORCAP-36006): Part Name "0.5K-AS-24PWBG_0R5K-AS-24PWBG_0.5K-AS-24PWBG" is renamed to "0.5K-AS-24PWBG_0R5K-AS-24PWBG_0".
+#11 WARNING(ORCAP-36006): Part Name "SW PUSHBUTTON_0_KEY-2P-SMD-6R2X3R8X2R5_3*6*2.5" is renamed to "SW PUSHBUTTON_0_KEY-2P-SMD-6R2X".
+#12 WARNING(ORCAP-36006): Part Name "SWITCH-SPST-4P_K2-1112SW-A4SW-04_K2-1112SW-A4SW-04" is renamed to "SWITCH-SPST-4P_K2-1112SW-A4SW-0".
+#13 WARNING(ORCAP-36006): Part Name "ESP32-S3-WROOM-1-N8R2_ESP32-S3-WROOM-1-N8R2_ESP32-S3-WROOM-1-N8R2" is renamed to "ESP32-S3-WROOM-1-N8R2_ESP32-S3-".
+#14 WARNING(ORCAP-36006): Part Name "TPD4E1U06DBVR_SOT363_TPD4E1U06DCKR" is renamed to "TPD4E1U06DBVR_SOT363_TPD4E1U06D".
+#15 WARNING(ORCAP-36006): Part Name "SCD40-D-R2_SCD40-D-R2_SCD40-D-R2" is renamed to "SCD40-D-R2_SCD40-D-R2_SCD40-D-R".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\DebugTool\HARDWARE\HY_SP32_AIRQ_V10_260326\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_SP32_AIRQ_V10_260326\allegro\pstchip.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_SP32_AIRQ_V10_260326\allegro\pstxprt.dat
+
+Loading... G:\github\DebugTool\HARDWARE\HY_SP32_AIRQ_V10_260326\allegro\pstxnet.dat
+packaging the design view...

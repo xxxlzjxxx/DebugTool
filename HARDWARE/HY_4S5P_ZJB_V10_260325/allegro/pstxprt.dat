@@ -1,0 +1,122 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 25.1.0 d001Mar-25-2026 at 15:51:47 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HY_4S5P_ZJB_V10_260325';
+ POST_TIME='Feb  5 2026 13:43:38';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ J3 'HX30002-12A_HX30002-12WA_HX3000':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139193@HYOC.HX30002-12A.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139193@hyoc.\hx30002-12a.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139193@hyoc.\hx30002-12a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,130)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(180,130,270,180)',
+ SECTION='';
+
+PART_NAME
+ J4 'CONN RCPT 2X2_T54105100-1050_T5':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139299@CONNECTOR.CONN RCPT 2X2.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139299@connector.\conn rcpt 2x2.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139299@connector.\conn rcpt 2x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,320)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(200,320,230,350)',
+ SECTION='';
+
+PART_NAME
+ J5 'CONN RCPT 2X2_T54105100-1050_T5':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139483@CONNECTOR.CONN RCPT 2X2.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139483@connector.\conn rcpt 2x2.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139483@connector.\conn rcpt 2x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,390)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(200,390,230,420)',
+ SECTION='';
+
+PART_NAME
+ J7 'CONN RCPT 5_HX25035-5A_HX25035-':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139714@CONNECTOR.CONN RCPT 5.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139714@connector.\conn rcpt 5.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139714@connector.\conn rcpt 5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(160,470)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(160,470,180,530)',
+ SECTION='';
+
+PART_NAME
+ MH1 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139928@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139928@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139928@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,220)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(460,220,521,270)',
+ SECTION='';
+
+PART_NAME
+ MH2 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139921@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139921@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139921@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,170)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(550,170,611,220)',
+ SECTION='';
+
+PART_NAME
+ MH3 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139935@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139935@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139935@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,220)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(550,220,611,270)',
+ SECTION='';
+
+PART_NAME
+ MH4 'HOLD_1_HOLE6R90X3R10_HOLE-M3/NI':;
+
+SECTION_NUMBER 1
+ '@HY_4S5P_ZJB_V10_260325.MAIN(SCH_1):INS18139914@BCM95398R8G_WS_951219.HOLD_1.NORMAL(CHIPS)':
+ C_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):ins18139914@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ P_PATH='@hy_4s5p_zjb_v10_260325.main(sch_1):page3_ins18139914@bcm95398r8g_ws_951219.\hold_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,170)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(460,170,521,220)',
+ SECTION='';
+
+END.
