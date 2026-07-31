@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [YFCX_4S5P_ZJB_V10_260724.PrjPcb]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GTO]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GTP]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GTS]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GTL]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GBL]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GBS]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GBP]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GBO]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GM1]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GD1]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.GG1]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.EXTREP]
+   Generated File[YFCX_4S5P_ZJB_V10_260724.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 16:19:40 On 2026/7/31
